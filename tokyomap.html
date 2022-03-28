@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+    <style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0px; bottom: 0; left: 200px; width: 100%; }
+    </style>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+  
+
+    <!-- Radio buttons -->
+    <div id="radiobutton">
+        <form id="target">
+            <label style="display:block;"><input type="radio" name="indicator" value="01_companies">トップ企業</label>
+            <label style="display:block;"><input type="radio" name="indicator" value="02_hotels">ホテル</label>
+            <label style="display:block;"><input type="radio" name="indicator" value="03_museums">美術館</label>
+        </form>
+    </div>
+
+
+    <!-- Mapbox -->
+    <div id="map"></div>
+
+    <script type="text/javascript"> 
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ';
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
+            zoom: 12, // starting zoom
+            center: [139.7674359838231, 35.68166005293442] // starting center
+        });
+
+        // ラジオボタンの値をjqueryで取得する
+        $('input[name="indicator"]').change(function() {
+            var target= $(this).val();
+            
+            console.log(target);
+        
+            mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ';
+            const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
+            zoom: 12, // starting zoom
+            center: [139.7674359838231, 35.68166005293442] // starting center
+        });
+
+
+        map.on('load', () => {
+            map.addSource('facilities', {
+                type: 'geojson',
+                // Use a URL for the value for the `data` property.
+                data: './geojson/' + target + '.geojson' 
+            });
+
+            map.addLayer({
+                'id': 'facilities-layer',
+                'type': 'circle',
+                'source': 'facilities',
+                'paint': {
+                    'circle-radius': 5,
+                    'circle-stroke-width': 2,
+                    'circle-color': 'red',
+                    'circle-stroke-color': 'white'
+                }
+            });
+
+            // Create a popup, but don't add it to the map yet.
+            const popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false
+            });
+            
+            map.on('mouseenter', 'facilities-layer', (e) => {
+            // Change the cursor style as a UI indicator.
+            map.getCanvas().style.cursor = 'pointer';
+            
+            // Copy coordinates array.
+            const coordinates = e.features[0].geometry.coordinates.slice();      
+            const description = e.features[0].properties.name;
+            console.log(description)
+            
+            // Ensure that if the map is zoomed out such that multiple copies of the feature are visible, the popup appears over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+            
+            // Populate the popup and set its coordinates based on the feature found.
+            popup.setLngLat(coordinates).setHTML(description).addTo(map);
+            });
+            
+            map.on('mouseleave', 'facilities-layer', () => {
+            map.getCanvas().style.cursor = '';
+            popup.remove();
+            });
+
+        });
+
+    })
+
+    </script>
+
+
+
+</body>
+</html>
