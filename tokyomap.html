@@ -6,116 +6,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- mapbox -->
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
     <style>
     body { margin: 0; padding: 0; }
-    #map { position: absolute; top: 0px; bottom: 0; left: 200px; width: 100%; }
+    #map { position: absolute; top: 0px; bottom: 0; left: 300px; width: 100%; }
     </style>
 
-    <!-- jquery cdn -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <title>Document</title>
 </head>
 <body>
     
-  
-
     <!-- Radio buttons -->
-    <div id="radiobutton">
-        <form id="target">
-            <label style="display:block;"><input type="radio" name="indicator" value="01_companies">トップ企業</label>
-            <label style="display:block;"><input type="radio" name="indicator" value="02_hotels">ホテル</label>
-            <label style="display:block;"><input type="radio" name="indicator" value="03_museums">美術館</label>
+
+
+    <div class="dates">
+        <form id="dates">
+            <table>
+                <tr>
+                    <label class="datecat">
+                        <span class="datelabel">トップ企業</span>
+                        <input id="companies" value="companies" name="cat" type="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </tr>
+                <tr>
+                    <label class="datecat">
+                        <span class="datelabel">ホテル</span>
+                        <input id="hotels" value="hotels" name="cat" type="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </tr>
+            </table>
+            <table class="dateday">
+                <tr>
+                    <td>
+                        <input id="2022" value="2022" name="day" type="radio">
+                        <label for="2022" class="WDay">2022年</label>
+                    </td>
+                    <td>
+                        <input id="2021" value="2021" name="day" type="radio">
+                        <label for="2021" class="WEnd">2021年</label>
+                    </td>
+                </tr>
+            </table>
         </form>
     </div>
 
-    <button><a href="places.csv" download="places.csv" style="text-decoration: none; color: black;">Download csv</a></button>
+    <button><a href="./csv/places.csv" download="places.csv" style="text-decoration: none; color: black;">Download csv</a></button>
 
     <!-- Mapbox -->
     <div id="map"></div>
 
     <script type="text/javascript"> 
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ';
+        mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ'
         const map = new mapboxgl.Map({
             container: 'map', // container ID
             style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
             zoom: 12, // starting zoom
             center: [139.7674359838231, 35.68166005293442] // starting center
         });
-
-        // ラジオボタンの値をjqueryで取得する
-        $('input[name="indicator"]').change(function() {
-            var target= $(this).val();
             
-            console.log(target);
-        
-            mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ';
-            const map = new mapboxgl.Map({
-            container: 'map', // container ID
-            style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
-            zoom: 12, // starting zoom
-            center: [139.7674359838231, 35.68166005293442] // starting center
-        });
 
+                map.on('load', () => {
 
-        map.on('load', () => {
-            map.addSource('facilities', {
-                type: 'geojson',
-                // Use a URL for the value for the `data` property.
-                data: target + '.geojson' 
-            });
-
-            map.addLayer({
-                'id': 'facilities-layer',
-                'type': 'circle',
-                'source': 'facilities',
-                'paint': {
-                    'circle-radius': 5,
-                    'circle-stroke-width': 2,
-                    'circle-color': 'red',
-                    'circle-stroke-color': 'white'
+                    var sourcelayer = [
+                    ['companies2022', './geojson/companies2022.geojson'],
+                    ['hotels2022', './geojson/hotels2022.geojson'],
+                    ['companies2021', './geojson/companies2021.geojson'],
+                    ['hotels2021', './geojson/hotels2021.geojson'],
+                ]
+                
+                function addsourcelayer(d) {
+                    for(var i = 0; i < d.length; i++){
+                        map.addSource(d[i][0], {
+                        type: 'geojson',
+                        data: d[i][1],
+                        })
+                        map.addLayer({
+                            id: d[i][0],
+                            type: 'circle',
+                            source: d[i][0],
+                            paint: {
+                                'circle-radius': 3,
+                                'circle-stroke-width': 2,
+                                'circle-color': 'red',
+                                'circle-stroke-color': 'red'
+                            },
+                            layout: {
+                                visibility: 'visible',
+                            }
+                        })
+                    }
                 }
-            });
+                
+                addsourcelayer(sourcelayer)
 
-            // Create a popup, but don't add it to the map yet.
-            const popup = new mapboxgl.Popup({
-            closeButton: false,
-            closeOnClick: false
-            });
-            
-            map.on('mouseenter', 'facilities-layer', (e) => {
-            // Change the cursor style as a UI indicator.
-            map.getCanvas().style.cursor = 'pointer';
-            
-            // Copy coordinates array.
-            const coordinates = e.features[0].geometry.coordinates.slice();      
-            const description = e.features[0].properties.name;
-            console.log(description)
-            
-            // Ensure that if the map is zoomed out such that multiple copies of the feature are visible, the popup appears over the copy being pointed to.
-            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-            }
-            
-            // Populate the popup and set its coordinates based on the feature found.
-            popup.setLngLat(coordinates).setHTML(description).addTo(map);
-            });
-            
-            map.on('mouseleave', 'facilities-layer', () => {
-            map.getCanvas().style.cursor = '';
-            popup.remove();
-            });
 
-        });
+                /*
+                Loads map based on selected date
+                IMPORTANT: Add new dataset names into "layers" array
+                */
 
-    })
+                document.getElementById('dates').addEventListener('change', function(e) {
 
+                    var cat = document.querySelector('input[name="cat"]:checked').value
+                    var day = document.querySelector('input[name="day"]:checked').value
+                    var clicked = cat+day
+
+                    console.log(clicked)
+
+
+                    var layers = [
+						'companies2022',
+						'hotels2022',
+						'companies2021',
+						'hotels2021',
+                    ]
+                    for (var i = 0; i < layers.length; i++) {
+                        var layer = layers[i]
+                        if (clicked === layer) {
+                            map.setLayoutProperty(layer, 'visibility', 'visible')
+                            var inactiveLayers = layers.filter(el => el !== layer)
+                            for (var i = 0; i < inactiveLayers.length; i++) {
+                                inactiveLayer = inactiveLayers[i]
+                                map.setLayoutProperty(inactiveLayer, 'visibility', 'none')
+                            }
+                        } else {
+                            map.setLayoutProperty(layer, 'visibility', 'none')
+                        }
+                    }
+                })
+                
+                document.getElementById('companies').click();
+                document.getElementById('2022').click();
+
+        
+                });
+
+     
+
+                
+
+
+        
     </script>
 
-
+    
 
 </body>
 </html>
