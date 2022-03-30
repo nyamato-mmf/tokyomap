@@ -10,7 +10,57 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
     <style>
     body { margin: 0; padding: 0; }
-    #map { position: absolute; top: 0px; bottom: 0; left: 300px; width: 100%; }
+    #map { position: absolute; top: 0px; bottom: 0; width: 100%; }
+    
+    #sidebar {
+        background: rgba(1, 1, 1, 0.8);
+        position: absolute;
+        z-index: 1;
+        top: 00px;
+        left: 0px;
+        border-radius: 3px;
+        width: 300px;
+        height: 1000px;
+        padding: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .years {
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .year {
+        width: 50%;
+        text-align: center;
+        background-color: gray;
+    }
+
+
+    .indicator {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 280px;
+    }
+
+    .dlbtn {
+        background-color: grey;
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .dlbtn button {
+        width: 100%;
+        height: 100%;
+    }
+
     </style>
 
 
@@ -20,40 +70,59 @@
     
     <!-- Radio buttons -->
 
-    <div class="dates">
-        <form id="dates">
-            <table>
-                <tr>
-                    <label class="datecat">
-                        <span class="datelabel">トップ企業</span>
-                        <input id="companies" value="companies" name="cat" type="radio">
-                        <span class="checkmark"></span>
-                    </label>
-                </tr>
-                <tr>
-                    <label class="datecat">
-                        <span class="datelabel">ホテル</span>
-                        <input id="hotels" value="hotels" name="cat" type="radio">
-                        <span class="checkmark"></span>
-                    </label>
-                </tr>
-            </table>
-            <table class="dateday">
-                <tr>
-                    <td>
-                        <input id="2022" value="2022" name="day" type="radio">
-                        <label for="2022" class="WDay">2022年</label>
-                    </td>
-                    <td>
-                        <input id="2021" value="2021" name="day" type="radio">
-                        <label for="2021" class="WEnd">2021年</label>
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </div>
+    <div id="sidebar">
+        <div class="menu">
+            <form id="target">
+                <table class="years">
+                    <tr>
+                        <td class="year">
+                            <input id="2022" value="2022" name="day" type="radio">
+                            <label for="2022" class="WDay">2022年</label>
+                        </td>
+                        <td class="year">
+                            <input id="2021" value="2021" name="day" type="radio">
+                            <label for="2021" class="WEnd">2021年</label>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="companies" value="companies" name="cat" type="radio">
+                                <span class="datelabel">トップ企業</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="hotels" value="hotels" name="cat" type="radio">
+                                <span class="datelabel">ホテル</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">ダミー</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
 
-    <button><a href="./xlsx/dataset2022.xlsx" download="dataset2022.xlsx" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
+            <div class="dlbtn">
+                <button><a href="./xlsx/dataset2022.xlsx" download="dataset2022.xlsx" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
+            </div>
+
+        </div>
+            
+    </div>
 
     <!-- Mapbox -->
     <div id="map"></div>
@@ -139,7 +208,7 @@
                 IMPORTANT: Add new dataset names into "layers" array
                 */
 
-                document.getElementById('dates').addEventListener('change', function(e) {
+                document.getElementById('target').addEventListener('change', function(e) {
 
                     var cat = document.querySelector('input[name="cat"]:checked').value
                     var day = document.querySelector('input[name="day"]:checked').value
