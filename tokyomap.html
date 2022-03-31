@@ -9,70 +9,22 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
     <style>
-    body { margin: 0; padding: 0; }
-    #map { position: absolute; top: 0px; bottom: 0; width: 100%; }
-    
-    #sidebar {
-        background: rgba(1, 1, 1, 0.8);
-        position: absolute;
-        z-index: 1;
-        top: 00px;
-        left: 0px;
-        border-radius: 3px;
-        width: 300px;
-        height: 1000px;
-        padding: 20px;
-        border: 1px solid rgba(0, 0, 0, 0.4);
-        color: white;
-        font-family: 'Open Sans', sans-serif;
-    }
-
-    .years {
-        width: 100%;
-        height: 40px;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .year {
-        width: 50%;
-        text-align: center;
-        background-color: gray;
-    }
-
-
-    .indicator {
-        background-color: rgba(255, 255, 255, 0.1);
-        width: 280px;
-    }
-
-    .dlbtn {
-        background-color: grey;
-        width: 100%;
-        height: 40px;
-        margin-top: 20px;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .dlbtn button {
-        width: 100%;
-        height: 100%;
-    }
-
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0px; bottom: 0; width: 100%; }
     </style>
-
+    <!-- css -->
+    <link href="./css/style.css" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
     
-    <!-- Radio buttons -->
-
+    <!-- Sidebar -->
     <div id="sidebar">
         <div class="menu">
             <form id="target">
+                
+                <!-- Select a year -->
                 <table class="years">
                     <tr>
                         <td class="year">
@@ -85,6 +37,9 @@
                         </td>
                     </tr>
                 </table>
+
+                <!-- Select an indicator -->
+                <!-- indicator 01 - 10 -->
                 <table>
                     <tr>
                         <td class="indicator">
@@ -94,8 +49,6 @@
                                 <span class="checkmark"></span>
                             </label>
                         </td>
-                    </tr>
-                    <tr>
                         <td class="indicator">
                             <label>
                                 <input id="hotels" value="hotels" name="cat" type="radio">
@@ -104,11 +57,315 @@
                             </label>
                         </td>
                     </tr>
+                     <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
                     <tr>
                         <td class="indicator">
                             <label>
                                 <input id="dummy" value="dummy" name="cat" type="radio">
-                                <span class="datelabel">ダミー</span>
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+                <!-- indicator 11 - 20 -->
+                <table>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+                <!-- indicator 21 - 30 -->
+                <table>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+                <!-- indicator 31 - 40 -->
+                <table>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
+                                <span class="checkmark"></span>
+                            </label>
+                        </td>
+                        <td class="indicator">
+                            <label>
+                                <input id="dummy" value="dummy" name="cat" type="radio">
+                                <span class="datelabel">place holder</span>
                                 <span class="checkmark"></span>
                             </label>
                         </td>
@@ -116,12 +373,12 @@
                 </table>
             </form>
 
+            <!-- Download an excel file -->
             <div class="dlbtn">
                 <button><a href="./xlsx/dataset2022.xlsx" download="dataset2022.xlsx" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
             </div>
 
         </div>
-            
     </div>
 
     <!-- Mapbox -->
@@ -131,50 +388,50 @@
 
         mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ'
         const map = new mapboxgl.Map({
-            container: 'map', // container ID
+            container: 'map',
             style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
-            zoom: 12, // starting zoom
-            center: [139.7674359838231, 35.68166005293442] // starting center
+            zoom: 12,
+            center: [139.7674359838231, 35.68166005293442]
         });
             
+        map.on('load', () => {
 
-                map.on('load', () => {
-
-                    var sourcelayer = [
-                    ['companies2022', './geojson/companies2022.geojson'],
-                    ['hotels2022', './geojson/hotels2022.geojson'],
-                    ['companies2021', './geojson/companies2021.geojson'],
-                    ['hotels2021', './geojson/hotels2021.geojson'],
-                ]
-                
-                function addsourcelayer(d) {
-                    for(var i = 0; i < d.length; i++){
+            var sourcelayer = [
+                ['companies2022', './geojson/companies2022.geojson'],
+                ['hotels2022', './geojson/hotels2022.geojson'],
+                ['companies2021', './geojson/companies2021.geojson'],
+                ['hotels2021', './geojson/hotels2021.geojson'],
+            ]
+        
+            function addsourcelayer(d) {
+                for (var i = 0; i < d.length; i++) {
                         map.addSource(d[i][0], {
                         type: 'geojson',
                         data: d[i][1],
-                        })
-                        map.addLayer({
-                            id: d[i][0],
-                            type: 'circle',
-                            source: d[i][0],
-                            paint: {
-                                'circle-radius': 3,
-                                'circle-stroke-width': 2,
-                                'circle-color': 'red',
-                                'circle-stroke-color': 'red'
-                            },
-                            layout: {
-                                visibility: 'visible',
-                            }
-                        })
-                        
-                        // Create a popup, but don't add it to the map yet.
-                        const popup = new mapboxgl.Popup({
+                    })
+
+                    map.addLayer({
+                        id: d[i][0],
+                        type: 'circle',
+                        source: d[i][0],
+                        paint: {
+                            'circle-radius': 3,
+                            'circle-stroke-width': 2,
+                            'circle-color': 'red',
+                            'circle-stroke-color': 'red'
+                        },
+                        layout: {
+                            visibility: 'visible',
+                        }
+                    })
+                    
+                    // Create a popup, but don't add it to the map yet.
+                    const popup = new mapboxgl.Popup({
                         closeButton: false,
                         closeOnClick: false
-                        });
-                        
-                        map.on('mouseenter', d[i][0], (e) => {
+                    });
+                    
+                    map.on('mouseenter', d[i][0], (e) => {
                         // Change the cursor style as a UI indicator.
                         map.getCanvas().style.cursor = 'pointer';
                         
@@ -183,70 +440,65 @@
                         const description = e.features[0].properties.name;
                         console.log(description)
                         
-                        // Ensure that if the map is zoomed out such that multiple copies of the feature are visible, the popup appears over the copy being pointed to.
+                        // Ensure that if the map is zoomed out such that multiple copies of the feature are visible, 
+                        // the popup appears over the copy being pointed to.
                         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                         }
                         
                         // Populate the popup and set its coordinates based on the feature found.
                         popup.setLngLat(coordinates).setHTML(description).addTo(map);
-                        });
-                        
-                        map.on('mouseleave', d[i][0], () => {
+                    });
+                    
+                    map.on('mouseleave', d[i][0], () => {
                         map.getCanvas().style.cursor = '';
                         popup.remove();
-                        });
+                    });
+                }
+            }
+            
+            addsourcelayer(sourcelayer)
 
+            /*
+            Loads map based on selected date
+            IMPORTANT: Add new dataset names into "layers" array
+            */
+
+            document.getElementById('target').addEventListener('change', function(e) {
+
+                var cat = document.querySelector('input[name="cat"]:checked').value
+                var day = document.querySelector('input[name="day"]:checked').value
+                var clicked = cat+day
+                console.log(clicked)
+
+                var layers = [
+                    'companies2022',
+                    'hotels2022',
+                    'companies2021',
+                    'hotels2021',
+                ]
+
+                for (var i = 0; i < layers.length; i++) {
+                    var layer = layers[i]
+                    if (clicked === layer) {
+                        map.setLayoutProperty(layer, 'visibility', 'visible')
+                        var inactiveLayers = layers.filter(el => el !== layer)
+                        for (var i = 0; i < inactiveLayers.length; i++) {
+                            inactiveLayer = inactiveLayers[i]
+                            map.setLayoutProperty(inactiveLayer, 'visibility', 'none')
+                        }
+                    } else {
+                        map.setLayoutProperty(layer, 'visibility', 'none')
                     }
                 }
-                
-                addsourcelayer(sourcelayer)
+            })
+            
+            document.getElementById('companies').click();
+            document.getElementById('2022').click();
 
-
-                /*
-                Loads map based on selected date
-                IMPORTANT: Add new dataset names into "layers" array
-                */
-
-                document.getElementById('target').addEventListener('change', function(e) {
-
-                    var cat = document.querySelector('input[name="cat"]:checked').value
-                    var day = document.querySelector('input[name="day"]:checked').value
-                    var clicked = cat+day
-
-                    console.log(clicked)
-
-
-                    var layers = [
-						'companies2022',
-						'hotels2022',
-						'companies2021',
-						'hotels2021',
-                    ]
-                    for (var i = 0; i < layers.length; i++) {
-                        var layer = layers[i]
-                        if (clicked === layer) {
-                            map.setLayoutProperty(layer, 'visibility', 'visible')
-                            var inactiveLayers = layers.filter(el => el !== layer)
-                            for (var i = 0; i < inactiveLayers.length; i++) {
-                                inactiveLayer = inactiveLayers[i]
-                                map.setLayoutProperty(inactiveLayer, 'visibility', 'none')
-                            }
-                        } else {
-                            map.setLayoutProperty(layer, 'visibility', 'none')
-                        }
-                    }
-                })
-                
-                document.getElementById('companies').click();
-                document.getElementById('2022').click();
-
-        
-                });
+        });
         
     </script>
-
-    
 
 </body>
 </html>
