@@ -4,34 +4,52 @@
 
 /* ===== index.html =====*/
 #wrapper {
-    width: 1080px;
+    width: 100%;
     height: 100vh;
     margin: auto;
+    background-image: url(../img/bg-index.jpg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex; /* 上下左右中央揃えのため */
     justify-content: center; /* 左右中央揃え */
-    align-items: center; /* 上下中央揃え */
 }
 
 #btn {
-    width: 100%;
-    height: 200px;
+    margin-top: 250px;
 }
 
-#btn input {
-    width: 100%;
-    height: 100%;
-    color: white;
-    background-color: gray;
-    font-size: 3em;
-}
+#about {
+	position: relative;
+	display: inline-block;
+	transition: .3s;
+	cursor: pointer;
+  }
+#about::before,
+#about::after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 2px;
+	background-color:white;
+	transition: .3s;
+  }
+#about::before {
+	top: -20px;
+	left: 0;
+  }
+#about::after {
+	bottom: -10px;
+	right: 0;
+  }
+#about:hover::before,
+#about:hover::after {
+	width: 100%;
+  }
 
-#btn input:hover {
-    cursor: pointer;
-    color: turquoise;
-}
 
 /* ===== tokyomap.html =====*/
-
 #sidebar {
     position: absolute;
     z-index: 1;
@@ -56,7 +74,7 @@
 }
 
 .year {
-    width: 50%;
+    width: 33.33%;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
