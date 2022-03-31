@@ -28,12 +28,16 @@
                 <table class="years">
                     <tr>
                         <td class="year">
-                            <input id="2022" value="2022" name="day" type="radio">
-                            <label for="2022" class="WDay">2022年</label>
+                            <input id="2022" value="2022" name="year" type="radio">
+                            <label for="2022">2022年</label>
                         </td>
                         <td class="year">
-                            <input id="2021" value="2021" name="day" type="radio">
-                            <label for="2021" class="WEnd">2021年</label>
+                            <input id="2021" value="2021" name="year" type="radio">
+                            <label for="2021">2021年</label>
+                        </td>
+                        <td class="year">
+                            <input id="2020" value="2020" name="year" type="radio">
+                            <label for="2020">2020年</label>
                         </td>
                     </tr>
                 </table>
@@ -375,7 +379,7 @@
 
             <!-- Download an excel file -->
             <div class="dlbtn">
-                <button><a href="./xlsx/dataset2022.xlsx" download="dataset2022.xlsx" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
+                <button><a id="excel" href="./xlsx/dataset2022.xlsx" download="dataset2022.xlsx" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
             </div>
 
         </div>
@@ -467,9 +471,9 @@
             document.getElementById('target').addEventListener('change', function(e) {
 
                 var cat = document.querySelector('input[name="cat"]:checked').value
-                var day = document.querySelector('input[name="day"]:checked').value
-                var clicked = cat+day
-                console.log(clicked)
+                var year = document.querySelector('input[name="year"]:checked').value
+                var clicked = cat+year
+                //console.log(clicked)
 
                 var layers = [
                     'companies2022',
@@ -491,10 +495,30 @@
                         map.setLayoutProperty(layer, 'visibility', 'none')
                     }
                 }
+                
+                function Replace(year) {
+                    let link = document.getElementById('excel');
+                    let url = './xlsx/dataset' + year + '.xlsx';
+
+                    //href属性の値を書き換える
+                    link.setAttribute('href', url);
+
+                    let excel =document.getElementById("excel")
+                    let newexcel = "dataset" + year + ".xlsx"
+                    excel.download = newexcel
+                }
+
+                Replace(year)
+
+
+
             })
             
             document.getElementById('companies').click();
             document.getElementById('2022').click();
+
+
+
 
         });
         
