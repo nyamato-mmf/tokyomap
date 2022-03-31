@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+
+
+/* ===== index.html =====*/
+#wrapper {
+    width: 1080px;
+    height: 100vh;
+    margin: auto;
+    display: flex; /* 上下左右中央揃えのため */
+    justify-content: center; /* 左右中央揃え */
+    align-items: center; /* 上下中央揃え */
+}
+
+#btn {
+    width: 100%;
+    height: 200px;
+}
+
+#btn input {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: gray;
+    font-size: 3em;
+}
+
+#btn input:hover {
+    cursor: pointer;
+    color: turquoise;
+}
+
+/* ===== tokyomap.html =====*/
+
+#sidebar {
+    position: absolute;
+    z-index: 1;
+    top: 00px;
+    left: 0px;
+    background: rgba(1, 1, 1, 0.8);
+    border-radius: 3px;
+    width: 20%;
+    height: 1000px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.years {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.year {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.indicator {
+    width: 280px;
+}
+
+.dlbtn {
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dlbtn button {
+    width: 100%;
+    height: 100%;
+}
+
+
