@@ -55,37 +55,42 @@
 
 
 /* ===== tokyomap.html =====*/
+#open_nav {
+  position: absolute;
+  z-index: 1;
+  width: 392px;
+  height: 50px;
+  left: 0;
+  background-color: rgba(1, 1, 1, 0.8);
+  display: flex; /* divの上下左右中央揃えのため */
+  justify-content: right; /* 左右中央揃え */
+  align-items: center; /* 上下中央揃え */
+}
+
+#open_nav div {
+  padding-right: 20px;
+}
+
 #sidebar {
     position: absolute;
     z-index: 1;
-    top: 00px;
+    top: 50px;
     left: 0px;
     background: rgba(1, 1, 1, 0.8);
     border-radius: 3px;
-    width: 25%;
-    height: 1000px;
+    width: 350px;
+    height: 90vh;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     color: white;
     font-family: 'Open Sans', sans-serif;
+    transition: transform 0.5s;
 }
 
-@media screen and (max-width:600px) {
-  #sidebar {
-    position: absolute;
-    z-index: 1;
-    top: 00px;
-    left: 0px;
-    background: rgba(1, 1, 1, 0.8);
-    border-radius: 3px;
-    width: 70%;
-    height: 1000px;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-  }
+.hide {
+  transform: translate3d(-500px, 0, 0);
 }
+
 
 .years {
     width: 100%;
@@ -126,4 +131,7 @@ table {
     height: 100%;
 }
 
-
+#copyright {
+  margin-top: 20px;
+  text-align: center;
+}
