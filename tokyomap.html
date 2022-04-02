@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
 
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <!-- mapbox -->
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
@@ -20,6 +23,12 @@
 </head>
 <body>
     
+    <div id="open_nav">
+        <div>
+            <img src="./img/menu_bw.png">
+        </div>
+    </div>
+
     <!-- Sidebar -->
     <div id="sidebar">
         <div class="menu">
@@ -48,13 +57,26 @@
                 <table id="list"></table>
             </form>
 
-            <!-- Download an excel file -->
+            <!-- Download an csv file -->
             <div class="dlbtn">
-                <button><a id="excel" href="./xlsx/dataset2022.xlsx" download="dataset2022.xlsx" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
+                <button><a id="csv" href="./csv/2022/companies2022.csv" download="companies2022.csv" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
             </div>
 
         </div>
+
+        <div id="copyright">
+            <small>© 2022 Mori Memorial Foundation</small>
+        </div>
+        
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#open_nav').on('click', function(){
+                $('#sidebar').toggleClass('hide');
+            });
+        });
+    </script>
 
 
     <!-- To make a list of indicators -->
@@ -250,14 +272,14 @@
                 }
                 
                 function Replace(year) {
-                    let link = document.getElementById('excel');
-                    let url = './xlsx/dataset' + year + '.xlsx';
+                    let link = document.getElementById('csv');
+                    let url = './csv/' + year + '/' + cat + year + '.csv';
 
                     //href属性の値を書き換える
                     link.setAttribute('href', url);
 
-                    let excel =document.getElementById("excel")
-                    let newexcel = "dataset" + year + ".xlsx"
+                    let excel =document.getElementById("csv")
+                    let newexcel = cat + year + ".csv"
                     excel.download = newexcel
                 }
 
