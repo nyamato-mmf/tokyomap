@@ -38,16 +38,16 @@
                 <table class="years">
                     <tr>
                         <td class="year">
-                            <input id="2022" value="2022" name="year" type="radio">
-                            <label for="2022">2022年</label>
-                        </td>
-                        <td class="year">
                             <input id="2021" value="2021" name="year" type="radio">
                             <label for="2021">2021年</label>
                         </td>
                         <td class="year">
                             <input id="2020" value="2020" name="year" type="radio">
                             <label for="2020">2020年</label>
+                        </td>
+                        <td class="year">
+                            <input id="2019" value="2019" name="year" type="radio">
+                            <label for="2019">2019年</label>
                         </td>
                     </tr>
                 </table>
@@ -59,7 +59,7 @@
 
             <!-- Download an csv file -->
             <div class="dlbtn">
-                <button><a id="csv" href="./csv/2022/companies2022.csv" download="companies2022.csv" style="text-decoration: none; color: black;">エクセル ダウンロード</a></button>
+                <button><a id="csv" href="./csv/2021/forbesglobal2021.csv" download="indicators2021.csv" style="text-decoration: none; color: black;">Download CSV</a></button>
             </div>
 
         </div>
@@ -82,46 +82,38 @@
     <!-- To make a list of indicators -->
     <script>
         let items = [
-            {value: "companies", text: "トップ企業"},
-            {value: "hotels", text: "ホテル"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
-            {value: "dummy", text: "placeholder"},
+        {value: 'forbesglobal', text: "ﾌｫｰﾌﾞｽ ｸﾞﾛｰﾊﾞﾙ"},
+        {value: 'fortuneglobal', text: "ﾌｫｰﾁｭﾝ ｸﾞﾛｰﾊﾞﾙ"},
+        {value: "startups", text: "スタートアップ企業"},
+        {value: "English name_04", text: "コワーキング施設"},
+        {value: "English name_05", text: "観光地"},
+        {value: "English name_06", text: "文化財"},
+        {value: "English name_07", text: "神社･寺院･教会"},
+        {value: "English name_08", text: "美術館･博物館"},
+        {value: "English name_09", text: "ギャラリー"},
+        {value: "English name_10", text: "ホール・劇場"},
+        {value: "English name_11", text: "スタジアム"},
+        {value: "English name_12", text: "コンベンション施設"},
+        {value: "English name_13", text: "国際会議"},
+        {value: "English name_14", text: "ホテル"},
+        {value: "English name_15", text: "レストラン"},
+        {value: "English name_16", text: "ﾐｼｭﾗﾝ掲載ﾚｽﾄﾗﾝ"},
+        {value: "English name_17", text: "食べﾛｸﾞｱﾜｰﾄﾞ受賞ﾚｽﾄﾗﾝ"},
+        {value: "English name_18", text: "ナイトライフ施設"},
+        {value: "English name_19", text: "大学キャンパス"},
+        {value: "English name_20", text: "幼稚園~高校"},
+        {value: "English name_21", text: "保育園"},
+        {value: "English name_22", text: "ｲﾝﾀｰﾅｼｮﾅﾙｽｸｰﾙ"},
+        {value: "English name_23", text: "スポーツ施設"},
+        {value: "English name_24", text: "コンビニ"},
+        {value: "English name_25", text: "スーパー"},
+        {value: "English name_26", text: "薬局"},
+        {value: "English name_27", text: "病院･診療所･ｸﾘﾆｯｸ"},
+        {value: "English name_28", text: "銀行･ATM"},
+        {value: "English name_29", text: "大使館･領事館"},
+        {value: "English name_30", text: "駅"},
+        {value: "English name_31", text: "バス停"},
+        {value: "English name_32", text: "ｼｪｱｻｲｸﾙﾎﾟｰﾄ"},
         ];
 
         let i = 0;
@@ -136,14 +128,14 @@
             `<tr>
                 <td class="indicator">
                     <label>
-                        <input id="companies" value=${elem1} name="cat" type="radio">
+                        <input id="indicators" value=${elem1} name="cat" type="radio">
                         <span class="datelabel">${elem2}</span>
                         <span class="checkmark"></span>
                     </label>
                 </td>
                 <td class="indicator">
                     <label>
-                        <input id="companies" value=${elem3} name="cat" type="radio">
+                        <input id="indicators" value=${elem3} name="cat" type="radio">
                         <span class="datelabel">${elem4}</span>
                         <span class="checkmark"></span>
                     </label>
@@ -176,11 +168,13 @@
         map.on('load', () => {
 
             var sourcelayer = [
-                ['companies2022', './geojson/companies2022.geojson'],
-                ['hotels2022', './geojson/hotels2022.geojson'],
-                ['companies2021', './geojson/companies2021.geojson'],
-                ['hotels2021', './geojson/hotels2021.geojson'],
-            ]
+                ['forbesglobal2021', './geojson/forbesglobal2021.geojson'],
+                ['fortuneglobal2021', './geojson/fortuneglobal2021.geojson'],
+                ['startups2021', './geojson/startups2021.geojson'],
+                ['forbesglobal2020', './geojson/forbesglobal2020.geojson'],
+                ['fortuneglobal2020', './geojson/fortuneglobal2020.geojson'],
+                ['startups2020', './geojson/startups2020.geojson'],
+            ];
         
             function addsourcelayer(d) {
                 for (var i = 0; i < d.length; i++) {
@@ -251,10 +245,12 @@
                 //console.log(clicked)
 
                 var layers = [
-                    'companies2022',
-                    'hotels2022',
-                    'companies2021',
-                    'hotels2021',
+                    "forbesglobal2021",
+                    "fortuneglobal2021",
+                    "startups2021",
+                    "forbesglobal2020",
+                    "fortuneglobal2020",
+                    "startups2020",
                 ]
 
                 for (var i = 0; i < layers.length; i++) {
@@ -289,8 +285,8 @@
 
             })
             
-            document.getElementById('companies').click();
-            document.getElementById('2022').click();
+            document.getElementById("indicators").click();
+            document.getElementById('2021').click();
 
 
 
