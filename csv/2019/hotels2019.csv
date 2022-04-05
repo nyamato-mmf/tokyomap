@@ -1,0 +1,643 @@
+﻿指標名,ホテル,,,,,,,,
+出典,Hotels.com,,,,,,,,
+年次,GPCI2019,,,,,,,,
+URL,https://hotels.com/,,,,,,,,
+備考,GPCI2019データ、そのためホテル名や住所が英語表記,,,,,,,,
+,,,,,,,,,
+区,町丁,エリア,住所,緯度,経度,施設名,星数,室数,ホテルURL
+港区,六本木７丁目,六本木,"Roppongi 7-8-7, Minato-ku, Tokyo, 106-0032, Japan",35.665012,139.730072,PAL Roppongi Apartment,3,4,https://www.hotels.com/ho679749/
+港区,六本木７丁目,六本木,"7-17-15 Roppongi, Minato-ku, Tokyo, Tokyo, 106-0032, Japan",35.662397,139.72952,ACT HOTEL ROPPONGI,2.5,68,https://www.hotels.com/ho696559488/
+港区,六本木６丁目,六本木,"6-10-3 Roppongi, Minato-Ku, Tokyo, Tokyo-to, 160-0032, Japan",35.659747,139.727865,Grand Hyatt Tokyo,5,387,https://www.hotels.com/ho211493/
+港区,六本木６丁目,六本木,"6-1-23 Roppongi, Minato-ku, Tokyo, Tokyo-to, 106-0032, Japan",35.662772,139.731639,Hotel Arca Torre Roppongi,3,76,https://www.hotels.com/ho336250/
+港区,六本木６丁目,六本木,"6-7-8, Roppongi, Minato-ku, Tokyo, 106-0032, Japan",35.662454,139.732296,APA HOTEL ROPPONGI-EKIMAE,3,125,https://www.hotels.com/ho556763/
+港区,六本木５丁目,六本木,"6-7-11 Roppongi, Minato-ku, Tokyo, Japan",35.662118,139.7328,Candeo Hotels Tokyo Roppongi,3.5,149,https://www.hotels.com/ho613167040/
+港区,六本木４丁目,六本木,"7-14-4 Roppongi, Minato-ku, Tokyo, 106-0032, Japan",35.664018,139.7315,remm Roppongi,3.5,400,https://www.hotels.com/ho627102/
+港区,六本木４丁目,六本木,"4-1-26, Roppongi, Tokyo, Tokyo, 106-0032, Japan",35.66501,139.73474,The Wardrobe Hostel Roppongi,1,24,https://www.hotels.com/ho739501472/
+港区,六本木３丁目,六本木,"3-9-8 Roppongi, Minato-ku, Tokyo, Tokyo-to, 106-0032, Japan",35.663734,139.733559,the b tokyo roppongi,3,114,https://www.hotels.com/ho221667/
+港区,六本木３丁目,六本木,"3-10-1 Roppongi, Minato-ku, Tokyo, Tokyo, 106-0032, Japan",35.66326,139.73361,Sotetsu Fresa Inn Tokyo-Roppongi,3,201,https://www.hotels.com/ho699885/
+港区,六本木３丁目,六本木,"3-15-17 Roppongi, Minato, Tokyo, Tokyo, 106-0032, Japan",35.662075,139.736111,Mitsui Garden Hotel Roppongi Tokyo Premier,3.5,257,https://www.hotels.com/ho1248736544/
+港区,六本木２丁目,六本木,"2-3-9 Roppongi, Minato-ku, Tokyo, Tokyo-to, 106-0032, Japan",35.666353,139.737758,APA Hotel Roppongi Itchome Ekimae,3,142,https://www.hotels.com/ho403191/
+港区,六本木２丁目,六本木,"2-4-13 Roppongi, Minato-ku, Tokyo, Tokyo-to, 106-0032, Japan",35.666105,139.736647,Palace Studio Roppongi East II,3,1,https://www.hotels.com/ho442105/
+港区,六本木１丁目,虎ノ門,"1-6-2 Roppongi, Minato-ku, Tokyo, Tokyo-to, 106-0032, Japan",35.664366,139.738844,Hotel Villa Fontaine Tokyo-Roppongi,3.5,189,https://www.hotels.com/ho328307/
+千代田区,有楽町２丁目,大丸有,"2-2-3 Yurakucho, Tokyo, Tokyo, 1000006, Japan",35.672775,139.761461,THE GATE HOTEL TOKYO by HULIC,3.5,164,https://www.hotels.com/ho940516352/
+千代田区,有楽町１丁目,大丸有,"1-8-1 Yuraku-cho, Chiyoda-ku, Tokyo, Tokyo-to, 100-0006, Japan",35.674668,139.760114,The Peninsula Tokyo,5,314,https://www.hotels.com/ho255753/
+千代田区,有楽町１丁目,大丸有,"1-2-1 Yuraku-cho Chiyoda-ku, Tokyo, Tokyo-to, 100-0006, Japan",35.672586,139.759344,remm Hibiya,3.5,255,https://www.hotels.com/ho346635/
+中央区,明石町,-,"8 Akashi-cho, Chuo-ku, Tokyo, Tokyo-to, 104-0044, Japan",35.667057,139.777961,Ginza Creston,3.5,93,https://www.hotels.com/ho160504/
+中央区,明石町,-,"3-6, Akashicho, Tokyo, Tokyo, 104-0044, Japan",35.668913,139.778627,GH One More Heart TSUKIJI 1,3,1,https://www.hotels.com/ho926289952/
+中央区,湊２丁目,-,"2-7-6 Minato, Chuo, Tokyo, Tokyo, 104-0043, Japan",35.671349,139.778957,TOKYO SAKURAKO TSUKIJI,3,1,https://www.hotels.com/ho1020759072/
+中央区,湊１丁目,-,"1-12-10, Minato, Chuo-ku, Tokyo, Tokyo, 104-0043, Japan",35.6719,139.78058,MAYU TOKYO WOMAN - Caters to Women,2.5,120,https://www.hotels.com/ho719846176/
+港区,麻布十番２丁目,-,"2-21-3 Azabu Juban, Minato-Ku, Tokyo, 106-0045, Japan",35.654453,139.736879,HOTEL THE GLANZ,3,21,https://www.hotels.com/ho629896384/
+港区,麻布十番１丁目,-,"1-9-5, Azabu-juban, Minato-ku, Tokyo, Tokyo-to, 106-0045, Japan",35.656464,139.735799,Concieria Azabu Juban,3,38,https://www.hotels.com/ho392041/
+渋谷区,本町６丁目,-,"6-1-17 honmachi,, Tokyo, Tokyo, 1510071, Japan",35.6828,139.6803,Evergreen Hotel Hatsudai,-,1,https://www.hotels.com/ho1248634080/
+渋谷区,本町４丁目,-,"4-41-12 Honmachi, Tokyo, Tokyo, 151-0071, Japan",35.685907,139.679128,F apt 310 Mickey House SHIBUYA SHINJUKU,3,1,https://www.hotels.com/ho1158073760/
+渋谷区,本町４丁目,-,"4-41-12 Honmachi, Tokyo, Tokyo, 151-0071, Japan",35.685907,139.679128,F apt 202 Mickey House SHIBUYA SHINJUKU,3,1,https://www.hotels.com/ho1158064896/
+渋谷区,本町３丁目,-,"3-14-1 Honmachi, Shibuya-ku, Tokyo, Tokyo, 151-0071, Japan",35.689574,139.683788,APA Hotel & Resort Nishishinjuku Gochome Eki Tower,3,710,https://www.hotels.com/ho654188352/
+渋谷区,本町３丁目,-,"3-43-3 Shibuya-Honmachi, Shibuya-ku, Tokyo, Tokyo-to, 151-0071, Japan",35.688228,139.682343,Palace Studio Shibuya Honmachi,3,1,https://www.hotels.com/ho399515/
+渋谷区,本町３丁目,-,"Room 201, 3-18-7, Honmachi, Tokyo, Tokyo, 1510071, Japan",35.690533,139.683945,Tokyo Urban Flat Hotel 201,3,1,https://www.hotels.com/ho1069054848/
+渋谷区,本町３丁目,-,"3-18-7, Honmachi, shibuya ku, Tokyo, tokyo, 151-0071, Japan",35.690533,139.683945,Tokyo Urban Flat Hotel 101,3,1,https://www.hotels.com/ho1066243008/
+港区,北青山２丁目,-,"2-7-13 Kita-Aoyama, Minato-ku, Tokyo, 107-0061, Japan",35.670641,139.718071,Hotel Allamanda Aoyama Tokyo,4.5,42,https://www.hotels.com/ho599249/
+新宿区,片町,-,"5-3 Katamachi, Shinjuku-ku, Tokyo, Tokyo, 160-0001, Japan",35.692418,139.724399,Ace Inn Shinjuku,1,112,https://www.hotels.com/ho738315424/
+新宿区,片町,-,"6-8 Kata-machi, Shinjuku-ku,, Tokyo, Tokyo (prefecture), 160-0001, Japan",35.692776,139.7248,Hotel Bougainvillea Akebonobashi,-,106,https://www.hotels.com/ho313838560/
+千代田区,平河町２丁目,-,"2-4-1 Hirakawa-cho, Chiyoda-ku, Tokyo, Tokyo-to, 102-0093, Japan",35.681147,139.738312,Toshi Center Hotel Tokyo,3.5,327,https://www.hotels.com/ho347538/
+千代田区,平河町２丁目,-,"2-16-15 Hirakawa-cho, Tokyo, Tokyo, 102-0093, Japan",35.6792,139.741,The Kitano Hotel Tokyo,4,72,https://www.hotels.com/ho1157371904/
+千代田区,平河町１丁目,-,"1-3-5, Hirakawacho, Chiyoda-ku, Tokyo, Tokyo-to, 102-0093, Japan",35.682951,139.739874,APA Hotel Hanzomon Hirakawacho,3,231,https://www.hotels.com/ho456836/
+新宿区,富久町,-,"1-28-13 Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.691208,139.713147,Citadines Shinjuku Tokyo,3.5,160,https://www.hotels.com/ho310579/
+港区,浜松町１丁目,-,"1-19-14 Hamamatsucho, Minato-ku, Tokyo, 105-0013, Japan",35.658067,139.75567,Meitetsu Inn Hamamatsucho,3,144,https://www.hotels.com/ho604022/
+港区,浜松町１丁目,-,"1-24 Hamamatsucho, Minato-ku, Tokyo, Tokyo, 105-0013, Japan",35.657332,139.756331,Henn na Hotel Tokyo Hamamatsucho,2.5,118,https://www.hotels.com/ho643937664/
+港区,浜松町１丁目,-,"1-8-5 Hamamatsucho, Tokyo, Tokyo-to, 105-0013, Japan",35.65916,139.756562,HOTEL MYSTAYS PREMIER Hamamatsucho,3.5,120,https://www.hotels.com/ho415966/
+港区,浜松町１丁目,-,"1-16-11 Hamamatsucho, Tokyo, 105-0013, Japan",35.658109,139.756441,MusBee Tokyo Hamamatsucho,3,29,https://www.hotels.com/ho700393088/
+新宿区,百人町２丁目,-,"2-27-7 Hyakunincho, Shinjuku-ku, Tokyo, Tokyo-to, 169-0073, Japan",35.702267,139.695143,HUNDRED STAY Tokyo Shinjuku,4,106,https://www.hotels.com/ho365023/
+新宿区,百人町２丁目,-,"2-15-1, Hyakunincho, Shinjuku-ku, Tokyo, Tokyo-to, 169-0073, Japan",35.701628,139.698686,Tokyo Plaza Hotel,3,46,https://www.hotels.com/ho398436/
+新宿区,百人町２丁目,-,"2-15-10 Hyakunincho, Shinjuku-ku, Tokyo, 169-0073, Japan",35.702811,139.698578,Business Hotel Shin-Okubo Sekitei,2.5,11,https://www.hotels.com/ho620430/
+新宿区,百人町２丁目,-,"2-8-5 Hyakunincho, Shinjuku-ku, Tokyo, Tokyo-to, 169-0073, Japan",35.703044,139.69933,Hotel Hanabi,2.5,27,https://www.hotels.com/ho424940/
+新宿区,百人町２丁目,-,"2-11-7 Hyakunincho, Shinjuku-ku, Tokyo, Tokyo-to, 169-0073, Japan",35.702124,139.698798,Haru Hotel,2.5,14,https://www.hotels.com/ho425414/
+新宿区,百人町２丁目,-,"2-22-2 Hyakunincho Shinjuku-ku, Tokyo, 1690073, Japan",35.703638,139.697518,bmj Shinjuku Okubo,2.5,8,https://www.hotels.com/ho627108448/
+新宿区,百人町２丁目,-,"1-4-15 Hyakunincho, Shinjuku-ku, Tokyo, Tokyo-to , 169-0073, Japan",35.701355,139.701785,nine hours Shinjuku-North,2,206,https://www.hotels.com/ho658712/
+新宿区,百人町２丁目,-,"2-20-24 Hyakunin-cho, Shinjyuku-ku, Tokyo, Tokyo, 169-0073, Japan",35.70197,139.69794,HOTEL NAKAYAMA,2.5,18,https://www.hotels.com/ho801957280/
+新宿区,百人町１丁目,-,"1-15-33 Hyakunincho, Shinjuku-ku, Tokyo, Tokyo-to, 169-0073, Japan",35.699996,139.698985,Hotel Empire in Shinjuku,2.5,30,https://www.hotels.com/ho403867/
+新宿区,百人町１丁目,-,"1-23-21, Hyakunincho, Shinjuku-ku, Tokyo, Tokyo, Japan",35.699673,139.697739,bnb+ Shinjuku Castle - Hostel,1,24,https://www.hotels.com/ho653230400/
+新宿区,百人町１丁目,-,"1-23-14 Hyakunincho, Shinjuku-ku, Tokyo, Tokyo, 169-0073, Japan",35.700106,139.697351,HOLIDAY VIEW INN - Hostel,1,14,https://www.hotels.com/ho639609888/
+新宿区,百人町１丁目,-,"1-6-7 Hyakunin Chou, Tokyo, Tokyo, 169-0073, Japan",35.700104,139.700846,HOTEL PetitBALI GARDEN Shin-Okubo – Adult Only,3,29,https://www.hotels.com/ho1225963136/
+新宿区,百人町１丁目,-,"1-2-3 Hyakunincho, Shinjuku, Tokyo, 169-0073, Japan",35.699171,139.701386,Best Hotel,2.5,22,https://www.hotels.com/ho668631/
+新宿区,百人町１丁目,-,"1-5-19 Hyakunincho, Tokyo, Tokyo, 169-0073, Japan",35.69936,139.701421,Cen DIVERSITY HOTEL & CAFE,2.5,44,https://www.hotels.com/ho1189127424/
+新宿区,百人町１丁目,-,"1-15-8 Hyakunincho, Shinjuku, Tokyo, Tokyo, 169-0073, Japan",35.7003,139.698439,Hotel Blue Empire in Shinjuku,2.5,14,https://www.hotels.com/ho1023949376/
+新宿区,百人町１丁目,-,"1-10-1 Hyakunincho, Tokyo, Tokyo, 169-0073, Japan",35.699701,139.700009,Female Only Shinjuku North Hotel,2.5,23,https://www.hotels.com/ho1215525760/
+新宿区,百人町１丁目,-,"1-8-17 Shinjuku, Hyakunincho, Tokyo, Tokyo, 169-0073, Japan",35.699272,139.700873,The GLOBAL HOTEL TOKYO,2.5,74,https://www.hotels.com/ho771215552/
+新宿区,百人町１丁目,-,"1-1-22 Hyakunin-cho Shinjuku, Tokyo, Tokyo-to, 169-0073, Japan",35.699132,139.702135,Hikari House - Hostel,2,17,https://www.hotels.com/ho480731/
+新宿区,百人町１丁目,-,"Hyakunin-cho 1 Chome-16-22, Tokyo, Tokyo, 169-0073, Japan",35.700596,139.698485,YOKO House - Hostel,2,13,https://www.hotels.com/ho711275392/
+新宿区,百人町１丁目,-,"1-9-5 Hyakunincho, Tokyo, Tokyo, 169-0073, Japan",35.698656,139.699774,"Yamate Rest House - Hostel, Caters to Men",1,14,https://www.hotels.com/ho1174426080/
+千代田区,飯田橋３丁目,-,"3-1-4, Iidabashi, Chiyoda-ku, Tokyo, Tokyo, 102-0072, Japan",35.700399,139.74816,APA HOTEL IIDABASHI-EKIMINAMI,3,107,https://www.hotels.com/ho627076800/
+千代田区,飯田橋３丁目,-,"3-10-8 Iidabashi, Chiyoda Ku, Tokyo, Tokyo-to, 102-8130, Japan",35.70064,139.74883,Hotel Metropolitan Edmont Tokyo,3.5,668,https://www.hotels.com/ho161114/
+千代田区,飯田橋３丁目,-,"3-4-6, Iidabashi, Chiyoda, Tokyo, 102-0072, Japan",35.701001,139.747653,APA HOTEL IIDABASHI-EKIMAE,3,163,https://www.hotels.com/ho644032/
+千代田区,飯田橋１丁目,-,"1-1-1, Iidabashi, Chiyoda-ku, Tokyo, Tokyo-to, 102-0072, Japan",35.697508,139.750659,Hotel Grand Palace,3.5,464,https://www.hotels.com/ho105492/
+千代田区,飯田橋１丁目,-,"1-4-7, Iidabashi, Chiyoda-ku, Tokyo, Tokyo-to, 102-0072, Japan",35.698133,139.749393,APA Hotel Tokyo-Kudanshita,3,139,https://www.hotels.com/ho400955/
+千代田区,隼町,-,"1-1, Hayabusa-cho, Chiyoda-ku, Tokyo, Tokyo-to, 102-0092, Japan",35.683199,139.743402,Hotel Grand Arc Hanzomon,3.5,204,https://www.hotels.com/ho326034/
+中央区,八丁堀４丁目,-,"Hatchobori 3-22-9, Chuo-ku, Tokyo, 104-0032, Japan",35.674602,139.776875,WISE OWL HOSTELS TOKYO,2,18,https://www.hotels.com/ho616126/
+中央区,八丁堀３丁目,-,"3-20-4 Hatchobori, Chuo, Tokyo, Tokyo-To, 104-0032, Japan",35.675235,139.777233,UNIZO INN Tokyo Hatchobori,3,148,https://www.hotels.com/ho613427/
+中央区,八丁堀１丁目,-,"1-13-7 Hacchobori, Chuo-ku, Tokyo, Tokyo-to, 104-0032, Japan",35.676559,139.778498,Hotel Sardonyx Tokyo,3,135,https://www.hotels.com/ho338449/
+中央区,八重洲２丁目,日八京,"2-2-7, Yaesu, Chuo-ku, Tokyo, Tokyo, Tokyo (prefecture), 104-0028, Japan",35.679272,139.769873,Super Hotel Lohas Tokyo Station Yaesu Chuo-guchi,-,1,https://www.hotels.com/ho1168399296/
+中央区,八重洲１丁目,日八京,"1-5-14 Yaesu, Chuo-ku, Tokyo, Tokyo-to, 103-0028, Japan",35.681492,139.771403,Yaesu Terminal Hotel,3,117,https://www.hotels.com/ho325743/
+中央区,八重洲１丁目,日八京,"1-Chome 5-3 Yaesu, Chuo, Tokyo, Tokyo, 103-0028, Japan",35.682116,139.771194,karaksa hotel TOKYO STATION,3,152,https://www.hotels.com/ho921256736/
+中央区,八重洲１丁目,日八京,"1-2-6 Yaesu, Tokyo, Tokyo-to, 103-0028, Japan",35.683972,139.772177,Pearl Hotel Yaesu,3,45,https://www.hotels.com/ho407088/
+渋谷区,幡ケ谷２丁目,-,"2-18-1, Hatagaya, Shibuya-ku, Tokyo, 151-0072, Japan",35.67697,139.675287,Nishi Shinjuku Green Hotel,2.5,24,https://www.hotels.com/ho603738336/
+渋谷区,幡ケ谷２丁目,-,"2F 2-12-17 Hatagaya, Tokyo, Japan",35.677938,139.676759,Place Iine,3,1,https://www.hotels.com/ho680941/
+渋谷区,幡ケ谷１丁目,-,"1-32-3 Hatagaya Shibuya-ku, Tokyo, Tokyo-to, 151-0072, Japan",35.675937,139.676735,Sakura Hotel Hatagaya,2.5,74,https://www.hotels.com/ho328172/
+港区,白金台１丁目,-,"1-1-50 Shirokanedai, Minato-ku, Tokyo, Tokyo-to, 108-8640, Japan",35.63994,139.73015,Sheraton Miyako Hotel Tokyo,4,484,https://www.hotels.com/ho119381/
+港区,白金５丁目,-,"5-10-15, Shirogane, Minato-ku, Tokyo, Tokyo-to, 108-0072, Japan",35.644627,139.724397,Flexstay Inn Shirogane,2.5,84,https://www.hotels.com/ho468273/
+港区,白金５丁目,-,"5-1-2 Shirokane, Minato-ku, Tokyo, Tokyo, 108-0072, Japan",35.646128,139.725887,Micro Hotels Nearby Roppongi,2.5,1,https://www.hotels.com/ho1057744640/
+港区,白金２丁目,-,"2 7 26 Shirokane Minato Ku, Tokyo, Tokyo-to, 108-0000, Japan",35.6394,139.72871,Oakwood Apartments Shirokane,-,36,https://www.hotels.com/ho29689024/
+中央区,入船２丁目,-,"2-10-7 Irifune, Tokyo, Tokyo, 104-0042, Japan",35.671142,139.777587,Hotel Vintage,3,9,https://www.hotels.com/ho721597344/
+中央区,日本橋本町４丁目,日八京,"Nihombashi-honcho 4-7-9, Chuo-ku, Tokyo, Tokyo-to, 103-0023, Japan",35.690157,139.775237,Tokyu Stay Nihombashi,3,123,https://www.hotels.com/ho371799/
+中央区,日本橋本町４丁目,日八京,"4-7-15, HONCHO NIHONBASHI, CHUO-KU,. 0, Tokyo, Tokyo (prefecture), 1030023, Japan",35.689814,139.774522,Kazusaya,3,71,https://www.hotels.com/ho384190336/
+中央区,日本橋本町４丁目,日八京,"4-7-15 Nihonbashi Honcho, Chuo, Tokyo, Tokyo-to, Japan",35.689766,139.774566,Kazusaya Hotel,3,71,https://www.hotels.com/ho578603/
+中央区,日本橋本町４丁目,日八京,"Nihonbashihoncyo 4-13-8, Chuo, Tokyo, 1030023, Japan",35.691132,139.776708,hostel DEN,1,11,https://www.hotels.com/ho702958240/
+中央区,日本橋本町４丁目,日八京,"Nihonbashi Sakura Building 2F, 4-11-10 Nihonbashi Honcho, Chuo, Tokyo, 103-0023, Japan",35.690625,139.776181,bnb+ Higashinihonbasi Backpacker House,1,18,https://www.hotels.com/ho882986624/
+中央区,日本橋本町２丁目,日八京,"2-4-7 Honcho, Nihonbashi, Chuo-ku, Tokyo, 103-0023, Japan",35.687475,139.775731,Nihombashi Muromachi BAY HOTEL,1.5,236,https://www.hotels.com/ho577854/
+中央区,日本橋本町１丁目,日八京,"1-4-14 Nihonbashi Honcho, Chuo-ku, Tokyo, Tokyo-to, 103-0023, Japan",35.686063,139.77618,Smile Hotel Nihombashi-Mitsukoshimae,3,164,https://www.hotels.com/ho385524/
+中央区,日本橋本町１丁目,日八京,"1-7-6 Nihonbashi Honcho, Chuo-ku, Tokyo, Tokyo-to, 103-0023, Japan",35.686104,139.777314,Hotel Villa Fontaine Tokyo-Nihombashi Mitsukoshimae,3,154,https://www.hotels.com/ho328215/
+中央区,日本橋本石町４丁目,日八京,"4-4-1Nihonbashi-Hongokucho,, Tokyo, Tokyo (prefecture), 103-0021, Japan",35.688004,139.770129,Keio Presso Inn Otemachi,2.5,1,https://www.hotels.com/ho704089824/
+中央区,日本橋堀留町２丁目,-,"2-9-4Nihombashihoridome-cho, Chuo-ku, Tokyo, Tokyo-to, 103-0012, Japan",35.68836,139.781503,APA Hotel Ningyocho-Eki-Kita,3,206,https://www.hotels.com/ho378500/
+中央区,日本橋堀留町１丁目,-,"1-1-2 Nihonbashihoridomecho, Chuo-ku, Tokyo Station / Nihonbashi, Tokyo, Tokyo-to, 103-0012, Japan",35.687839,139.779087,1/3rd Residence Serviced Apartments Nihonbashi,3,7,https://www.hotels.com/ho446463/
+中央区,日本橋堀留町１丁目,-,"1-10-10 Nihonbashi Horidome-cho, Chuo-ku, Tokyo, Tokyo-to, 103-0012, Japan",35.688947,139.779702,Hotel Horidome Villa,2.5,92,https://www.hotels.com/ho345257/
+中央区,日本橋富沢町,-,"11-5, Tomizawa-cho, Nihombashi, Chuo-ku, Tokyo, Tokyo, 103-0006, Japan",35.689903,139.781503,Toyoko Inn Tokyo Nihombashi Zeimusho Mae,3,118,https://www.hotels.com/ho672974/
+中央区,日本橋富沢町,-,"11-19 Tomizawa-cho Nihonbashi, Chuo-ku, Tokyo, 0006, Japan",35.68989,139.781478,AI HOTEL Nihonbashi,3,99,https://www.hotels.com/ho581114/
+中央区,日本橋浜町３丁目,-,"3-43-8, Nihonbashi Hama-cho, Chuo-ku, Tokyo, Tokyo-to, 103-0007, Japan",35.686301,139.791635,APA Hotel Nihombashi-Hamachoeki - Minami,3,159,https://www.hotels.com/ho367523/
+中央区,日本橋浜町３丁目,-,"3-20-2 Nihonbashihamacho, Tokyo, Tokyo, 103-0007, Japan",35.684675,139.789342,HAMACHO HOTEL TOKYO NIHONBASHI,3.5,170,https://www.hotels.com/ho1073360256/
+中央区,日本橋浜町２丁目,-,"2-58-2, Nihombashi hama-cho Chuo-ku, Tokyo, Tokyo, 103-0007, Japan",35.687396,139.790559,Toyoko Inn Tokyo-eki Shin-ohashi Mae,3,208,https://www.hotels.com/ho672938/
+中央区,日本橋浜町２丁目,-,"2-61-1 Hamacho, Nihonbashi, Chuo Ward, Tokyo, Tokyo, 103-0007, Japan",35.689308,139.787902,Hotel Trusty Premier Nihonbashi Hamacho,3,223,https://www.hotels.com/ho1083250720/
+中央区,日本橋浜町１丁目,-,"1-1-4, Nihombashi hama-cho Chuo-ku, Tokyo, Tokyo, 103-0007, Japan",35.689203,139.785479,Toyoko Inn Tokyo Nihombashi Hamacho Meijiza Mae,3,85,https://www.hotels.com/ho672892/
+中央区,日本橋箱崎町,-,"20-12, Nihonbashi Hakozakicho, Chuo-ku, Tokyo, 103-0015, Japan",35.680289,139.786374,HOTEL AXAS NIHONBASHI,3.5,19,https://www.hotels.com/ho650262/
+中央区,日本橋箱崎町,-,"20-10 Nihombashi Hakozaki-cho, Chuo-ku, Tokyo, Tokyo-to, 103-0015, Japan",35.680508,139.786122,Hotel Villa Fontaine Tokyo-Nihombashi Hakozaki,3,163,https://www.hotels.com/ho328305/
+中央区,日本橋箱崎町,-,"44-2 Nihonbashi-Hakozakicho, Chuo-ku, Tokyo, Tokyo, 103-0015, Japan",35.681701,139.789046,FIRST CABIN NIHONBASHI SUITENGU,2.5,144,https://www.hotels.com/ho927020128/
+中央区,日本橋箱崎町,-,"29 Nihonbashihakozakicho Chuo-ku, Tokyo, Tokyo-to, 103-0015, Japan",35.679648,139.787671,HOTEL LiVEMAX Nihombashi Hakozaki,2.5,48,https://www.hotels.com/ho490475/
+中央区,日本橋箱崎町,-,"1-16, Nihonbashihakozaki-cho, Chuo-ku, Tokyo, Tokyo-to, 103-0015, Japan",35.678129,139.786039,Oak Hostel Cabin,1,86,https://www.hotels.com/ho490263/
+中央区,日本橋箱崎町,-,"17-6, Hakozakicho, Nihonbashi, Tokyo, Tokyo, 103-0015, Japan",35.680703,139.785277,MIMARU TOKYO NIHOMBASHI SUITENGUMAE,3.5,32,https://www.hotels.com/ho719667424/
+中央区,日本橋馬喰町２丁目,-,"2-2-4,Bakuro-cho Nihombashi Chuo-ku, Tokyo, Tokyo, 103-0002, Japan",35.69517,139.783151,Toyoko Inn Tokyo Kanda Akihabara,3,215,https://www.hotels.com/ho672939/
+中央区,日本橋馬喰町２丁目,-,"2-2-1 Nihonbashi Bakurocho, Chuo-ku, Tokyo, Tokyo-to, 103-0002, Japan",35.695052,139.783496,Hotel Nihonbashi Villa,2.5,80,https://www.hotels.com/ho354594/
+中央区,日本橋馬喰町２丁目,-,"2-2-1 Bakurochou, Nihonbashi, Tokyo, Tokyo, 103-0002, Japan",35.695083,139.783346,DDD HOTEL,3.5,122,https://www.hotels.com/ho1067653984/
+中央区,日本橋馬喰町１丁目,-,"1-10-11 Nihombashi Bakurocho, Chuo-ku, Tokyo, Tokyo-to, 103-0002, Japan",35.693981,139.783189,Comfort Hotel Tokyo Higashi Nihombashi,3,259,https://www.hotels.com/ho267536/
+中央区,日本橋馬喰町１丁目,-,"1-6-6 Nihonbashi Bakucho Chuo-ku, Tokyo, Tokyo, 103-0002, Japan",35.693149,139.782344,APA Hotel Nihombashi Bakurocho-Ekimae,3,193,https://www.hotels.com/ho939955168/
+中央区,日本橋馬喰町１丁目,-,"Bakurocho 1-7-20, Nihonbashi, Chuo-ku, Tokyo, 103-0002, Japan",35.693042,139.781904,HOTEL LiVEMAX Tokyo Bakurocho,2.5,65,https://www.hotels.com/ho672355/
+中央区,日本橋馬喰町１丁目,-,"1 Chome-5-6, Nihonbashi Bakurocho, Chuo-ku, Tokyo, 103-0002, Japan",35.692553,139.781524,Japanize Guesthouse - Hostel,2,60,https://www.hotels.com/ho639825/
+中央区,日本橋馬喰町１丁目,-,"Nihonbashi Bakuro-cho 1-10-12, Chuo, Tokyo, 103-0002, Japan",35.693886,139.783032,Train Hostel HOKUTOSEI,1,78,https://www.hotels.com/ho652973/
+中央区,日本橋中洲,-,"4-9 Nihonbashi Nakasu, Tokyo, Tokyo, 103-0008, Japan",35.683063,139.790349,S-PERIA-INN NIHOMBASHI HAKOZAKI,3,114,https://www.hotels.com/ho901173600/
+中央区,日本橋大伝馬町,-,"14-16, Nihombashi Odemma-cho Chuo-ku, Tokyo, Tokyo, 103-0011, Japan",35.691162,139.781057,Toyoko Inn Tokyo Nihombashi,3,229,https://www.hotels.com/ho672885/
+中央区,日本橋大伝馬町,-,"14-20, Nihonbashiodenmacho, Chuo-ku, Tokyo, Tokyo-to, 103-0011, Japan",35.690956,139.780721,APA Hotel Kodemmacho-Ekimae,3,172,https://www.hotels.com/ho400934/
+中央区,日本橋大伝馬町,-,"15-2 NIHOMBASHI-ODEMNACHO, Tokyo, TOKYO, 1030011, Japan",35.69153,139.78138,CITAN - Hostel,2,44,https://www.hotels.com/ho726732928/
+中央区,日本橋人形町３丁目,-,"3-3-16 Nihonbashi Ningyo-cho, Chuo-ku, Tokyo, Tokyo-to, 103-0013, Japan",35.685453,139.780353,Hotel Nihonbashi Saibo,3,127,https://www.hotels.com/ho404663/
+中央区,日本橋人形町２丁目,-,"2-2-6 Nihonbashi Ningyocho Chuo-ku, Tokyo, Tokyo, 103-0013, Japan",35.684975,139.783943,Condominium KEYAKI-AN Tokyo Nihonbashi,3.5,1,https://www.hotels.com/ho801969728/
+中央区,日本橋人形町２丁目,-,"Nihonbashi Ningyocho 2-31-3, Chuo-ku, Tokyo, Tokyo, 103-0013, Japan",35.68635,139.784968,ITO RYOKAN,2,6,https://www.hotels.com/ho738360896/
+中央区,日本橋人形町１丁目,-,"1-5-8 Ningyocho Nihonbashi, Chuo, Tokyo, Tokyo, 103-0013, Japan",35.685615,139.78198,hotel zen tokyo,2.5,78,https://www.hotels.com/ho1043211136/
+中央区,日本橋小網町,-,"4-6 Nihonbashi-koamicho, Chuo-ku, Tokyo, Tokyo-to, 103-0016, Japan",35.68199,139.782125,Hotel Hokke Inn Nihonbashi,3,91,https://www.hotels.com/ho406325/
+中央区,日本橋小網町,-,"16-12 Nihonbashikoami-cho, Tokyo, Tokyo, 103-0016, Japan",35.685219,139.780047,VIA INN Nihonbashi Ningyocho,3,240,https://www.hotels.com/ho1182701376/
+中央区,日本橋小伝馬町,-,"2-3, Nihonbashikodenmacho, Chuo, Tokyo, 103-0001, Japan",35.690281,139.778024,Dormy Inn Premium Tokyo Kodenmacho Hot Spring,3,134,https://www.hotels.com/ho621547/
+中央区,日本橋小舟町,-,"9-14 Kobuna-cho, Nihonbashi, Chuo-ku, Tokyo, Tokyo-to, 103-0024, Japan",35.685518,139.779389,Sumisho Hotel,3,83,https://www.hotels.com/ho332805/
+中央区,日本橋小舟町,-,"11-12, Nihombashi kobuna-cho Chuo-ku, Tokyo, Tokyo, 103-0024, Japan",35.687111,139.778723,Toyoko Inn Tokyo Nihombashi Mitsukoshi Mae A4,3,83,https://www.hotels.com/ho672967/
+中央区,日本橋小舟町,-,"15-18 Kofunemachi Nihonbashi, Chuo-ku, Tokyo, Tokyo-to, 103-0024, Japan",35.685201,139.779614,Nishitetsu Inn Nihonbashi,3,263,https://www.hotels.com/ho391046/
+中央区,日本橋小舟町,-,"9-14, Nihonbashikobunacho, Chuo-ku, Tokyo, Tokyo, 130-0024, Japan",35.685565,139.779383,Sumisho Hotel KABUKI,3,2,https://www.hotels.com/ho672085184/
+中央区,日本橋小舟町,-,"14-13, Kobuna-cho, Nihonbashi, Chuo-ku,, Tokyo, Tokyo, Tokyo (prefecture), 103-0024, Japan",35.687637,139.77874,Super Hotel Tokyo Nihonbashi Mitsukoshi Mae,-,1,https://www.hotels.com/ho1168493696/
+中央区,日本橋小舟町,-,"7-11 Nihonbashi Kobuna-cho, Tokyo, Tokyo, 103-0024, Japan",35.686384,139.778579,GIS Guest House Tokyo,2.5,3,https://www.hotels.com/ho533476/
+中央区,日本橋小舟町,-,"4-9 Nihonbashikobunacho, Chuo, Marukou Nihonbashi Mitsukoshimae Bldg., Tokyo, Toyko, 1030024, Japan",35.6879,139.777251,TokyoGuest Nihombashi,2.5,13,https://www.hotels.com/ho1204988768/
+中央区,日本橋室町３丁目,日八京,"3-4-4 Nihonbashi Muromachi, Chuo-ku, Tokyo, Tokyo, 103-0022, Japan",35.688353,139.773057,Mitsui Garden Hotel Nihonbashi Premier,3.5,264,https://www.hotels.com/ho749209440/
+中央区,日本橋室町３丁目,日八京,"2-1-1 Nihonbashi Muromachi, Tokyo, Tokyo-to, 103-8328, Japan",35.68742,139.773037,Mandarin Oriental Tokyo,5,179,https://www.hotels.com/ho234710/
+中央区,日本橋久松町,-,"4-7 Hisamatsucho Nihonbashi, Chuo, Tokyo, Tokyo-to, 1030005, Japan",35.690422,139.783903,GRIDS TOKYO NIHOMBASHI EAST HOTEL&HOSTEL,2,133,https://www.hotels.com/ho561060/
+中央区,日本橋茅場町３丁目,-,"3-8-8 Nihombashi Kayabacho, Chuo-ku, Tokyo, Tokyo, 103-0025, Japan",35.677544,139.778042,MIMARU TOKYO HATCHOBORI,3.5,74,https://www.hotels.com/ho997744256/
+中央区,日本橋茅場町３丁目,-,"3-3-3 Kayaba-Cho Nihom-Bashi, Chuo-ku, Tokyo, Tokyo-to, 103-0025, Japan",35.677864,139.777929,Hotel Villa Fontaine Tokyo-Hatchobori,3,115,https://www.hotels.com/ho328479/
+中央区,日本橋茅場町２丁目,-,"2-13-5 Nihombashi-Kayabacho, Chuo-ku, Tokyo, Tokyo-to, 103-0025, Japan",35.67911,139.779649,Smile Hotel Tokyo Nihonbashi,3,171,https://www.hotels.com/ho365075/
+中央区,日本橋茅場町２丁目,-,"3-7-3 Kayabacho, Nihombashi, Chuo-ku, Tokyo, 103-0025, Japan",35.678378,139.779104,Hotel LiVEMAX Kayabacho,2.5,102,https://www.hotels.com/ho643288/
+中央区,日本橋茅場町１丁目,-,"1-3-10 Kayabacho Nihombashi Chuo-ku, Tokyo, Tokyo-to, 103-0025, Japan",35.680706,139.779893,Sotetsu Fresa Inn Nihombashi-Kayabacho,3,196,https://www.hotels.com/ho422808/
+中央区,日本橋兜町,-,"18-3 Kabuto-cho, Nihonbashi Chuo-ku, Tokyo, 103-0026, Japan",35.679038,139.775878,Belken Hotel Tokyo,3,99,https://www.hotels.com/ho622321792/
+中央区,日本橋兜町,-,"15-13 Nihonbashi Kabuto-cho, Chuo-ku, Tokyo, Tokyo, 103-0026, Japan",35.679423,139.776136,Center Hotel Tokyo,3,107,https://www.hotels.com/ho702337/
+中央区,日本橋蛎殻町２丁目,-,"2-1-1 Nihonbashi-Kakigara-cho, Chuo-ku, Tokyo, Tokyo-to, 103-8520, Japan",35.68207,139.78608,Royal Park Hotel Tokyo Nihonbashi,4,419,https://www.hotels.com/ho129082/
+中央区,日本橋蛎殻町２丁目,-,"2-16-9, Nihonbashikakigaracho, Chuo-ku, Tokyo, Tokyo, 103-0014, Japan",35.683854,139.787511,City Pension Zem,3,27,https://www.hotels.com/ho646411200/
+中央区,日本橋蛎殻町２丁目,-,"4F Nihonbashi Suitengu Building, 2-11-3 Nihonbashikakigaracho Chuo, Tokyo, Tokyo, 1030014, Japan",35.683772,139.786488,withB Hostel Suitengumae,2,34,https://www.hotels.com/ho774291648/
+中央区,日本橋蛎殻町１丁目,-,"1-10-2, Nihombashi Kakigara-cho chuo-ku, Tokyo, Tokyo, 103-0014, Japan",35.683288,139.781021,Toyoko Inn Tokyo Nihombashi Ningyocho,3,142,https://www.hotels.com/ho672903/
+中央区,日本橋蛎殻町１丁目,-,"1-15-4 Nihonbashi Kakigaracho Chuo-ku, Tokyo, Tokyo-to, 103-0014, Japan",35.6832,139.782432,Sotetsu Fresa Inn Nihombashi-Ningyocho,3,128,https://www.hotels.com/ho421315/
+中央区,日本橋蛎殻町１丁目,-,"1 Chome-2-10, Nihonbashikakigaracho, Chuo-ku, Tokyo, Tokyo, 103-0014, Japan",35.680862,139.783261,Kakigara Hotel,2.5,6,https://www.hotels.com/ho698916064/
+中央区,日本橋蛎殻町１丁目,-,"1-1-1 Nihonbashi kakigaracho , Chuo-ku,, Tokyo, Tokyo, Tokyo (prefecture), 103-0014, Japan",35.680729,139.783509,Selmeas inn Nihonbashi,-,1,https://www.hotels.com/ho1168418336/
+中央区,日本橋蛎殻町１丁目,-,"nihonbashikakikaracho, 1-26- 8, Tokyo, TOKYO, 103-0014, Japan",35.6824,139.784,Hotel Corest – Adults Only,3,18,https://www.hotels.com/ho1104867328/
+中央区,日本橋横山町,-,"5F, 5-8 Yokoyamacho, Nihonbashi, Chuo-ku, Tokyo, Tokyo-to, 103-0003, Japan",35.692801,139.783309,Hotel Hoshi Kai Kan,2,21,https://www.hotels.com/ho392532/
+中央区,日本橋横山町,-,"6-16 Nihonbashi Yokoyamacho, Chuo-ku, Tokyo, 103-0003, Japan",35.692624,139.783082,First Cabin Nihonbashi Yokoyamacho,1.5,150,https://www.hotels.com/ho668731/
+中央区,日本橋横山町,-,"6-17 Nihonbashi Yokoyamacho, Tokyo, Tokyo, 103-0003, Japan",35.692597,139.782831,bed and mikan hostel Nihombashi,2.5,3,https://www.hotels.com/ho1140813184/
+中央区,日本橋横山町,-,"5-13 Nihonbashi Yokoyamacho, Chuo, Tokyo, Tokyo, 103-0003, Japan",35.692587,139.783781,IRORI Nihonbashi Hostel and Kitchen,2,4,https://www.hotels.com/ho554342/
+中央区,日本橋横山町,-,"3-14 Yokoyamacho Nihonbashi, Tokyo, Tokyo, 103-0003, Japan",35.691718,139.781599,obi Hostel,1,62,https://www.hotels.com/ho670116/
+中央区,日本橋横山町,-,"Nihonbashiyokoyamacho, 6-17, Tokyo, Tokyo, 103-0003, Japan",35.69317,139.783609,bed&mikan Nihonbashi-Yokoyamacho,-,3,https://www.hotels.com/ho1012685792/
+中央区,日本橋３丁目,日八京,"3-8-13 Nihonbashi, Chuo, Tokyo, Tokyo-to, 1030027, Japan",35.679942,139.773322,Tokyo Ekimae BAY HOTEL,1.5,168,https://www.hotels.com/ho562144/
+千代田区,二番町,-,"2, Niban-cho, Chiyoda-ku, Tokyo, Tokyo-to, 102-0084, Japan",35.686497,139.737519,Tokyo Green Palace,3,238,https://www.hotels.com/ho266264/
+港区,南麻布１丁目,-,"1-7-37 Minamiazabu, Minato-ku, Tokyo, Tokyo, 106-0047, Japan",35.651896,139.736728,OLYMPIC INN AZABU,3,85,https://www.hotels.com/ho659543008/
+港区,南麻布１丁目,-,"1-5-30 Minami Azabu, Minato-ku, Tokyo, Tokyo-to, Japan",35.651714,139.734704,Palace Studio Minami Azabu,3,1,https://www.hotels.com/ho442104/
+港区,南青山７丁目,-,"7-1-5 Minami Aoyama, Tokyo, Tokyo, 107-0062, Japan",35.6586,139.71354,Shimane Inn Aoyama,3,48,https://www.hotels.com/ho313859392/
+港区,南青山４丁目,-,"4-17-58 MINAMIAOYAMA, MINATO-KU, TOKYO,, Tokyo, Tokyo (prefecture), Japan",35.665305,139.716459,Hotel Floracion Aoyama,3,189,https://www.hotels.com/ho583584/
+港区,南青山４丁目,-,"4-3-2 Minamiaoyama, Tokyo, Tokyo, 107-0062, Japan",35.66633,139.720135,Male Only Dormitory Hotel Adonis - Hostel,1,5,https://www.hotels.com/ho1184498240/
+港区,南青山３丁目,-,"3-1-5 Minami-Aoyama, Tokyo, Tokyo, 107-0062, Japan",35.668577,139.716683,Albida Hotel Aoyama - Caters to Women,2.5,102,https://www.hotels.com/ho994673856/
+港区,南青山２丁目,-,"Minami-aoyama 2-27-18 Minato-ku, Tokyo, Tokyo-to, 107-0062, Japan",35.668631,139.716669,Tokyu Stay Aoyama Premier,3,170,https://www.hotels.com/ho371879/
+千代田区,内神田３丁目,-,"3-2-10, Uchikanda, Chiyoda-ku, Tokyo, Tokyo, 101-0047, Japan",35.689408,139.768977,Tosei Hotel Cocone Kanda,3,111,https://www.hotels.com/ho679938144/
+千代田区,内神田２丁目,-,"2-1-2 Uchi-Kanda, Chiyoda-ku, Tokyo, Tokyo, Japan",35.689229,139.766828,Mitsui Garden Hotel Otemachi,3.5,191,https://www.hotels.com/ho696463488/
+千代田区,内神田２丁目,-,"1-8-8 Uchi Kanda, Chiyoda-ku, Tokyo, Tokyo-to, 101-0047, Japan",35.690508,139.767083,Hotel Villa Fontaine Tokyo-Otemachi,3,143,https://www.hotels.com/ho328477/
+千代田区,内神田２丁目,-,"2-8-4, Uchikanda, Chiyoda-ku, Tokyo, 101-0047, Japan",35.690589,139.768418,UNIZO INN Tokyo Kandaeki-West,3,219,https://www.hotels.com/ho650236/
+千代田区,内神田２丁目,-,"2-2, Kandatsukasamachi, Chiyoda, Tokyo, Tokyo-to, 101-0048, Japan",35.692348,139.768294,Grand Central Hotel,3,157,https://www.hotels.com/ho415873/
+千代田区,内神田１丁目,-,"1-8-10, Uchikanda, Chiyoda-ku, Tokyo, Tokyo-to, 101-0047, Japan",35.690275,139.766992,Toyoko Inn Tokyo Otemachi A1,3,130,https://www.hotels.com/ho619519968/
+千代田区,内神田１丁目,-,"Minami Tokkyo Building 5F, 1-6-3, Uchikanda, Chiyoda-ku, Tokyo, Tokyo, 101-0047, Japan",35.689903,139.766428,The Wardrobe Hostel Tree,1,20,https://www.hotels.com/ho1122619360/
+千代田区,内幸町１丁目,-,"1-1-1 Uchisaiwaicho Chiyoda-ku, Tokyo, Tokyo-to, 100-8558, Japan",35.67252,139.75738,Imperial Hotel,5,931,https://www.hotels.com/ho118482/
+千代田区,内幸町１丁目,-,"1-5-2 Uchisaiwai-cho, Chiyoda-ku, Tokyo, Tokyo-to, 100-0011, Japan",35.669389,139.758353,Daiichi Hotel Annex,4,180,https://www.hotels.com/ho126094/
+渋谷区,道玄坂１丁目,-,"26-1 Sakuragaoka-cho, Shibuya-ku, Tokyo, Tokyo-to, 150-8512, Japan",35.65677,139.699614,Cerulean Tower Tokyu Hotel,4.5,408,https://www.hotels.com/ho194685/
+渋谷区,道玄坂１丁目,-,"1-12-2, Dogenzaka, Shibuya-ku, Tokyo, Tokyo-to, 150-0043, Japan",35.65848,139.699906,Shibuya Excel Hotel Tokyu,3.5,408,https://www.hotels.com/ho190674/
+港区,東麻布２丁目,-,"2-22-6 Higashi Azabu, Tokyo, 106-0044, Japan",35.656753,139.741149,Book Tea Bed AZABU-JUBAN - Hostel,2,34,https://www.hotels.com/ho623929952/
+港区,東麻布２丁目,-,"2-26-8, higashiazabu,, Tokyo, Tokyo, 1060044, Japan",35.656166,139.74117,hotel azabu ten,-,9,https://www.hotels.com/ho1239030144/
+港区,東麻布１丁目,-,"1-13-7 Higashiazabu, Minato-ku, Tokyo, Tokyo, 106-0044, Japan",35.656412,139.742566,Floral Iron Tower Hotel Tokyo,3,10,https://www.hotels.com/ho1081342528/
+港区,東麻布１丁目,-,"1-17-9 Higashi-Azabu, Minato-ku, Tokyo, Tokyo, 106-0044, Japan",35.656012,139.743395,The Guest House Tokyo Azabu,2,2,https://www.hotels.com/ho644760384/
+港区,東麻布１丁目,-,"1-8-2, HIGASHI-AZABU, Tokyo, TOKYO, 106-0044, Japan",35.65707,139.74318,NIBUNNO,3,2,https://www.hotels.com/ho867354496/
+港区,東麻布１丁目,-,"1-29-20 Higashiazabu, Tokyo, 106-0044, Japan",35.65546,139.74213,HOSTEL & COFFEE SHOP ZABUTTON,2,5,https://www.hotels.com/ho768445984/
+中央区,東日本橋３丁目,-,"Sanku Bld.7F, 3-9-2 Higashinihombashi, Chuo-ku, Tokyo, Tokyo, 103-0004, Japan",35.691487,139.78347,FULL CABIN HOSTEL,2,12,https://www.hotels.com/ho652941792/
+中央区,東日本橋３丁目,-,"3-12-14, Higashinihonbashi, Chuo, Tokyo, Tokyo-to, 103-0004, Japan",35.69276,139.784883,APA Hotel Higashi-Nihombashi-Ekimae,3,219,https://www.hotels.com/ho461326/
+中央区,東日本橋２丁目,-,"2-15-6 Higashi-Nihonbashi, Chuo-ku, Tokyo, Tokyo-to, 103-0004, Japan",35.693941,139.785233,R&B Hotel Higashi Nihonbashi,2.5,203,https://www.hotels.com/ho380239/
+中央区,東日本橋２丁目,-,"2-25-4 Higashi-Nihonbashi, Chuo-ku, Tokyo, 103-0004, Japan",35.694286,139.787192,Guest House TRACE Higashi-nihonbashi Riverside - Hostel,1,86,https://www.hotels.com/ho622756608/
+中央区,東日本橋２丁目,-,"2-24-9 Higashi-Nihonbashi, Tokyo, Tokyo, 1030004, Japan",35.694482,139.785925,Planetyze Hostel,1,34,https://www.hotels.com/ho670024/
+千代田区,東神田２丁目,-,"2-8-16 Higashikanda, Chiyoda-ku, Tokyo, Tokyo-to, 101-0031, Japan",35.696411,139.780393,GRIDS TOKYO AKIHABARA HOTEL&HOSTEL,2,133,https://www.hotels.com/ho516866/
+千代田区,東神田１丁目,-,"1-14-1 Higashi Kanda, Tokyo, Tokyo, 101-0031, Japan",35.693651,139.781061,APA Hotel Nihombashi Bakurocho-Ekikita,3,127,https://www.hotels.com/ho710678272/
+千代田区,東神田１丁目,-,"1-9-10 Higashi-Kanda, Tokyo, 101-0031, Japan",35.694841,139.779668,Comfort Hotel Tokyo Higashi Kanda,2.5,188,https://www.hotels.com/ho556270816/
+千代田区,東神田１丁目,-,"1-3-3 Higashikanda, Tokyo, Tokyo, 101-0031, Japan",35.69344,139.78006,Hotel & Hostel KIKKA Tokyo,1,74,https://www.hotels.com/ho883697600/
+港区,東新橋２丁目,虎ノ門広域,"2-14-24 Higashi-Shimbashi, Minato-ku, Tokyo, Tokyo-to, 105-0021, Japan",35.660207,139.756739,Mitsui Garden Hotel Shiodome Italia-gai,3.5,372,https://www.hotels.com/ho338863/
+港区,東新橋２丁目,虎ノ門広域,"2-7-8, Higashi-Shinbashi, Minato-ku, Tokyo, Tokyo, 105-0021, Japan",35.661835,139.756605,Anshin Oyado Premier Shinbashi Shiodome,2.5,180,https://www.hotels.com/ho639835/
+港区,東新橋１丁目,虎ノ門広域,"1-9-1 Higashi-Shinbashi, Minato-ku, Tokyo, Tokyo-to, 105-7337, Japan",35.66341,139.76136,Conrad Tokyo,5,290,https://www.hotels.com/ho231056/
+港区,東新橋１丁目,虎ノ門広域,"1-6-3 Higashi-Shimbashi, Minato-ku, Tokyo, Tokyo, 105-8333, Japan",35.66408,139.76092,The Royal Park Hotel Tokyo Shiodome,4,490,https://www.hotels.com/ho205955/
+港区,東新橋１丁目,虎ノ門広域,"1-7-1 Higashi-Shimbashi, Minato-ku, Shiodome Media Tower, Tokyo, Tokyo, 105-7227, Japan",35.6635,139.75965,Park Hotel Tokyo,4,270,https://www.hotels.com/ho208182/
+港区,東新橋１丁目,虎ノ門広域,"1-9-2 Higashi-shinbashi, Minato-ku, Tokyo, Tokyo-to, 105-0021, Japan",35.661877,139.759296,Hotel Villa Fontaine Tokyo-Shiodome,3.5,497,https://www.hotels.com/ho328480/
+渋谷区,東１丁目,-,"1-29-3, Higashi, Tokyo, Tokyo, 1500011, Japan",35.65349,139.7071,MUSTARD HOTEL SHIBUYA - Hostel,2,106,https://www.hotels.com/ho869619008/
+新宿区,天神町,-,"23-1 Tenjin-cho, Shinjuku-ku, Tokyo, 1620808, Japan",35.704931,139.731366,UNPLAN Kagurazaka - Hostel,1.5,7,https://www.hotels.com/ho581157/
+新宿区,中落合１丁目,-,"1-1-3 Nakaochiai, Shinjuku-ku, Tokyo, 161-0032, Japan",35.716376,139.694078,Miyabiyado Takemine,3.5,20,https://www.hotels.com/ho536781/
+新宿区,中井１丁目,-,"1-2-4 Nakai, Shinjuku-ku, Tokyo, Tokyo, 161-0035, Japan",35.715309,139.686488,Shinjuku Sky Capsule - Hostel,1,60,https://www.hotels.com/ho801957184/
+中央区,築地７丁目,-,"7Chome-13-10, Tsukiji, Chuo-ku,Tokyo-to, Tokyo, Tokyo-to, 104-0045, Japan",35.665512,139.775543,Spatium Ginza,3.5,5,https://www.hotels.com/ho1065919200/
+中央区,築地７丁目,-,"7-10-11, Tsukiji, Chuo-ku, Tokyo, Tokyo-to, 104-0045, Japan",35.666142,139.774866,APA Hotel Tsukiji-Eki-Minami,3,115,https://www.hotels.com/ho378358/
+中央区,築地４丁目,-,"Tsukiji 4-11-5, Chuo-ku, Tokyo, Tokyo-to, 104-0045, Japan",35.665733,139.770954,Tokyu Stay Tsukiji,3,125,https://www.hotels.com/ho371791/
+中央区,築地４丁目,-,"4-7-3 Tsukiji, Chuo-ku, Tokyo,, Tokyo, Tokyo (prefecture), 104-0045, Japan",35.666985,139.769764,Keio Presso Inn Higashi Ginza,3,1,https://www.hotels.com/ho704090048/
+中央区,築地４丁目,-,"2-15-13 Tsukiji, Tokyo, Tokyo, 104-0045, Japan",35.666924,139.770211,Via Inn Higashi Ginza,3,297,https://www.hotels.com/ho609298272/
+中央区,築地３丁目,-,"3 Chome-5-4 Tsukiji, Chuo-ku, Tokyo, 104-0045, Japan",35.669236,139.775012,HOTEL KEIHAN TSUKIJI GINZA GRANDE,3.5,297,https://www.hotels.com/ho718304032/
+中央区,築地３丁目,-,"3-17-10 Tsukiji, Chuo-ku, Tokyo, Tokyo-to, 104-0045, Japan",35.665824,139.771462,OYO 43947 Tsukiji Businesshotel Ban,3,32,https://www.hotels.com/ho454753/
+中央区,築地３丁目,-,"3-10-4 Tsukiji, Chuo-ku, Tokyo, 1140045, Japan",35.667645,139.773023,HOTEL ANN TSUKIJI,3,56,https://www.hotels.com/ho617772672/
+中央区,築地３丁目,-,"3-1-5 Tsukiji Chuo-ku, Tokyo, Tokyo-to, 104-0045, Japan",35.669555,139.774467,Ginza Capital Hotel Akane,3,300,https://www.hotels.com/ho327495/
+中央区,築地３丁目,-,"Chuo-ku Tsukiji 3-3-1, Tokyo, Tokyo, 1040045, Japan",35.669189,139.774225,Ginza Capital Hotel Moegi,2.5,136,https://www.hotels.com/ho943960928/
+中央区,築地２丁目,-,"2-2-1 Tsukiji, Chuo-ku, Tokyo, Tokyo, 104-0045, Japan",35.66996,139.774034,Henn na Hotel Tokyo Ginza,3,98,https://www.hotels.com/ho621277888/
+中央区,築地２丁目,-,"2-9-3, Tsukiji, Chuo-ku, Tokyo, Tokyo, 140-0045, Japan",35.669093,139.772971,"Hotel Oriental Express Tokyo Ginza (Open in July 26, 2019)",3,103,https://www.hotels.com/ho1129622336/
+中央区,築地２丁目,-,"2-15-15 Tsukiji, Chuo-ku, Tokyo, 1040045, Japan",35.667385,139.77039,KEIKYU EX INN Higashiginza,3,198,https://www.hotels.com/ho687231/
+中央区,築地２丁目,-,"2-1-4 Tsukiji, Chuo-ku, Tokyo, Tokyo-to, 104-0045, Japan",35.670337,139.773588,Ginza Capital Hotel Main,3,256,https://www.hotels.com/ho327492/
+中央区,築地２丁目,-,"2-11-10 Tsukiji, Chuo-ku, Tokyo, 104-0045, Japan",35.668464,139.772439,First Cabin Tsukiji,1.5,160,https://www.hotels.com/ho537102/
+中央区,築地２丁目,-,"2-12-1 Tsukiji, Chuo, Tokyo, Tokyo-to, 1040045, Japan",35.668548,139.771427,HOTEL LiVEMAX HIGASHI-GINZA,3,57,https://www.hotels.com/ho561331/
+中央区,築地１丁目,-,"1-5-1 Tsukiji, Chuo-ku, Tokyo, Tokyo, Japan",35.670314,139.771778,Bed & Breakfast RENGA – Hostel,2,25,https://www.hotels.com/ho639597792/
+中央区,築地１丁目,-,"1 Chome-9-4 Tsukiji, Tokyo, Tokyo, 104-0045, Japan",35.669231,139.771668,TSUKI,3.5,31,https://www.hotels.com/ho1059096480/
+千代田区,鍛冶町２丁目,-,"2-10-3 Kajicho, Chiyoda-ku, Tokyo, Tokyo, Japan",35.693862,139.772399,APA HOTEL KANDA-EKIMAE,3,142,https://www.hotels.com/ho641866176/
+千代田区,鍛冶町２丁目,-,"2-9-4 Kaji-cho, Chiyoda, Tokyo, Japan",35.692956,139.771841,nine hours woman Kanda,2,70,https://www.hotels.com/ho697399/
+千代田区,鍛冶町１丁目,-,"1-9-15 Kajicho, Chiyoda-ku, Tokyo, Tokyo, 101-0044, Japan",35.690601,139.773299,ICI HOTEL Kanda by RELIEF,3.5,131,https://www.hotels.com/ho877472640/
+千代田区,鍛冶町１丁目,-,"1-4-5 Kaji-cho, Tokyo, Tokyo-to, 1010044, Japan",35.689731,139.770687,Capsule Value Kanda,1.5,100,https://www.hotels.com/ho417443/
+千代田区,大手町１丁目,大丸有,"1-9-1 Otemachi, Chiyoda-ku, Tokyo, 100-0004, Japan",35.687991,139.764836,HOSHINOYA Tokyo,5,84,https://www.hotels.com/ho629308/
+千代田区,大手町１丁目,大丸有,"1-4-1 Otemachi, Chiyoda-Ku, Tokyo, Tokyo-to, 100-0004, Japan",35.691001,139.760242,KKR Hotel Tokyo,3.5,161,https://www.hotels.com/ho347601/
+千代田区,大手町１丁目,大丸有,"The Otemachi Tower, 1-5-6 Otemachi Chiyoda-ku, Tokyo, Tokyo-to, 100-0004, Japan",35.684959,139.765648,Aman Tokyo,4,84,https://www.hotels.com/ho307914752/
+千代田区,大手町１丁目,大丸有,"1-1-1 Otemachi, Chiyodaku, Tokyo, 100-0004, Japan",35.687096,139.762619,Ascott Marunouchi Tokyo,4.5,130,https://www.hotels.com/ho574575200/
+渋谷区,大山町,-,"17-25 Oyama-cho, Shibuya-ku, Tokyo, Tokyo-to, 151-0065, Japan",35.668436,139.673875,1/3rd Residence Serviced Apartments Shibuya-Yoyogi,3.5,5,https://www.hotels.com/ho486346/
+新宿区,大京町,-,"21-25 Daikyouchou, Shinjuku-ku, Tokyo, Tokyo, 160-0015, Japan",35.686329,139.717048,Hostel Pumpkey TOKYO,2,41,https://www.hotels.com/ho636162496/
+新宿区,大久保２丁目,-,"Okubo 2-27-17, Tokyo, Tokyo, 169-0072, Japan",35.702453,139.703988,Blanc,-,3,https://www.hotels.com/ho1129689824/
+新宿区,大久保１丁目,-,"2-3-15 Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.697959,139.707085,E Hotel Higashi Shinjuku,3,253,https://www.hotels.com/ho375526/
+新宿区,大久保１丁目,-,"1-1-38 Okubo, Shinjuku-ku, Tokyo, Tokyo, 169-0072, Japan",35.699265,139.707117,GLOU Higashi Shinjuku,2.5,16,https://www.hotels.com/ho999090112/
+新宿区,大久保１丁目,-,"1-12-27 Okubo, Shinjuku-ku, Tokyo, 169-0072, Japan",35.698936,139.703887,Tokyo House Inn,2.5,24,https://www.hotels.com/ho535873/
+新宿区,大久保１丁目,-,"1-15-11 Okubo, Shinjuku-ku, Tokyo, Tokyo, 169-0072, Japan",35.700774,139.703129,Hyu House - Hostel,2,7,https://www.hotels.com/ho670023/
+新宿区,大久保１丁目,-,"1-7-26 Okubo, Shinjuku-ku, Tokyo, 169-0072, Japan",35.700114,139.705467,Sophiearth Apartment,1,20,https://www.hotels.com/ho535660/
+港区,台場２丁目,-,"2-6-1 Daiba, Minato-ku, Tokyo, Tokyo-to, 135-8701, Japan",35.62506,139.77168,Grand Nikko Tokyo Daiba,4.5,882,https://www.hotels.com/ho138781/
+港区,台場１丁目,-,"1-9-1 Daiba, Minato-ku, Tokyo, 135-8625, Japan",35.62692,139.770814,Hilton Tokyo Odaiba,4.5,453,https://www.hotels.com/ho127950/
+渋谷区,代々木２丁目,-,"2-2-1 Yoyogi, Shibuya-ku, Tokyo, Tokyo-to, 151-8583, Japan",35.686294,139.700108,Century Southern Tower Hotel,4,375,https://www.hotels.com/ho143931/
+渋谷区,代々木２丁目,-,"2-6-2 Yoyogi,shibuya-ku,tokyo 151-0053,, Tokyo, NRT, Japan",35.687759,139.698366,JR Kyusyu Hotel Blossom Shinjuku,3.5,1,https://www.hotels.com/ho381796352/
+渋谷区,代々木２丁目,-,"2-3-1 Yoyogi, Shibuya, Tokyo, Tokyo-to, 151-0053, Japan",35.687244,139.699458,Hotel Sunroute Plaza Shinjuku,3.5,624,https://www.hotels.com/ho256969/
+渋谷区,代々木１丁目,-,"1-36 Yoyogi, Shibuya-ku, Tokyo, Tokyo (prefecture), 151-0053, Japan",35.683923,139.701177,Zenriren Yoyogi-no-yado,-,1,https://www.hotels.com/ho316111584/
+渋谷区,代々木１丁目,-,"1-43-2 Yoyogi, Tokyo, Tokyo, 151-0053, Japan",35.68277,139.69904,Yoyogi House,3,1,https://www.hotels.com/ho1022140448/
+渋谷区,代官山町,-,"9-3 Daikanyamacho, Tokyo, Tokyo, 150-0034, Japan",35.650592,139.704148,Bed & Breakfast RENGA Daikanyama - Hostel,2,14,https://www.hotels.com/ho1022143808/
+渋谷区,千駄ケ谷５丁目,-,"5-27-9 SENDAGAYA, SHIBUYA-KU,, Tokyo, Tokyo (prefecture), 1510051, Japan",35.686033,139.702923,Shinjuku Park,3,205,https://www.hotels.com/ho403917472/
+新宿区,赤城下町,-,"10-10 Akagi Shitamachi, Shinjuku, Tokyo, Tokyo, 162-0803, Japan",35.705621,139.734228,Kagurazaka No Yado,3,1,https://www.hotels.com/ho1241748800/
+港区,赤坂９丁目,六本木,"Tokyo Midtown 9-7-1 Akasaka Minato-ku, Tokyo, Tokyo-to, 107-6245, Japan",35.666778,139.731256,"The Ritz-Carlton, Tokyo",5,245,https://www.hotels.com/ho252642/
+港区,赤坂８丁目,赤坂,"8-12-12 Akasaka Minato-ku, Tokyo, Tokyo-to, 107--0052, Japan",35.670221,139.729695,1/3rd Residence Serviced Apartments Akasaka,3.5,5,https://www.hotels.com/ho435076/
+港区,赤坂８丁目,赤坂,"8-10-32, Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.670731,139.727922,Hotel Asia Center of Japan,3,175,https://www.hotels.com/ho325749/
+港区,赤坂８丁目,赤坂,"8-8-1 Akasaka, Minato-ku, Tokyo, Tokyo-to, Japan",35.670689,139.729635,Palace Studio Akasaka Nibankan,3,1,https://www.hotels.com/ho442147/
+港区,赤坂７丁目,赤坂,"7-9-6 Akasaka, Minato-ku, Tokyo, Tokyo, 107-0052, Japan",35.669841,139.733241,MIMARU TOKYO AKASAKA,3.5,36,https://www.hotels.com/ho696508640/
+港区,赤坂７丁目,赤坂,"7-6-13 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.67155,139.73305,the b tokyo akasaka,3,162,https://www.hotels.com/ho228058/
+港区,赤坂７丁目,赤坂,"7-9-4 Akasaka, Minato-ku, Tokyo, Tokyo, 107-0052, Japan",35.669972,139.73337,HOTEL LiVEMAX AKASAKA,2.5,55,https://www.hotels.com/ho1123997408/
+港区,赤坂７丁目,赤坂,"7-5-51 Akasaka, Minato-ku, Tokyo,, Tokyo, Tokyo (prefecture), 107-0052, Japan",35.672917,139.730135,Toyamaken Akasaka Kaikan,3,1,https://www.hotels.com/ho704090336/
+港区,赤坂６丁目,赤坂,"Akasaka 6-2-13, Minato-ku, Tokyo, 107-0052, Japan",35.671416,139.73663,Keio Presso Inn Akasaka,3,157,https://www.hotels.com/ho672344/
+港区,赤坂６丁目,赤坂,"6-3-17 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.67128,139.73541,Sotetsu Fresa Inn Tokyo-Akasaka,3,139,https://www.hotels.com/ho251725/
+港区,赤坂６丁目,赤坂,"6-14-12 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.66959,139.732967,Akasaka Yoko Hotel,3,235,https://www.hotels.com/ho399516/
+港区,赤坂６丁目,赤坂,"6-13-5 Akasaka, Minato, Tokyo, Tokyo, 107-0052, Japan",35.66992,139.73455,KAISU - Hostel,2,5,https://www.hotels.com/ho1045743456/
+港区,赤坂６丁目,赤坂,"6-15-17 Akasaka, Tokyo, Tokyo-to, 107-0052, Japan",35.669295,139.732557,Marroad Inn Akasaka,3,264,https://www.hotels.com/ho484723/
+港区,赤坂４丁目,赤坂,"4-9-24 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.67559,139.73265,Hotel Monterey Akasaka,3.5,196,https://www.hotels.com/ho251532/
+港区,赤坂４丁目,赤坂,"4-3-14 Akasaka, Minato-ku, Tokyo, Tokyo, 107-0052, Japan",35.673835,139.735172,nine hours Akasaka,2.5,168,https://www.hotels.com/ho730579552/
+港区,赤坂４丁目,赤坂,"1F, 4-3-13 Akasaka, Minato-ku, Tokyo, Tokyo, 1070052, Japan",35.6741,139.735286,Akasakano-sato Premium,2.5,2,https://www.hotels.com/ho860655456/
+港区,赤坂４丁目,赤坂,"2F, 4-3-13 Akasaka, Minato-ku, Tokyo, Tokyo, 107-0052, Japan",35.674105,139.73528,Akasaka-no Sato Female Only,1,14,https://www.hotels.com/ho860675456/
+港区,赤坂４丁目,赤坂,"4-3, Akasaka, Minato, Tokyo, Tokyo, 107-0052, Japan",35.675187,139.735985,Hotel Vista Premio Tokyo Akasaka,3.5,140,https://www.hotels.com/ho719083456/
+港区,赤坂３丁目,赤坂,"3-12-3 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.673873,139.73802,Centurion Hotel Residential Akasaka,3.5,48,https://www.hotels.com/ho344837/
+港区,赤坂３丁目,赤坂,"Akasaka 3-11-8, Minato-ku, Tokyo, 107-0052, Japan",35.674392,139.737296,The Centurion Hotel Classic Akasaka,3.5,23,https://www.hotels.com/ho698333/
+港区,赤坂３丁目,赤坂,"3-19-3 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.675907,139.736561,Centurion Hotel Grand Akasaka,3,82,https://www.hotels.com/ho435589/
+港区,赤坂３丁目,赤坂,"3-21-7 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.676613,139.736222,the b tokyo akasaka-mitsuke,3,122,https://www.hotels.com/ho349747/
+港区,赤坂３丁目,赤坂,"3-10-9 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.67562,139.73723,Akasaka Granbell Hotel,3,61,https://www.hotels.com/ho337793/
+港区,赤坂３丁目,赤坂,"3-12-5 Akasaka, Minato-ku, Tokyo, Tokyo, Japan",35.673709,139.738096,HOTEL FELICE AKASAKA,3,167,https://www.hotels.com/ho671224288/
+港区,赤坂３丁目,赤坂,"3-19-10 Akasaka, Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.675903,139.735861,APA Villa Hotel Akasaka-Mitsuke,3,223,https://www.hotels.com/ho359544/
+港区,赤坂３丁目,赤坂,"4-2-4 Akasaka Minato-ku, Tokyo, Tokyo-to, 107-0052, Japan",35.675741,139.735917,Centurion Cabin & Spa Ladies,1.5,32,https://www.hotels.com/ho506203/
+港区,赤坂３丁目,赤坂,"3-16-7 Akasaka, Minato, Tokyo, Tokyo-to, 107-0052, Japan",35.674633,139.736274,Super Hotel Lohas Akasaka,3,157,https://www.hotels.com/ho544520/
+港区,赤坂３丁目,赤坂,"3-12-16 Akasaka, Minato, Tokyo, Tokyo-to, 107-0052, Japan",35.673772,139.737832,Centurion Hotel Residential Cabin Tower,2,145,https://www.hotels.com/ho570564/
+港区,赤坂３丁目,赤坂,"3-18-1 Akasaka, Tokyo, Tokyo, 107-0052, Japan",35.67553,139.73652,Hotel Risveglio Akasaka,3.5,71,https://www.hotels.com/ho721113472/
+港区,赤坂３丁目,赤坂,"3-9-3 Akasaka, Tokyo, Toyko, 107-0052, Japan",35.677278,139.736483,Akasaka Crystal Hotel,2.5,44,https://www.hotels.com/ho537862/
+港区,赤坂２丁目,赤坂,"2-Chome-17-55 Akasaka, Minato-ku, Tokyo, Tokyo, 107-0052, Japan",35.67041,139.737948,ICI HOTEL Akasaka by RELIEF,3.5,120,https://www.hotels.com/ho859254720/
+港区,赤坂２丁目,赤坂,"2-12-2 Akasaka, Minato-ku, Tokyo, 107-0052, Japan",35.671803,139.739533,Akasaka Urban Hotel,3,31,https://www.hotels.com/ho629048/
+港区,赤坂２丁目,赤坂,"2-6-14 Akasaka, Minato-ku, Tokyo, Tokyo, 107-0052, Japan",35.67206,139.739047,Henn na Hotel Tokyo Akasaka,2.5,116,https://www.hotels.com/ho643936096/
+港区,赤坂２丁目,赤坂,"2-7-2 Akasaka, Minato-ku, Tokyo, 107-0052, Japan",35.672296,139.739787,Inno Family Managed Hostel Roppongi,2,47,https://www.hotels.com/ho581107/
+港区,赤坂２丁目,赤坂,"3-chome, 13-7 Akasaka, Minato-ku, Tokyo, 1070052, Japan",35.672895,139.737492,First Cabin Akasaka,1.5,123,https://www.hotels.com/ho574460/
+港区,赤坂２丁目,赤坂,"2-14-14 Akasaka, Minato, Tokyo, Tokyo-to, 107-0052, Japan",35.671685,139.737812,INNSOMNIA akasaka,3.5,68,https://www.hotels.com/ho572639/
+港区,赤坂２丁目,赤坂,"2-17-54 Akasaka, Minato, Tokyo, 107-0052, Japan",35.670075,139.73856,HOTEL MYSTAYS PREMIER Akasaka,3.5,327,https://www.hotels.com/ho593796/
+港区,赤坂１丁目,虎ノ門,"1-12-33 Akasaka Minato, Tokyo, Tokyo-to, 107-0052, Japan",35.668362,139.740507,InterContinental ANA Tokyo,4.5,844,https://www.hotels.com/ho126669/
+港区,西麻布３丁目,-,"4-4-5 Nishiazabu, Minato-ku, Tokyo, Tokyo-to, 106-0031, Japan",35.656946,139.723904,APA Hotel Nishiazabu,3,193,https://www.hotels.com/ho226756/
+港区,西麻布３丁目,-,"3-24-20 Nishiazabu, Minato-ku, Tokyo, Tokyo, 106-0031, Japan",35.659625,139.723586,First Cabin Nishi Azabu,2.5,206,https://www.hotels.com/ho632128576/
+港区,西麻布１丁目,-,"1-11-6 Nishiazabu, Minato-ku, Tokyo, Tokyo-to, 106-0031, Japan",35.660145,139.724756,Roppongi Hotel S,3.5,47,https://www.hotels.com/ho433946/
+千代田区,西神田２丁目,-,"2-4-4 Nishi Kanda Chiyoda-ku, Tokyo, Tokyo-to, 101-0065, Japan",35.697767,139.75437,Hotel Villa Fontaine Tokyo-Kudanshita,3,144,https://www.hotels.com/ho328482/
+新宿区,西新宿８丁目,-,"8-1-3 Nishi-shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.69421,139.69364,Hotel Rose Garden Shinjuku,3,101,https://www.hotels.com/ho221348/
+新宿区,西新宿７丁目,-,"7-14-14, Nishishinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 1600023, Japan",35.694803,139.697207,Hotel MyStays Nishi-Shinjuku,3,102,https://www.hotels.com/ho463733/
+新宿区,西新宿７丁目,-,"7-23-2 Nishi-shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.694062,139.694121,Nishitetsu Inn Shinjuku,3,302,https://www.hotels.com/ho391061/
+新宿区,西新宿７丁目,-,"7-10-5 Nishi-Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.693668,139.698282,ibis Tokyo Shinjuku,3,206,https://www.hotels.com/ho401304/
+新宿区,西新宿７丁目,-,"Nishi-Shinjuku 7-16-2, Tokyo, Tokyo, 160-0023, Japan",35.695819,139.697225,Hotel Bampky,2.5,13,https://www.hotels.com/ho1181128096/
+新宿区,西新宿６丁目,-,"6-6-2, Nishi-Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.69226,139.69159,Hilton Tokyo,4.5,825,https://www.hotels.com/ho235252/
+新宿区,西新宿６丁目,-,"6-12-39, Nishi-Shinjuku, Shinjuku-ku, Tokyo, Tokyo, 160-0023, Japan",35.694548,139.689573,Daiwa Roynet Hotel Nishi Shinjuku,3,280,https://www.hotels.com/ho866546080/
+新宿区,西新宿５丁目,-,"5-9-8 Nishi-Shinjuku, Tokyo, Tokyo-to, 160-0023, Japan",35.690873,139.68682,Tokyu Stay Nishi-Shinjuku,3,149,https://www.hotels.com/ho371903/
+新宿区,西新宿４丁目,-,"4-5-10 Nishi-Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.689925,139.6848,Palace Studio Shinjuku Parkside,3,269,https://www.hotels.com/ho392031/
+新宿区,西新宿４丁目,-,"4-38-12, Nishishinjuku, Tokyo, Tokyo, 160-0023, Japan",35.685177,139.686243,STUDIO INN NISHISHINJUKU,3,5,https://www.hotels.com/ho1021958176/
+新宿区,西新宿４丁目,-,"4 Chome-12-6 Nishishinjuku, Tokyo, Tokyo, 160-0023, Japan",35.689601,139.687139,Ryokan Ichinao,2.5,10,https://www.hotels.com/ho931657600/
+新宿区,西新宿４丁目,-,"4-37-16, Nishi-Shinjuku, Tokyo, Tokyo, 160-0023, Japan",35.6857,139.686,Nambu Inn Nishi Shinjuku,2.5,6,https://www.hotels.com/ho1167903776/
+新宿区,西新宿３丁目,-,"3-5-13 Nishi-shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.686175,139.691819,Sun Members Tokyo Shinjuku,3,178,https://www.hotels.com/ho366789/
+新宿区,西新宿３丁目,-,"3-6-17 Nishishinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.686041,139.691332,Palace Studio Shinjuku Tochomae,3,1,https://www.hotels.com/ho442135/
+新宿区,西新宿２丁目,-,"3-7-1-2 Nishi Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 163-1055, Japan",35.686738,139.690419,Park Hyatt Tokyo,5,177,https://www.hotels.com/ho108657/
+新宿区,西新宿２丁目,-,"2-7-2 Nishi-Shinjuku, Shinjuku-Ku, Tokyo, Tokyo-to, 160-0023, Japan",35.69109,139.69188,Hyatt Regency Tokyo,4.5,746,https://www.hotels.com/ho111600/
+新宿区,西新宿２丁目,-,"3-2-9 Nishishinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.68718,139.69296,Shinjuku Washington Hotel Main,3.5,1297,https://www.hotels.com/ho239916/
+新宿区,西新宿２丁目,-,"3-2-9 Nishi-Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-8336, Japan",35.687199,139.693127,Shinjuku Washington Hotel Annex,3,337,https://www.hotels.com/ho450722/
+新宿区,西新宿２丁目,-,"4-31-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0023, Japan",35.68862,139.68887,THE KNOT TOKYO Shinjuku,3,408,https://www.hotels.com/ho228256/
+新宿区,西新宿２丁目,-,"2-2-1 Nishi-shinjuku, Tokyo, Tokyo, 160-8330, Japan",35.68971,139.69441,Keio Plaza Hotel Tokyo Premier Grand,4.5,165,https://www.hotels.com/ho613504160/
+新宿区,西新宿１丁目,-,"2-2-1 Nishi-Shinjuku, Shinjuku-Ku, Tokyo, Tokyo-to, 160-8330, Japan",35.69034,139.69485,Keio Plaza Hotel Tokyo,4.5,1435,https://www.hotels.com/ho106211/
+新宿区,西新宿１丁目,-,"1-23-1 Nishi-Shinjuku, Tokyo, Tokyo-to, 160-0023, Japan",35.689801,139.696387,Kadoya Hotel,3,94,https://www.hotels.com/ho404286/
+新宿区,西新宿１丁目,-,"1-16-11 Kabuki-cho, Tokyo, Tokyo, 1600021, Japan",35.689391,139.697653,Hotel FINE - Adults Only,2.5,9,https://www.hotels.com/ho997792960/
+港区,西新橋３丁目,虎ノ門,"3-23-16 Nishishinbashi, Minato-ku, Tokyo, 105-0003, Japan",35.662131,139.751231,NEXUS DOOR TOKYO,3,95,https://www.hotels.com/ho632109792/
+港区,西新橋３丁目,虎ノ門,"3-10-7 Nishishinbashi Minatoku, Tokyo, Tokyo-to, 105-0005, Japan",35.664338,139.751968,First Cabin Atagoyama,1.5,150,https://www.hotels.com/ho546981/
+港区,西新橋２丁目,虎ノ門,"2-8-10 Nishi-Shimbashi, Minato-ku, Tokyo, Tokyo-to, 105-0003, Japan",35.665792,139.753646,Hibiya City Hotel,3.5,35,https://www.hotels.com/ho511216/
+港区,西新橋２丁目,虎ノ門,"2-6-9, Nishishinbashi, Minato-ku, Tokyo, Tokyo-to, 105-0003, Japan",35.666774,139.753199,APA Hotel Shimbashi Toranomon,3,153,https://www.hotels.com/ho449864/
+港区,西新橋１丁目,虎ノ門,"1-17-13 Nishi-Shinbashi, Minato-ku, Tokyo, Tokyo, 105-0003, Japan",35.667534,139.753432,the b tokyo shimbashi,3,109,https://www.hotels.com/ho607272896/
+港区,西新橋１丁目,虎ノ門,"1-23-10 Nishi-Shinbashi, Minato-ku, Tokyo, Tokyo, 105-0003, Japan",35.667921,139.751303,bnb+ Toranomon branch Trip Community Tokyo,1,60,https://www.hotels.com/ho648588448/
+中央区,晴海４丁目,-,"4-7-28 HARUMI, CHUO-KU,, Tokyo, NRT, 1040053, Japan",35.652894,139.779106,Mariners Court,3,1,https://www.hotels.com/ho316118624/
+中央区,晴海３丁目,-,"3-8-1 Harumi, Chuo, Tokyo, Tokyo-to, 104-0053, Japan",35.654919,139.779407,HOTEL FUKURACIA Harumi,3,212,https://www.hotels.com/ho347507/
+渋谷区,神南１丁目,-,"1-8-11 Jinnan, Shibuya-ku, Tokyo, Tokyo, 150-0041, Japan",35.664179,139.70007,HOTEL EMIT SHIBUYA,2.5,72,https://www.hotels.com/ho732825376/
+渋谷区,神南１丁目,-,"1-20-13 Jinnan, Shibuya-ku, Tokyo, Tokyo, 150-0041, Japan",35.662315,139.699738,The Millennials Shibuya,2.5,120,https://www.hotels.com/ho709297792/
+千代田区,神田練塀町,-,"44-4 Kanda Neribeicho, Chiyoda, Tokyo, 101-0022, Japan",35.699985,139.774931,Akihabara BAY HOTEL - Caters to Women,2.5,130,https://www.hotels.com/ho598282/
+千代田区,神田富山町,-,"30-1 TOMIYAMA-CHO, KANDA CHIYODA-KU,, Tokyo, Tokyo (prefecture), 1010043, Japan",35.693494,139.773828,Olympic Inn Kanda,3,70,https://www.hotels.com/ho584356/
+千代田区,神田富山町,-,"Tosho Building, 28-4 Kanda Tomiyamacho, Tokyo, Tokyo, 1010043, Japan",35.693404,139.773468,Uhome Kanda Hotel,2.5,6,https://www.hotels.com/ho1044619744/
+千代田区,神田東松下町,-,"11-2 Kanda Higashimatsushita-cho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0042, Japan",35.693626,139.774384,Comfort Hotel Tokyo Kanda,3,103,https://www.hotels.com/ho262753/
+千代田区,神田淡路町２丁目,-,"2-10-6, Kandaawajicho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0063, Japan",35.697508,139.768264,Hotel MyStays Ochanomizu Conference Center,3,142,https://www.hotels.com/ho468256/
+千代田区,神田淡路町２丁目,-,"2-9 Kanda Awaji-cho, Chiyoda, Tokyo, Tokyo-to, 101-0063, Japan",35.698414,139.767786,Ochanomizu Hotel Juraku,3,243,https://www.hotels.com/ho594035/
+千代田区,神田淡路町１丁目,-,"1-7-5 Kanda-awajicho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0063, Japan",35.695787,139.766388,the b tokyo ochanomizu,3,72,https://www.hotels.com/ho326242/
+千代田区,神田多町,-,"2-7-2 Kandatacho, Chiyoda, Tokyo, Japan",35.693586,139.769397,New Central Hotel,2.5,311,https://www.hotels.com/ho644035/
+千代田区,神田西福田町,-,"8-1 Kanda-Konyacho, Tokyo, Tokyo, 101-0035, Japan",35.691531,139.774253,Sotetsu Fresa Inn Tokyo-Kanda,3,115,https://www.hotels.com/ho688929152/
+千代田区,神田須田町２丁目,-,"KandaSudacho 2-9-1, Chiyoda-ku, Tokyo, Tokyo, 101-0041, Japan",35.695834,139.77371,Sakura Cross Hotel Akihabara,2.5,8,https://www.hotels.com/ho1037620544/
+千代田区,神田須田町２丁目,-,"2-25-12 Kanda Sudacho, Chiyoda, Tokyo, Tokyo, 101-0041, Japan",35.696571,139.773824,HOTEL RESOL AKIHABARA,3,143,https://www.hotels.com/ho940809536/
+千代田区,神田須田町２丁目,-,"2-19-4 Kanda Suda-cho, Tokyo, Japan",35.696631,139.772263,VIA INN AKIHABARA,3,283,https://www.hotels.com/ho612534304/
+千代田区,神田須田町１丁目,-,"1-16 Suda-cho, Kanda, Chiyoda-ku, Tokyo, 101-0041, Japan",35.695168,139.770315,Dormy Inn Premium Kanda,3,139,https://www.hotels.com/ho670698/
+千代田区,神田須田町１丁目,-,"1-4-7, Kanda Sudacho, Chiyoda-ku, Tokyo, Tokyo, 101-0041, Japan",35.69483,139.76789,BELKEN HOTEL KANDA,2.5,113,https://www.hotels.com/ho860784032/
+千代田区,神田神保町２丁目,-,"2-5-13 Kanda Jimbocho, Chiyoda-ku, Tokyo, Tokyo, 101-0051, Japan",35.695834,139.756645,SAKU REN JIMBOCHO,3,32,https://www.hotels.com/ho701774464/
+千代田区,神田神保町２丁目,-,"2-21-4 Kanda Jimbocho Chiyoda-ku, Tokyo, Tokyo-to, 101-0051, Japan",35.69487,139.75645,Sakura Hotel Jimbocho,2,44,https://www.hotels.com/ho358445/
+千代田区,神田神保町２丁目,-,"2-10-1 Kanda Jimbo-cho, Chiyoda-ku, Tokyo, Tokyo, 101-0051, Japan",35.696439,139.756298,URBAN HOSTEL KANDA JIMBOCHO TOKYO- Caters to Women,1,48,https://www.hotels.com/ho745089504/
+千代田区,神田神保町１丁目,-,"1-30 Jimbou-cho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0051, Japan",35.697103,139.758402,Hotel Villa Fontaine Tokyo-Jimbocho,3,72,https://www.hotels.com/ho328306/
+千代田区,神田神保町１丁目,-,"1-19-7 Kanda-Jimbocho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0051, Japan",35.695373,139.760446,Sotetsu Fresa Inn Ochanomizu-Jimbocho,3,130,https://www.hotels.com/ho476237/
+千代田区,神田小川町３丁目,-,"3-24-9 Kanda Ogawamachi, Chiyoda-ku, Tokyo, Tokyo-to, 101-0052, Japan",35.69569,139.762804,Ochanomizu Hotel Shoryukan,3.5,42,https://www.hotels.com/ho424957/
+千代田区,神田小川町３丁目,-,"3-1-22 Kanda Ogawamachi, Chiyoda-ku, Tokyo, Tokyo-to, 101-0052, Japan",35.694737,139.762346,APA Hotel Kanda-Jimbocho-Ekihigashi,3,187,https://www.hotels.com/ho479370/
+千代田区,神田駿河台３丁目,-,"3-4 Kanda-surugadai, Chiyoda-Ku, Tokyo, Tokyo-to, 101-0062, Japan",35.696617,139.765773,Hotel Ryumeikan Ochanomizu Honten,4,9,https://www.hotels.com/ho505968/
+千代田区,神田駿河台１丁目,-,"1-1 Surugadai Kanda Chiyoda-ku, Tokyo, Tokyo-to, 101-0062, Japan",35.6981,139.7614,Hilltop Hotel,3.5,35,https://www.hotels.com/ho342785/
+千代田区,神田佐久間町３丁目,-,"3-38, Kanda Sakuma-cho, Chiyoda-ku, Tokyo, Tokyo, 101-0025, Japan",35.697556,139.777083,First Cabin Akihabara,2.5,149,https://www.hotels.com/ho652857536/
+千代田区,神田佐久間町３丁目,-,"3-9-1 Sakumacho, Kanda, Chiyoda-ku, Tokyo, Tokyo, 101-0025, Japan",35.697534,139.777561,&AND HOSTEL AKIHABARA,2,42,https://www.hotels.com/ho683250624/
+千代田区,神田佐久間町３丁目,-,"3-37-42 Kandasakumacho, Tokyo, Tokyo, 101-0025, Japan",35.698074,139.776977,Le Tour Hotel Akihabara-Ekimae,3,22,https://www.hotels.com/ho1215327936/
+千代田区,神田佐久間町３丁目,-,"4-8 Sakuma-cho, Kanda, Tokyo, Tokyo-to, 101-0025, Japan",35.697559,139.77947,Akihabara Hotel 3000 - Hostel,2,10,https://www.hotels.com/ho507003/
+千代田区,神田佐久間町２丁目,-,"2-13-20, Kanda Sakumacho, Chiyoda-ku, Tokyo, Tokyo, 101-0025, Japan",35.698288,139.776467,APA Hotel Akihabara-ekimae,3,137,https://www.hotels.com/ho417792/
+千代田区,神田佐久間町１丁目,-,"1-6-5 Kanda Sakumacho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0025, Japan",35.697737,139.773896,remm Akihabara,3.5,260,https://www.hotels.com/ho324902/
+千代田区,神田佐久間町１丁目,-,"1-8-3 Sakumacho, Kanda, Chiyoda-ku, Tokyo, Tokyo-to, 101-0025, Japan",35.697507,139.773775,Akihabara Washington Hotel,3.5,369,https://www.hotels.com/ho343963/
+千代田区,神田紺屋町,-,"11-2, Kandakonyacho, Tokyo, Tokyo, 101-0035, Japan",35.691921,139.774468,Akihabara Luxury Cityhouse,3,8,https://www.hotels.com/ho1051628576/
+千代田区,神田錦町３丁目,-,"3-11-15 Kandanishiki-cho, Chiyoda-ku, Tokyo, Tokyo, 101-0054, Japan",35.691934,139.759728,nine hours Otemachi-Imperial Palace,2,129,https://www.hotels.com/ho693047168/
+千代田区,神田錦町１丁目,-,"Chiyoda-ku Kandanishikicho 1-14-13, Landpool Kanda Terrace 6F, Tokyo, Tokyo, 101-0054, Japan",35.693792,139.764615,bnb+ Kanda - Hostel,1,20,https://www.hotels.com/ho975646656/
+千代田区,神田錦町１丁目,-,"Chiyoda-ku, Nishikicho 1-14-13, Landpool Kanda Terrace 8F, Tokyo, Tokyo, 101-0054, Japan",35.693674,139.76451,Mash Café & Bed AKIHABARA - Hostel,1,21,https://www.hotels.com/ho1104676384/
+千代田区,神田錦町１丁目,-,"5F, 1-14-13 Kanda Nishikicho, Tokyo, Tokyo, 101-0054, Japan",35.693785,139.76462,"MANGA ART HOTEL, TOKYO - Hostel",2,35,https://www.hotels.com/ho1093747456/
+渋谷区,神泉町,-,"Shinsencho 8-14 Shibuya-ku, Tokyo, Tokyo-to, 150-0045, Japan",35.655656,139.693669,Tokyu Stay Shibuya,3,124,https://www.hotels.com/ho371776/
+渋谷区,神泉町,-,"10-3 Shinsencho, Shibuya-ku, Tokyo, Tokyo, 150-0045, Japan",35.655367,139.693098,Turn Table Hostel,2.5,51,https://www.hotels.com/ho696530368/
+渋谷区,神泉町,-,"10-5 Shinsen, Shibuya, Tokyo, 1500045, Japan",35.655081,139.693053,NADESHIKO HOTEL SHIBUYA - Caters to Women,2.5,24,https://www.hotels.com/ho580169/
+渋谷区,神山町,-,"10-8, Kamiyama-Cho, Shibuya-ku, Tokyo, Tokyo-to, 150-0047, Japan",35.663169,139.694972,Shibuya Creston Hotel,3,53,https://www.hotels.com/ho366263/
+渋谷区,神山町,-,"6-2, Kamiyama-cho, Tokyo, Tokyo Prefecture, 150-0047, Japan",35.664904,139.694079,OYO 471 Hotel New Washington,2.5,42,https://www.hotels.com/ho1168763584/
+渋谷区,神宮前６丁目,-,"6-24-4 Jingumae, Shibuya-ku, Tokyo, Tokyo-to, 150-0001, Japan",35.665608,139.702366,Dormy Inn Premium Shibuya Jingumae Hot Spring,3,136,https://www.hotels.com/ho407074/
+渋谷区,神宮前５丁目,-,"5-31 Jingumae, Shibuya-ku, Tokyo, 150-0001, Japan",35.664197,139.704165,TRUNK HOTEL,3.5,15,https://www.hotels.com/ho689991/
+渋谷区,神宮前３丁目,-,"3-1-29 JINGUMAE,, Tokyo, Tokyo (prefecture), 150-0001, Japan",35.66992,139.71457,Oakwood Residence Aoyama,-,72,https://www.hotels.com/ho30233120/
+新宿区,神楽坂４丁目,-,"4-1-3, Kagurazaka, Tokyo, Tokyo, 162-0825, Japan",35.70184,139.73996,Kagurazaka Retro na Hotel,3,4,https://www.hotels.com/ho1163312640/
+新宿区,神楽河岸,-,"18F Central Plaza, 1-1 Kaguragashi, Shinjuku, Tokyo, Tokyo, 162-0823, Japan",35.700718,139.743478,Tokyo Central Youth Hostel,2,158,https://www.hotels.com/ho434415/
+中央区,新富２丁目,-,"2-5-10, Shintomi, Chuo-ku, Tokyo, Tokyo-to, 104-0041, Japan",35.671678,139.773599,APA Hotel Shintomicho-Ekimae,3,135,https://www.hotels.com/ho435627/
+中央区,新富２丁目,-,"2-4-13, Shintomi, Tokyo, Tokyo, 104-0041, Japan",35.671503,139.773161,Amanek Ginza East,3,35,https://www.hotels.com/ho595969/
+中央区,新富１丁目,-,"1-12-11 Shintomi, Chuo-ku, Tokyo, Tokyo, 104-0041, Japan",35.673215,139.774401,APA Hotel Shintomicho-Ekikita,3,98,https://www.hotels.com/ho622640/
+中央区,新富１丁目,-,"2-2-2, Shintomi, Chuo-ku, Tokyo, Tokyo, 104-0041, Japan",35.672232,139.773018,Hotel Seven Seas GINZA,3,41,https://www.hotels.com/ho633919456/
+中央区,新富１丁目,-,"1-4, Shintomi, Chuo-ku, Tokyo, Tokyo, 104-0041, Japan",35.673043,139.772641,MIMARU TOKYO GINZA EAST,3,37,https://www.hotels.com/ho1189978496/
+中央区,新富１丁目,-,"1-14-7, Shintomi, Chuo-ku, Tokyo, Tokyo-to, 104-0041, Japan",35.673028,139.775421,APA Hotel <Hatchobori Eki Minami>,3,135,https://www.hotels.com/ho367496/
+中央区,新富１丁目,-,"1-17-8, Shintomi, Chuo-ku, Tokyo, Tokyo, 104-0041, Japan",35.671799,139.775146,APA Hotel Hatchobori Shintomicho,3,141,https://www.hotels.com/ho725188832/
+中央区,新富１丁目,-,"1-7-12 Shintomi, Chuo-ku, Tokyo, Tokyo, 104-0041, Japan",35.672318,139.773515,HOTEL LiVEMAX TOKYOSHINTOMICHO,2.5,66,https://www.hotels.com/ho1123987136/
+中央区,新富１丁目,-,"1-5-10 Shintomi, Chuo, Tokyo, 104-0001, Japan",35.672214,139.772868,Imano Tokyo Ginza Hostel,2,84,https://www.hotels.com/ho612111104/
+中央区,新富１丁目,-,"1-14-10 Shintomi, Tokyo, Tokyo, 104-0041, Japan",35.67315,139.77506,DJ Hostel Ginza,1,24,https://www.hotels.com/ho942297344/
+中央区,新川２丁目,-,"2-20-4 Shinkawa, Tokyo, Tokyo-to, 104-0033, Japan",35.67452,139.780917,Dormy Inn Tokyo-Hatchobori Natural Hot Spring,3,143,https://www.hotels.com/ho388399/
+中央区,新川１丁目,-,"1-8-2 Shinkawa Chuo-ku, Tokyo, Tokyo-to, 104-0033, Japan",35.67847,139.782782,Hotel Villa Fontaine Tokyo-Kayabacho,3,294,https://www.hotels.com/ho328481/
+中央区,新川１丁目,-,"1-2-5 Shinkawa, Chuo-ku, Tokyo, Tokyo-to, 104-0033, Japan",35.67886,139.78293,Pearl Hotel Kayabachou,2.5,268,https://www.hotels.com/ho236370/
+新宿区,新小川町,-,"3-26, Shinogawamachi, Shinjuku-ku, Tokyo, Tokyo-to, 162-0814, Japan",35.705378,139.742668,Flexstay Inn Iidabashi,2.5,59,https://www.hotels.com/ho468276/
+新宿区,新宿７丁目,-,"7-27-9 Shinjuku Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.698598,139.707652,Hotel Sunroute Higashi Shinjuku,3,311,https://www.hotels.com/ho312768/
+新宿区,新宿７丁目,-,"1-1-48 Okubo Shinjuku-ku, Tokyo, Tokyo-to, 169-0072, Japan",35.698186,139.707416,APA Hotel Higashi Shinjuku Ekimae,3,122,https://www.hotels.com/ho419682/
+新宿区,新宿７丁目,-,"7-21-13, Shinjuku, Tokyo, Tokyo, 160-0022, Japan",35.699558,139.710201,Cozy Vibes Apartment Hotel,3,8,https://www.hotels.com/ho1062989056/
+新宿区,新宿７丁目,-,"7-11-3 Shinjuku, Tokyo, Tokyo, 160-0022, Japan",35.69799,139.71229,Sakura Cross Hotel Shinjuku East,3,12,https://www.hotels.com/ho1047790656/
+新宿区,新宿６丁目,-,"6-3-2 Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.693315,139.710467,Tokyo Business Hotel,2.5,183,https://www.hotels.com/ho398451/
+新宿区,新宿６丁目,-,"6-29-2 Shinjuku, Tokyo, Tokyo, 160-0022, Japan",35.696698,139.707406,Hotel Pasela Living,3,7,https://www.hotels.com/ho1225288000/
+新宿区,新宿６丁目,-,"5-3-20 Shinjuku, Tokyo, Tokyo-to, 160-0022, Japan",35.693114,139.711381,Listel Shinjuku Hotel Tokyo,3,263,https://www.hotels.com/ho310443/
+新宿区,新宿５丁目,-,"5-15-8 Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.694194,139.706883,Hotel Sunlite Shinjuku,3,197,https://www.hotels.com/ho327825/
+新宿区,新宿５丁目,-,"5-8-6 Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.692308,139.708894,Hotel Tateshina,2.5,67,https://www.hotels.com/ho395474/
+新宿区,新宿５丁目,-,"5-12-2, Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.69348,139.707751,IMANO TOKYO HOSTEL,2,22,https://www.hotels.com/ho546901/
+新宿区,新宿５丁目,-,"5-3-18 Shinjuku, Tokyo, Tokyo, 160-0022, Japan",35.692884,139.711362,ONSEN RYOKAN YUEN SHINJUKU,3,193,https://www.hotels.com/ho1093686848/
+新宿区,新宿５丁目,-,"5-3-15 Shinjuku, Tokyo, Tokyo, 160-0022, Japan",35.693134,139.710868,UNPLAN Shinjuku – Hostel,2,23,https://www.hotels.com/ho1085538432/
+新宿区,新宿３丁目,-,"3-34-7 Shinjuku, Shinjuku-ku, Tokyo, Tokyo (prefecture), 160-0022, Japan",35.690399,139.702441,Central Hotel Tokyo,3,1,https://www.hotels.com/ho526775456/
+新宿区,新宿３丁目,-,"3-7 Shinjuku, Tokyo, Tokyo-to, 160-0022, Japan",35.690707,139.706128,Tokyu Stay Shinjuku,3.5,179,https://www.hotels.com/ho485912/
+新宿区,新宿３丁目,-,"4-2-10 Shinjuku, Tokyo, Tokyo-to, 160-0022, Japan",35.689479,139.702773,Capsule Hotel Anshin Oyado Premier Tokyo Shinjuku Station,1.5,256,https://www.hotels.com/ho481846/
+新宿区,新宿２丁目,-,"2-12-12, Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.690769,139.707804,City Hotel Lonestar Shinjuku,3,50,https://www.hotels.com/ho351787/
+新宿区,新宿２丁目,-,"2-2-8 Shinjuku, Shinjuku, Tokyo, Tokyo-to, 160-0022, Japan",35.688911,139.708909,APA Hotel Shinjuku Gyoen-mae,3,411,https://www.hotels.com/ho461263/
+新宿区,新宿１丁目,-,"1-17-8 Shinjuku, Shinjuku-ku, Tokyo, Tokyo, 160-0022, Japan",35.689456,139.711062,Toyoko Inn Shinjuku-gyoemmae-eki 3-ban Deguchi,3,167,https://www.hotels.com/ho1047756288/
+新宿区,新宿１丁目,-,"1 16 5 Shinjuku, Shinjuku-ku, Tokyo, Tokyo-to, 160-0022, Japan",35.689795,139.710669,City Hotel N.U.T.S.,2.5,33,https://www.hotels.com/ho312287/
+新宿区,新宿１丁目,-,"1-12-8 Shinjuku, Tokyo, Tokyo, 160-0022, Japan",35.689008,139.712093,Book Tea Bed SHINJUKU-GYOEN,3,14,https://www.hotels.com/ho1130583648/
+港区,新橋６丁目,虎ノ門広域,"6-10-3, Shimbashi, Minato-ku, Tokyo, Tokyo-to, 105-0004, Japan",35.661325,139.755372,APA Hotel Shimbashi Onarimon,3,153,https://www.hotels.com/ho378494/
+港区,新橋６丁目,虎ノ門広域,"6-20-8 Shimbashi, Minato-ku, Tokyo, Tokyo, 105-0004, Japan",35.660799,139.754305,Hotel Wing International Shimbashi Onarimon,3,93,https://www.hotels.com/ho1053529888/
+港区,新橋６丁目,虎ノ門広域,"6-4-1, Shimbashi, Minato-ku, Tokyo, Tokyo, 105-0004, Japan",35.662366,139.753669,HOTEL 1899 TOKYO,3,63,https://www.hotels.com/ho702134016/
+港区,新橋６丁目,虎ノ門広域,"Shimbashi 6-15-1, Minato-ku, Tokyo, 105-0004, Japan",35.662211,139.752752,Concieria Shiba Koen,3,1,https://www.hotels.com/ho638927/
+港区,新橋５丁目,虎ノ門広域,"5-29-2, Shinbashi, Tokyo, Tokyo, 105-0004, Japan",35.662614,139.755772,Rooms,3,1,https://www.hotels.com/ho730618304/
+港区,新橋５丁目,虎ノ門広域,"5-6-3 Shimbashi, Tokyo, Tokyo-to, Japan",35.663854,139.754196,Concieria Shimbashi Crossia,3,120,https://www.hotels.com/ho452662/
+港区,新橋５丁目,虎ノ門広域,"F4, Ru Gurasieru Building No. 5, 5-20-1, Shinbashi, Tokyo, Tokyo-to, 1050004, Japan",35.663614,139.753943,bnb+ Post Town Shinbashi - Hostel,1,22,https://www.hotels.com/ho721136192/
+港区,新橋５丁目,虎ノ門広域,"5-1-5 Shinbashi, Tokyo, Tokyo, 105-0004, Japan",35.664145,139.753648,bnb+ Wa Shinbashi - Hostel,1,28,https://www.hotels.com/ho721202208/
+港区,新橋４丁目,虎ノ門広域,"4-23-1 Shimbashi Minato-ku, Tokyo, Tokyo-to, 105-0004, Japan",35.663661,139.757073,Tokyu Stay Shimbashi,3,221,https://www.hotels.com/ho453744/
+港区,新橋４丁目,虎ノ門広域,"4-10-2 Shinbashi, Minato-ku, Tokyo, Tokyo-to, 105-0004, Japan",35.664819,139.756013,Sotetsu Fresa Inn Shinbashi-Karasumoriguchi,3,220,https://www.hotels.com/ho314516/
+港区,新橋３丁目,虎ノ門広域,"3-6-8 Shimbashi, Minato-ku, Tokyo, Tokyo, 105-0004, Japan",35.665815,139.755146,Candeo Hotels Tokyo Shimbashi,3,126,https://www.hotels.com/ho652562368/
+港区,新橋３丁目,虎ノ門広域,"3-21-3 Shimbashi, Minato-ku, Tokyo, Japan",35.665385,139.758087,Capsule Inn Shimbashi - Men Only,2.5,98,https://www.hotels.com/ho594994/
+港区,新橋３丁目,虎ノ門広域,"21-6 Shinbashi 3-chome, Minato-ku, Tokyo, Tokyo-to, 105-0004, Japan",35.664917,139.758146,Capsule Hotel Anshin Oyado Shinbashi,1.5,176,https://www.hotels.com/ho481858/
+港区,新橋３丁目,虎ノ門広域,"3-15-7 Shimbashi, Minato-ku, Tokyo, Tokyo, 105-0004, Japan",35.665205,139.755915,Hotel Owl Tokyo Shinbashi - Hostel,1,25,https://www.hotels.com/ho1052182272/
+港区,新橋３丁目,虎ノ門広域,"4-20-1, Shinbashi, Minato-ku, Tokyo, Tokyo, Tokyo (prefecture), 105-0004, Japan",35.66502,139.75661,THE Hotel Shinbashi,-,1,https://www.hotels.com/ho1144212704/
+港区,新橋３丁目,虎ノ門広域,"3-10-10, Shimbashi, Minato-ku, Tokyo, Tokyo, Tokyo (prefecture), 105-0004, Japan",35.666083,139.75561,Annex Checkin Shimbashi,-,1,https://www.hotels.com/ho1168390144/
+港区,新橋３丁目,虎ノ門広域,"3-5-2 Shimbashi, Minato, Tokyo, Tokyo-to, 105-0004, Japan",35.666424,139.754999,HOTEL UNIZO Tokyo Shimbashi,3,233,https://www.hotels.com/ho581170/
+港区,新橋２丁目,虎ノ門広域,"2-11-9, Shimbashi, Tokyo, Tokyo, 105-0004, Japan",35.667252,139.755184,Shimbashi Urban Hotel,3,48,https://www.hotels.com/ho1154046880/
+港区,新橋１丁目,虎ノ門広域,"1-2-6 Shimbashi, Minato-ku, Tokyo, Tokyo-to, 105-0004, Japan",35.668543,139.75796,Daiichi Hotel Tokyo,4,278,https://www.hotels.com/ho219118/
+港区,新橋１丁目,虎ノ門広域,"1-6-6 Shimbashi, Minato-ku, Tokyo, Tokyo, 105-0004, Japan",35.667005,139.761513,karaksa hotel premier Tokyo Ginza,3.5,57,https://www.hotels.com/ho921269856/
+港区,新橋１丁目,虎ノ門広域,"1-1-13 Shinbashi, Minato-ku, Tokyo, Tokyo, 105-0004, Japan",35.668916,139.756218,THE BLOSSOM HIBIYA,3.5,255,https://www.hotels.com/ho1128698944/
+港区,新橋１丁目,虎ノ門広域,"1-17-2 Shinbashi, Minato-ku, Tokyo, Tokyo, 105-0004, Japan",35.668587,139.756996,Daiwa Roynet Hotel Shimbashi,3,195,https://www.hotels.com/ho1073653344/
+港区,新橋１丁目,虎ノ門広域,"1-14-3 Shinbashi Minato-ku, Tokyo, Tokyo-to, 105-0004, Japan",35.668296,139.757518,Sotetsu Fresa Inn Shimbashi-Hibiyaguchi,3,218,https://www.hotels.com/ho424427/
+港区,新橋１丁目,虎ノ門広域,"1 Chome-9-1 Shinbashi, 5th Floor, Minato-ku, Tokyo, Tokyo-to, 105-0004, Japan",35.667432,139.760223,Book Tea Bed GINZA - Hostel,2,22,https://www.hotels.com/ho658079/
+渋谷区,渋谷３丁目,-,"3-21-3, Shibuya, Shibuya-ku, Tokyo, Tokyo, 150-0002, Japan",35.657015,139.702888,SHIBUYA STREAM EXCEL HOTEL TOKYU,3.5,177,https://www.hotels.com/ho924464512/
+渋谷区,渋谷３丁目,-,"3-29-17 Shibuya, Shibuya-ku, Tokyo, Tokyo, 150-0002, Japan",35.655888,139.704188,JR-EAST HOTEL METS SHIBUYA,3.5,195,https://www.hotels.com/ho650324768/
+渋谷区,渋谷３丁目,-,"Shibuya 3-26-21, Shibuya-ku, Tokyo, Tokyo-to, 150-0002, Japan",35.654681,139.704993,Tokyu Stay Shibuya Shin-minamiguchi,3,150,https://www.hotels.com/ho371784/
+渋谷区,渋谷３丁目,-,"3-8-12 Shibuya, Tokyo, Tokyo, 150-0022, Japan",35.657371,139.704039,&And Hostel Minamisenju,2,84,https://www.hotels.com/ho1248633536/
+渋谷区,渋谷２丁目,-,"2-14-15 Shibuya, Shibuya-Ku, Tokyo, Tokyo-to, 150-0002, Japan",35.659694,139.705636,Sakura Fleur Aoyama,3,133,https://www.hotels.com/ho366779/
+渋谷区,渋谷１丁目,-,"1-24-10 Shibuya, Tokyo, Tokyo-to, 150-0002, Japan",35.660275,139.702275,Shibuya Tokyu REI Hotel,3,225,https://www.hotels.com/ho144189/
+港区,芝大門２丁目,-,"Hamamatsucho 2-7-18, Minato-ku, Tokyo, 105-0013, Japan",35.654265,139.754464,Sanco Inn Grande Tokyo Hamamatsucho,3,120,https://www.hotels.com/ho672818/
+港区,芝大門１丁目,-,"1-18-14, Hamamatsucho, Minato-ku, Tokyo, Tokyo-to, 105-0013, Japan",35.658111,139.75495,Hotel MyStays Hamamatsucho,3,105,https://www.hotels.com/ho468210/
+港区,芝大門１丁目,-,"1-2-7 Shiba-Daimon, Minato-ku, Tokyo, Tokyo-to, 105-0012, Japan",35.659581,139.754533,Sotetsu Fresa Inn Hamamatsucho Daimon,3,190,https://www.hotels.com/ho395663/
+港区,芝大門１丁目,-,"1 Chome-16-6 Shibadaimon, Minato, Tokyo, 105-0012, Japan",35.657048,139.754632,Capsule Inn Hamamatsucho,2.5,112,https://www.hotels.com/ho545858/
+港区,芝大門１丁目,-,"1-15-4 Shibadaimon, Tokyo, Tokyo, 105-0012, Japan",35.657446,139.754179,KEIKYU EX INN Hamamatsucho Daimon-Station,3,111,https://www.hotels.com/ho1085536096/
+港区,芝公園４丁目,-,"4-8-1 Shibakoen Minato-ku, Tokyo, Tokyo-to, 105-8563, Japan",35.65441,139.74689,The Prince Park Tower Tokyo,5,603,https://www.hotels.com/ho228229/
+港区,芝公園３丁目,虎ノ門,"3-3-1 Shibakoen Minato, Tokyo, Tokyo-to, 105-8560, Japan",35.65896,139.74814,Tokyo Prince Hotel,4,462,https://www.hotels.com/ho125443/
+港区,芝公園２丁目,-,"2-5-20, Shibakouen, Minato-ku, Tokyo, Tokyo-to, 105-8582, Japan",35.655674,139.750977,Hotel Mielparque Tokyo,3.5,122,https://www.hotels.com/ho396543/
+港区,芝公園２丁目,-,"2-3-4 Shibakoen, Minato-ku, Tokyo, Tokyo, 105-0011, Japan",35.657012,139.752274,Richmond Hotel Tokyo Shiba,3,105,https://www.hotels.com/ho667056992/
+港区,芝公園２丁目,-,"SHIBAKKOEN, MINATO-WARD 1-6-6,1-6-6, Tokyo, Tokyo (prefecture), 1050011, Japan",35.65686,139.752564,Shiba Daimon,3,96,https://www.hotels.com/ho646695072/
+港区,芝公園１丁目,-,"1-5-10 Shiba Koen, Minato-ku, Tokyo, Tokyo-to, 105-0011, Japan",35.65863,139.75253,Shiba Park Hotel,3.5,269,https://www.hotels.com/ho113908/
+港区,芝公園１丁目,-,"1-1-26 Shiba Daimon, Minato-ku, Tokyo, Tokyo, 105-0012, Japan",35.659367,139.752499,Keio Presso Inn Hamamatsucho,3,339,https://www.hotels.com/ho611320768/
+港区,芝浦４丁目,-,"Mita Twin Building East Wing, 4-2-8 Shibaura, Minato-ku, Tokyo, Tokyo-to, 108-0023, Japan",35.642874,139.745316,Hotel Villa Fontaine Tokyo-Tamachi,3,173,https://www.hotels.com/ho328216/
+港区,芝浦３丁目,-,"3-8-1 Shibaura, Minato-ku, Tokyo, Tokyo-to, 108-0023, Japan",35.643618,139.750769,Hotel Gracery Tamachi,3.5,216,https://www.hotels.com/ho308475/
+港区,芝浦３丁目,-,"3-14-21 Shibaura Minato-ku, Tokyo, Tokyo-to, 108-0023, Japan",35.642816,139.747783,Sotetsu Fresa Inn Tokyo-Tamachi,3,139,https://www.hotels.com/ho422806/
+港区,芝浦３丁目,-,"3 1 21 Shibaura, Minato, Tokyo, Tokyo, 1088566, Japan",35.64547,139.74865,Pullman Tokyo Tamachi,4,143,https://www.hotels.com/ho950150176/
+港区,芝浦３丁目,-,"3-20-9 Shibaura, Bright Building 3F, Tokyo, Tokyo, 108-0023, Japan",35.64193,139.747664,bnb+ Tokyo Tamachi - Hostel,1,18,https://www.hotels.com/ho883544896/
+港区,芝浦２丁目,-,"Shibaura 2-17-11, Minato-ku, Tokyo, 105-0023, Japan",35.644819,139.752293,HOTEL DOUBLE SHIBAURA,3,14,https://www.hotels.com/ho677917/
+港区,芝浦１丁目,-,"1-3-10 Shibaura, Minato-ku, Tokyo, Tokyo-to, 105-0023, Japan",35.64977,139.75573,Chisun Hotel Hamamatsucho,3,304,https://www.hotels.com/ho257347/
+港区,芝５丁目,-,"5-27-10 Shiba, Minato-ku, Tokyo, 108-0014, Japan",35.647203,139.74673,Tamachi BAY HOTEL,2,1,https://www.hotels.com/ho639197/
+港区,芝４丁目,-,"4-4-8 Siba Minato-ku, Tokyo, Tokyo, 105-8563, Japan",35.64853,139.750097,APA Hotel Mita-Ekimae,3,155,https://www.hotels.com/ho419733/
+港区,芝３丁目,-,"3-23-1 Shiba, Minato-ku, Tokyo, Tokyo-to, 105-0014, Japan",35.651515,139.749046,Hotel The Celestine Tokyo Shiba,4,243,https://www.hotels.com/ho227796/
+港区,芝２丁目,-,"2-5-2, Shiba, Minato-ku, Tokyo, Tokyo-to, 105-0014, Japan",35.653125,139.751316,Tokyo Grand Hotel,3,156,https://www.hotels.com/ho343453/
+港区,芝２丁目,-,"2-20-12 Shiba, Minato, Tokyo, Tokyo-to, 105-0014, Japan",35.651861,139.749838,Mita Kaikan,2.5,108,https://www.hotels.com/ho430286/
+港区,芝１丁目,-,"1-8-18 Shiba, Minato-ku, Tokyo, Tokyo-to, 105-0014, Japan",35.650846,139.755224,Kuretake Inn Premium Hamamatsucho,3,40,https://www.hotels.com/ho365070/
+港区,芝１丁目,-,"1-6-5 Shiba, Minato-ku, Tokyo, Tokyo-to, 105-0014, Japan",35.652036,139.755121,Hotel Villa Fontaine Tokyo-Hamamatsucho,3,119,https://www.hotels.com/ho328214/
+港区,芝１丁目,-,"1-3-7, Shiba, Minato-ku, Tokyo, 105-0014, Japan",35.652472,139.754685,Concieria Shibakoen TOKYO PREMIUM,3,66,https://www.hotels.com/ho621341/
+新宿区,市谷本村町,-,"4-1 Honmura-cho, Ichigaya,, Tokyo, Tokyo (prefecture), 162-0845, Japan",35.692074,139.73334,Hotel Grand Hill Ichigaya,3,1,https://www.hotels.com/ho703902848/
+新宿区,市谷八幡町,-,"8 Ichigayahachimancho, Tokyo, Tokyo, 1620844, Japan",35.69251,139.73447,First Cabin TKP Ichigaya,2.5,5,https://www.hotels.com/ho976456672/
+新宿区,四谷３丁目,-,"3-14-1 Yotsuya, Shinjuku-ku, Tokyo, Tokyo-to, 160-0004, Japan",35.687896,139.718386,Hotel Wing International Premium Tokyo Yotsuya,3,185,https://www.hotels.com/ho460547/
+新宿区,四谷３丁目,-,"3-11-2 Yotsuya, Shinjuku, Tokyo, Tokyo, 160-0004, Japan",35.687933,139.719185,Yotsuya Sanchome,2.5,3,https://www.hotels.com/ho659539776/
+新宿区,四谷２丁目,-,"Yotsuya 2-1 Shinjuku-ku, Tokyo, Tokyo-to, 160-0004, Japan",35.686768,139.726817,Tokyu Stay Yotsuya,3,148,https://www.hotels.com/ho371771/
+新宿区,四谷１丁目,-,"1-24 Yotsuya, Shinjuku-ku, Tokyo, Tokyo, 160-0004, Japan",35.686681,139.727412,Hotel Keihan Tokyo Yotsuya,3.5,121,https://www.hotels.com/ho970603840/
+新宿区,四谷１丁目,-,"Yotsuya 1-7-9, Shinjuku, Tokyo, Tokyo, 160-0004, Japan",35.686839,139.728343,Hotel New Shohei,3,33,https://www.hotels.com/ho322414304/
+港区,三田３丁目,-,"3-11-26 Mita, Minato-ku, Tokyo, Tokyo, 108-0073, Japan",35.64065,139.74134,KEIKYU EX INN SHINAGAWA SENGAKUJI-STATION,3,120,https://www.hotels.com/ho926956928/
+港区,三田１丁目,-,"1-11-9 Mita, Minato-ku, Tokyo,, Tokyo, Tokyo (prefecture), 108-0073, Japan",35.653781,139.738762,Tokyo Sanuki Club,2.5,1,https://www.hotels.com/ho703263232/
+千代田区,三崎町１丁目,-,"1-1-12 Kanadamisaki-cho, Chiyoda-ku, Tokyo, Tokyo, 101-0061, Japan",35.700955,139.756844,Tokyu Stay Suidobashi,3,156,https://www.hotels.com/ho371778/
+渋谷区,笹塚２丁目,-,"1-56-7 Sasazuka, Tokyo, Tokyo, 151-0073, Japan",35.6745,139.667,Kario Sasazuka Terrace,3,18,https://www.hotels.com/ho1136918272/
+渋谷区,桜丘町,-,"15-17 Sakuragaoka-cho Shibuya-ku, Tokyo, Tokyo-to, 150-0031, Japan",35.656192,139.701466,Shibuya Granbell hotel,3.5,105,https://www.hotels.com/ho457601/
+渋谷区,桜丘町,-,"22-19 Sakuragaoka-cho, Shibuya, Tokyo, 150-0031, Japan",35.655019,139.699907,commun SHIBUYA - Caters to Men,2,60,https://www.hotels.com/ho604011/
+新宿区,細工町,-,"1-17 Saikumachi, Shinjuku-ku, Tokyo, Tokyo, 162-0838, Japan",35.699015,139.733111,Rhodes Kagurazaka Hotel,3,18,https://www.hotels.com/ho1066579744/
+新宿区,左門町,-,"2-5 Samoncho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0017, Japan",35.68736,139.720433,bnb+ SHINJYUKU Yotsuya Ikebana Okina - Hostel,1,20,https://www.hotels.com/ho656490752/
+千代田区,麹町１丁目,-,"1-10-3 Kojimachi, Chiyoda-ku, Tokyo, Tokyo-to, 102 0083, Japan",35.685307,139.742934,Diamond Hotel,3,304,https://www.hotels.com/ho385247/
+千代田区,麹町１丁目,-,"1-10-1 Kojimachi, Chiyoda-ku, Tokyo, Tokyo-to, 102-0083, Japan",35.68503,139.74288,Palace Studio Kojimachi,3,91,https://www.hotels.com/ho402065/
+千代田区,麹町１丁目,-,"2-18 Hayabusacho, Chiyoda-ku, Tokyo, Tokyo, 102-0092, Japan",35.68339,139.741984,NEST HOTEL TOKYO HANZOMON,2.5,102,https://www.hotels.com/ho659471392/
+港区,高輪４丁目,-,"4-10-30 Takanawa Minato-ku, Tokyo, Tokyo-to, 108-8611, Japan",35.627423,139.73754,Shinagawa Prince Hotel,3.5,3560,https://www.hotels.com/ho117610/
+港区,高輪４丁目,-,"4-23-2, Takanawa Minato-ku, Tokyo, Tokyo, 108-0074, Japan",35.62654,139.73742,Toyoko Inn Tokyo Shinagawa-eki Takanawa-guchi,3,180,https://www.hotels.com/ho672893/
+港区,高輪４丁目,-,"Takanawa 4-7-6, Minato-ku, Tokyo, 108-0074, Japan",35.629409,139.7332,Shinagawa Tobu Hotel,3,190,https://www.hotels.com/ho2471264/
+港区,高輪４丁目,-,"4-10-8 Takanawa, Minato-ku, Tokyo, 108-0074, Japan",35.629095,139.735798,KEIKYU EX HOTEL Takanawa,3,163,https://www.hotels.com/ho688126/
+港区,高輪４丁目,-,"4-10-30 Takanawa, Tokyo, Tokyo, 108-8611, Japan",35.627473,139.737504,Shinagawa Prince Hotel East Tower,3.5,1,https://www.hotels.com/ho1040630304/
+港区,高輪４丁目,-,"4-10-30 Takanawa, Tokyo, Tokyo, 108-8611, Japan",35.628583,139.736025,Shinagawa Prince Hotel N Tower,3.5,1,https://www.hotels.com/ho1040630336/
+港区,高輪３丁目,-,"Takanawa 3-13-1, Minato-ku, Shinagawa, Tokyo, 108-8612, Japan",35.632455,139.734841,Takanawa Hanakohro (Grand Prince Hotel Takanawa Annex),3.5,1,https://www.hotels.com/ho698972/
+港区,高輪３丁目,-,"3-13-3 Takanawa, Minato-ku, Tokyo, 108-0074, Japan",35.629821,139.736328,KEIKYU EX HOTEL SHINAGAWA (EX KEIKYU EX INN Shinagawa-Station),3,921,https://www.hotels.com/ho692305/
+港区,高輪３丁目,-,"3-13-1 Takanawa, Minato, Tokyo, Tokyo-to, 108-8612, Japan",35.63091,139.73598,"The Prince Sakura Tower Tokyo, Autograph Collection",4.5,288,https://www.hotels.com/ho145443/
+港区,高輪３丁目,-,"3-13-1 Takanawa Minato, Tokyo, Tokyo-to, 108-8612, Japan",35.632057,139.735421,Grand Prince Hotel Takanawa,4,392,https://www.hotels.com/ho116521/
+港区,高輪３丁目,-,"3-13-1 Takanawa Minato, Tokyo, Tokyo, 108-0074, Japan",35.63005,139.733491,Grand Prince Hotel New Takanawa,4,938,https://www.hotels.com/ho116523/
+港区,高輪３丁目,-,"3-19-17 Takanawa, Tokyo, Tokyo, 1080074, Japan",35.633523,139.73787,Miyako City Tokyo Takanawa,3.5,199,https://www.hotels.com/ho876310144/
+港区,高輪２丁目,-,"2-17-1, Takanawa, Minato-ku, Tokyo, Tokyo, 108-0074, Japan",35.639764,139.739741,Araiya,3.5,1,https://www.hotels.com/ho644982/
+港区,高輪２丁目,-,"2-16-30, Takanawa, Minato-ku, Tokyo, Tokyo-to, 108-0074, Japan",35.637963,139.739448,APA Hotel Shinagawa Sengakuji-Ekimae,3,563,https://www.hotels.com/ho545073/
+港区,高輪２丁目,-,"2-16-29 Takanawa, Minato-ku, Tokyo, Tokyo, Japan",35.638257,139.739626,Tokyu Stay Takanawa Sengakuji Ekimae,3,177,https://www.hotels.com/ho647431008/
+港区,高輪１丁目,-,"1-5-23, Minatoku, Tokyo, Tokyo, 1060045, Japan",35.640729,139.737647,The Lively Azabujuban Tokyo,3,62,https://www.hotels.com/ho1224169824/
+新宿区,高田馬場４丁目,-,"4-12-5 Takadanobaba, Shinjyuku-ku, Tokyo, Tokyo, 169-0075, Japan",35.713067,139.701421,HOTEL LiVEMAX TAKADANOBABA-EKIMAE,2.5,84,https://www.hotels.com/ho1102232704/
+新宿区,高田馬場３丁目,-,"Takadanobaba 3-1-4, Hishida Building 3F, Shinjuku-ku, Tokyo, 169-0075, Japan",35.714256,139.703619,Anime Hostel Astro Station,2,13,https://www.hotels.com/ho668942/
+新宿区,荒木町,-,"12-4 Arakicho, Shinjuku-ku, Tokyo, Tokyo, 1600007, Japan",35.689694,139.722895,Tadaima Japan Shinjuku Ryokan,2,12,https://www.hotels.com/ho684577760/
+新宿区,荒木町,-,"1-15 Arakicho, Shinjuku, Tokyo, Tokyo, 160-0007, Japan",35.688835,139.721791,Simon's house Shinjuku,3,1,https://www.hotels.com/ho1179815872/
+港区,港南２丁目,-,"26-32/F Shinagawa East One Tower, 2-16-1 Konan, Tokyo, Tokyo-to, 108-0000, Japan",35.62783,139.74022,The Strings by InterContinental Tokyo,4.5,206,https://www.hotels.com/ho266494/
+港区,虎ノ門２丁目,虎ノ門,"2-10-4 Toranomon, Minato-ku, Tokyo, Tokyo, Japan",35.666929,139.744254,"The Okura Tokyo (Open on September 12, 2019)",5,508,https://www.hotels.com/ho1067678368/
+港区,虎ノ門２丁目,虎ノ門,"2-10-4 Toranomon, Minato-ku, Tokyo, Tokyo-to, 105-0001, Japan",35.66836,139.74458,Hotel Okura Tokyo South Wing,4.5,381,https://www.hotels.com/ho122252/
+港区,虎ノ門１丁目,虎ノ門,"1-23-4 Toranomon, Minato-ku, Tokyo, Tokyo-to, 105-0001, Japan",35.667233,139.749697,Andaz Tokyo Toranomon Hills - a concept by Hyatt,5,164,https://www.hotels.com/ho452693/
+港区,虎ノ門１丁目,虎ノ門,"1-11-9 Toranomon, Minato, Tokyo, Tokyo-to, 1050001, Japan",35.668358,139.749998,Concieria Toranomon TOKYO PREMIUM,3,80,https://www.hotels.com/ho554691/
+新宿区,戸塚町,-,"1-104-19 Totsuka-machi, Shinjuku-ku, Tokyo, Tokyo-to, 169-8613, Japan",35.71072,139.72263,RIHGA Royal Hotel Tokyo,4,129,https://www.hotels.com/ho105822/
+渋谷区,元代々木町,-,"1-7 Motoyoyogicho, Shibuya, Tokyo, Tokyo, 151-0062, Japan",35.669885,139.687464,almond hostel & cafe Shibuya,1,50,https://www.hotels.com/ho607636768/
+渋谷区,恵比寿南１丁目,-,"1-16-8 Ebisuminami, Shibuya-Ku, Tokyo, Tokyo, 150-0022, Japan",35.64418,139.70973,Ebisuholic Hotel,3.5,36,https://www.hotels.com/ho768179232/
+渋谷区,恵比寿１丁目,-,"1-8-1 Ebisu, Shibuya-ku, Tokyo, 150-0013, Japan",35.64731,139.7101,do-c Ebisu,2.5,162,https://www.hotels.com/ho635395520/
+千代田区,九段北１丁目,-,"1-7-1 Kudankita, Chiyoda-ku, Tokyo,, Tokyo, Tokyo (prefecture), 102-0073, Japan",35.697023,139.751929,Keio Presso Inn Kudanshita,3,1,https://www.hotels.com/ho703902816/
+千代田区,九段南２丁目,-,"2-4-10, Kudan Minami, Tokyo, Tokyo, 102-0074, Japan",35.693174,139.744136,Reyado Hotel Kudan,3,15,https://www.hotels.com/ho1156023008/
+中央区,銀座８丁目,-,"8-4-22 Ginza, Chuo-ku, Tokyo, Tokyo, 104-0061, Japan",35.669201,139.759532,Hotel The Celestine Ginza,4,104,https://www.hotels.com/ho679206/
+中央区,銀座８丁目,-,"8-13-1 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.66692,139.76339,Mitsui Garden Hotel Ginza Premier,4,361,https://www.hotels.com/ho257350/
+中央区,銀座８丁目,-,"8-6-15 Ginza Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.668106,139.759823,Ginza Grand Hotel,3.5,257,https://www.hotels.com/ho276652/
+中央区,銀座８丁目,-,"8-7-13 Ginza Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.667886,139.760424,Ginza International Hotel,2.5,92,https://www.hotels.com/ho338447/
+中央区,銀座８丁目,-,"8-11 Ginza, Tokyo, Tokyo, 104-0061, Japan",35.667444,139.762341,remm plus Ginza,3.5,238,https://www.hotels.com/ho1195432448/
+中央区,銀座８丁目,-,"8-9-4 Ginza, Chuo, Tokyo, Tokyo, 104-0061, Japan",35.6683,139.76241,The Royal Park Canvas - Ginza 8,3.5,121,https://www.hotels.com/ho956315424/
+中央区,銀座７丁目,-,"7-12-9 Ginza, Chuo-ku, Tokyo, Tokyo, 104-0061, Japan",35.66774,139.763592,HOTEL MUSSE GINZA MEITETSU,3.5,223,https://www.hotels.com/ho652575360/
+中央区,銀座７丁目,-,"7-10-1 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.669052,139.763639,Hotel Gracery Ginza,3.5,270,https://www.hotels.com/ho248463/
+中央区,銀座７丁目,-,"7-14-15 8F Sugiyama building, Ginza, Chuo-ku, Tokyo, Tokyo, 104-0061, Japan",35.667533,139.764755,hotel GINZA7 TOKYO,2,7,https://www.hotels.com/ho641512288/
+中央区,銀座７丁目,-,"7-13-15 Ginza, Chuo-ku, Tokyo, Tokyo, 1040061, Japan",35.667747,139.763654,Tokyo Ginza Bay Hotel,1.5,228,https://www.hotels.com/ho537306/
+中央区,銀座７丁目,-,"7-17-7 Ginza, Chuo, Tokyo, Tokyo, 104-0061, Japan",35.666239,139.766196,E-Hotel Ginza,3,56,https://www.hotels.com/ho874575616/
+中央区,銀座７丁目,-,"7-11-12 Ginza, Chuo, Tokyo, Tokyo-to, 104-0061, Japan",35.668288,139.763271,Sotetsu Fresa Inn Ginza-Nanachome,3,286,https://www.hotels.com/ho599621/
+中央区,銀座７丁目,-,"7-10-9, Ginza, Chuo, Tokyo, Tokyo-to, 104-0061, Japan",35.668225,139.763164,HOTEL UNIZO Tokyo Ginza-nanachome,3,224,https://www.hotels.com/ho607835/
+中央区,銀座６丁目,-,"6-14-10 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0000, Japan",35.6683,139.76497,Courtyard by Marriott Tokyo Ginza,4,169,https://www.hotels.com/ho253706/
+中央区,銀座６丁目,-,"6-6-7 Ginza, Chou-ku, Tokyo, Tokyo, 104-0061, Japan",35.670679,139.762474,Hyatt Centric Ginza Tokyo,4,164,https://www.hotels.com/ho644619840/
+中央区,銀座５丁目,-,"5-11-1 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.669957,139.766347,Millennium Mitsui Garden Hotel Tokyo,4,329,https://www.hotels.com/ho461862/
+中央区,銀座５丁目,-,"5-13-15, Ginza, Chuo-ku, Tokyo, Tokyo, 104-0061, Japan",35.669132,139.76673,Mitsui Garden Hotel Ginza-gochome,3.5,338,https://www.hotels.com/ho1132390624/
+中央区,銀座４丁目,-,"4-9-2 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.670941,139.767452,Solaria Nishitetsu Hotel Ginza,3.5,209,https://www.hotels.com/ho391027/
+中央区,銀座４丁目,-,"4-10-5 Ginza, Chuo-ku, Tokyo, Tokyo-to, Japan",35.670229,139.767464,Tokyu Stay Ginza,3,191,https://www.hotels.com/ho555734/
+中央区,銀座４丁目,-,"4-201-11, Ginza, Chuo, Tokyo, Tokyo, 104-0061, Japan",35.670109,139.768609,Quintessa Hotel Tokyo Ginza,3,134,https://www.hotels.com/ho1229780096/
+中央区,銀座３丁目,-,"3-8-4 Ginza, Chuo-ku, Tokyo, Tokyo, 104-0061, Japan",35.671806,139.767749,Sotetsu Fresa Inn Ginza-Sanchome,3,147,https://www.hotels.com/ho631721088/
+中央区,銀座３丁目,-,"3-11-15 Ginza, Chuo-ku, Tokyo, Tokyo, 104-0061, Japan",35.670787,139.768299,SUPERHOTEL Premier GINZA,3,116,https://www.hotels.com/ho887287776/
+中央区,銀座２丁目,-,"2-10-2 Ginza, Chuo-Ku, Tokyo, Tokyo-to, 104-0061, Japan",35.672854,139.769116,Hotel Monterey Ginza,3.5,224,https://www.hotels.com/ho226219/
+中央区,銀座２丁目,-,"2-9-4 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.672791,139.76854,Mercure Hotel Ginza Tokyo,3.5,208,https://www.hotels.com/ho224279/
+中央区,銀座２丁目,-,"2-11-6 Ginza, Tokyo, Tokyo, 104-0061, Japan",35.672202,139.76927,the square hotel GINZA,3.5,182,https://www.hotels.com/ho882905536/
+中央区,銀座１丁目,-,"Chuo-ku Ginza 1-13-15, Tokyo, Tokyo, 140-0061, Japan",35.673249,139.768895,Daiwa Roynet Hotel Ginza,3.5,270,https://www.hotels.com/ho536953/
+中央区,銀座１丁目,-,"1-10-18 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.673969,139.769221,Hotel Monterey La Soeur Ginza,3.5,141,https://www.hotels.com/ho254541/
+中央区,銀座１丁目,-,"1-9-5 Ginza, Chuo-ku, Tokyo, Tokyo-to, 104-0061, Japan",35.674112,139.769314,HOTEL UNIZO Tokyo Ginza-itchome,3.5,305,https://www.hotels.com/ho544715/
+中央区,銀座１丁目,-,"1-20-5 Ginza, Chuo, Tokyo, Tokyo-to, 1040061, Japan",35.672809,139.770862,Palace Studio Ginza Itchome,3,1,https://www.hotels.com/ho554694/
+中央区,銀座１丁目,-,"1-15-11, Ginza, Tokyo, Tokyo, 104-0061, Japan",35.67354,139.76983,Hotel Sunroute Ginza,3,1,https://www.hotels.com/ho682601/
+中央区,京橋３丁目,日八京,"3-7-8 Kyobashi, Chuo-ku, Tokyo, Tokyo, 104-0031, Japan",35.675631,139.770992,HOTEL INTERGATE TOKYO KYOBASHI,3.5,200,https://www.hotels.com/ho688274208/
+中央区,京橋３丁目,日八京,"3-9-1 Kyobashi, Chuo-ku, Tokyo, 1040031, Japan",35.675078,139.771148,Hotel Abest Ginza Kyobashi,3,45,https://www.hotels.com/ho622054496/
+中央区,京橋３丁目,日八京,"3-6-7 Kyobashi, Chuo-City, Tokyo, Tokyo-to, 104-0031, Japan",35.675304,139.770585,APA Hotel Ginza-Kyobashi,3.5,170,https://www.hotels.com/ho437612/
+中央区,京橋３丁目,日八京,"3-11-2 Kyobashi, Chuo, Tokyo, Tokyo, 104-0031, Japan",35.674406,139.771775,APA Hotel Ginza-Takaracho,3,108,https://www.hotels.com/ho443000/
+中央区,京橋２丁目,日八京,"2-11-1 Kyobashi, Chuo-ku, Tokyo, Tokyo-to, 104-0031, Japan",35.676526,139.771728,Sotetsu Fresa Inn Tokyo Kyobashi,3,160,https://www.hotels.com/ho395683/
+中央区,京橋２丁目,日八京,"2-6-16, Kyobashi, Chuo-ku, Tokyo, Tokyo-to, 104-0031, Japan",35.676466,139.770668,First In Kyobashi,2,70,https://www.hotels.com/ho392610/
+中央区,京橋２丁目,日八京,"2-7-8 Kyobashi, Chuo-ku, Tokyo, 104-0031, Japan",35.677341,139.771817,First Cabin Kyobashi,1.5,238,https://www.hotels.com/ho670570/
+中央区,京橋２丁目,日八京,"2-1-3 Kyobashi, Chuho-ku, Tokyo, Tokyo, 104-0031, Japan",35.677711,139.769663,Courtyard by Marriott Tokyo Station,4,150,https://www.hotels.com/ho451662/
+中央区,京橋２丁目,日八京,"2 Chome-6 Kyobashi, Chuo Ward, Tokyo, Tokyo, 104-0031, Japan",35.676965,139.770298,remm Tokyo Kyobashi,3.5,272,https://www.hotels.com/ho931771648/
+中央区,京橋２丁目,日八京,"2-5-4 Kyobashi, Tokyo, Tokyo, 104-0031, Japan",35.676451,139.770714,an/other TOKYO,3,200,https://www.hotels.com/ho1101931520/
+中央区,京橋１丁目,日八京,"1-3-6 Kyobashi, Chuo-ku, Tokyo, 104-0031, Japan",35.678288,139.770967,Mitsui Garden Hotel Kyobashi,3.5,233,https://www.hotels.com/ho593012/
+中央区,京橋１丁目,日八京,"1-4-1 Kyobashi, Tokyo, Tokyo, 104-0031, Japan",35.678963,139.769878,Keio Presso Inn Tokyo Station Yaesu,3,248,https://www.hotels.com/ho608389472/
+千代田区,紀尾井町,赤坂,"1-2 Kioi-cho Chiyoda-ku, Tokyo, 102-8585, Japan",35.679579,139.736594,"The Prince Gallery Tokyo Kioicho, A Luxury Collection Hotel",5,250,https://www.hotels.com/ho1210144/
+千代田区,紀尾井町,赤坂,"4-1 Kioi-cho Chiyoda-ku, Tokyo, 102-8578, Japan",35.679719,139.735112,"Hotel New Otani Tokyo, The Main",4.5,563,https://www.hotels.com/ho112853/
+千代田区,紀尾井町,赤坂,"4-1 Kioi-Cho, Chiyoda-ku, Tokyo, Tokyo-to, 102-8578, Japan",35.68195,139.733439,Hotel New Otani Tokyo Garden Tower,4.5,836,https://www.hotels.com/ho477780/
+千代田区,紀尾井町,赤坂,"4-1 Kioi-Cho, Chiyoda, Tokyo, Tokyo-to, 102-8578, Japan",35.681822,139.732941,New Otani Tokyo Executive House ZEN,5,87,https://www.hotels.com/ho545542/
+千代田区,岩本町３丁目,-,"3-7-11 Iwamotocho, Chiyoda-ku, Tokyo, Tokyo, 101-0032, Japan",35.696149,139.777903,bnb+ Costelun Akiba - Hostel Caters to Adult Female Only,2,24,https://www.hotels.com/ho651052800/
+千代田区,岩本町２丁目,-,"2-1-1 Iwamoto-cho, Chiyoda-ku, Tokyo, Tokyo-to, 1010032, Japan",35.692117,139.775031,APA Hotel Kanda-Eki-Higashi,3,158,https://www.hotels.com/ho406309/
+千代田区,岩本町２丁目,-,"2-8-5 Iwamotocho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0032, Japan",35.692855,139.776357,Hiromas Hostel in Kanda,1,38,https://www.hotels.com/ho689901/
+千代田区,岩本町１丁目,-,"1-2-2 Iwamoto-cho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0032, Japan",35.691431,139.77504,Hotel MyStays Kanda,2.5,126,https://www.hotels.com/ho328304/
+千代田区,岩本町１丁目,-,"1-1-9 Iwamotocho, Chiyoda-ku, Tokyo, Tokyo, 101-0032, Japan",35.691593,139.776343,&AND HOSTEL KANDA,2,16,https://www.hotels.com/ho696532256/
+千代田区,丸の内１丁目,大丸有,"1-11-1 Marunouchi, Chiyoda-ku, Tokyo, Tokyo-to, 100-6277, Japan",35.677994,139.767428,Four Seasons Hotel Tokyo at Marunouchi,5,57,https://www.hotels.com/ho205472/
+千代田区,丸の内１丁目,大丸有,"Marunouchi Trust Tower Main, 1-8-3 Marunouchi, Chiyoda-ku, Tokyo, Tokyo-to, 100-8283, Japan",35.681754,139.769595,"Shangri-La Hotel, Tokyo",5,200,https://www.hotels.com/ho308704/
+千代田区,丸の内１丁目,大丸有,"1-9-1 Marunouchi, Chiyoda-ku, Tokyo, Tokyo-to, 100-0005, Japan",35.682109,139.765848,The Tokyo Station Hotel,4.5,150,https://www.hotels.com/ho160947/
+千代田区,丸の内１丁目,大丸有,"1-1-1 Marunouchi, Chiyoda, Tokyo, Tokyo-to, 100-0005, Japan",35.68501,139.7609,Palace Hotel Tokyo,5,290,https://www.hotels.com/ho145411/
+千代田区,丸の内１丁目,大丸有,"1-8-2 Marunouchi, Chiyoda, Tokyo, Tokyo-to, 1000005, Japan",35.68223,139.769895,Oakwood Premier Tokyo,4.5,123,https://www.hotels.com/ho418958432/
+千代田区,丸の内１丁目,大丸有,"1-7-12 Marunouchi, Chiyoda, Tokyo, Tokyo-to, 100-0005, Japan",35.683739,139.769404,Hotel Metropolitan Tokyo Marunouchi,4,343,https://www.hotels.com/ho256266/
+千代田区,丸の内１丁目,大丸有,"1-6-3, Marunouchi, Tokyo, Tokyo, 100-0005, Japan",35.68346,139.76655,Marunouchi Hotel,4,205,https://www.hotels.com/ho923020512/
+千代田区,外神田６丁目,-,"6-7-5 Sotokanda, Chiyoda-ku, Tokyo, Tokyo, 101-0021, Japan",35.704635,139.770241,Hiromas Hostel in Akihabara,2,51,https://www.hotels.com/ho683295424/
+千代田区,外神田６丁目,-,"6-3-3 Sotokanda, Tokyo, 1010021, Japan",35.70324,139.76918,Artist Hotel BnA STUDIO Akihabara,3,5,https://www.hotels.com/ho742229856/
+千代田区,外神田６丁目,-,"6-16-8 Sotokanda, Tokyo, Tokyo, 101-0021, Japan",35.704904,139.771839,Okachimachi Urban Hotel,2.5,74,https://www.hotels.com/ho1129885184/
+千代田区,外神田５丁目,-,"5-1-13 Sotokanda, Chiyoda-ku, Tokyo, 101-0021, Japan",35.703169,139.772505,Akihabara Omotenashi Yado,2.5,1,https://www.hotels.com/ho682423/
+千代田区,外神田４丁目,-,"4-12-5 Soto-Kanda, Chiyoda-ku, Tokyo, Tokyo-to, 101-0021, Japan",35.702601,139.773152,Dormy Inn Akihabara Hot Spring,3,100,https://www.hotels.com/ho388395/
+千代田区,外神田４丁目,-,"4-9-2 Sotokanda, Chiyoda-ku, Tokyo, Tokyo, 1010021, Japan",35.702022,139.772085,1/3rd Residence Apartments Hotel Akihabara,3,5,https://www.hotels.com/ho885414816/
+千代田区,外神田４丁目,-,"4-4-6 Sotokanda, Chiyoda-ku, Tokyo, Tokyo, 101-0021, Japan",35.701326,139.77221,GLANSIT AKIHABARA COMFORT CAPSULE HOTEL,2.5,120,https://www.hotels.com/ho647990528/
+千代田区,外神田３丁目,-,"3-11-4, Soto-Kanda, Chiyoda, Tokyo, Tokyo, 101-0021, Japan",35.700718,139.770428,APA Hotel Akihabaraeki Denkigaiguchi,3,117,https://www.hotels.com/ho609198656/
+千代田区,外神田１丁目,-,"1-17-4 Sotokanda, Chiyoda, Tokyo, Tokyo, 101-0021, Japan",35.698046,139.772541,JR-EAST HOTEL METS AKIHABARA,3,196,https://www.hotels.com/ho1181451104/
+千代田区,外神田１丁目,-,"1-2-12, Sotokanda, Tokyo, Tokyo-to, 101-0021, Japan",35.697927,139.770572,Capsule Hotel Anshin Oyado Akihabara,1.5,180,https://www.hotels.com/ho481849/
+港区,海岸１丁目,-,"Kaigan 1-13-3, Minato-ku, Tokyo, Tokyo, 105-0022, Japan",35.654349,139.762138,HOTEL TAVINOS HAMAMATSUCHO,3,188,https://www.hotels.com/ho1047746752/
+港区,海岸１丁目,-,"1-11-2 Kaigan, Minato-ku, Tokyo, Tokyo, 105-0022, Japan",35.6551,139.76245,Bayside Hotel Azur Takeshiba Hamamatsucho,3,122,https://www.hotels.com/ho355849/
+港区,海岸１丁目,-,"1-16-2 Kaigan, Minato, Tokyo, Tokyo-to, 105-8576, Japan",35.653214,139.761999,InterContinental Tokyo Bay,4.5,330,https://www.hotels.com/ho119987/
+新宿区,霞ヶ丘町,-,"4-1 Kasumigaoka cho, Shinjuku-ku, Tokyo, Tokyo, 160-0013, Japan",35.674249,139.715832,Nippon Seinenkan Hotel,3.5,220,https://www.hotels.com/ho611662432/
+新宿区,霞ヶ丘町,-,"11-3, Kasumigaokamachi, Shinjuku, Tokyo, Tokyo, 160-0013, Japan",35.679694,139.715738,Mitsui Garden Hotel Jingugaien Tokyo Premier,3,362,https://www.hotels.com/ho1157283424/
+新宿区,河田町,-,"9-5 Sumiyoshicho, Tokyo, Tokyo, 1620065, Japan",35.694279,139.720849,Pearl Hotel Shinjuku Akebonobashi,3,151,https://www.hotels.com/ho936076192/
+新宿区,歌舞伎町２丁目,-,"2-13-1, Kabukicho, Shinjuku-ku, Tokyo, Tokyo, 1600021, Japan",35.6965,139.705,HOTEL W-BAGUS - Adults Only,3.5,1,https://www.hotels.com/ho1154253952/
+新宿区,歌舞伎町２丁目,-,"2-40-9 Kabuki-cho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.697485,139.702551,Hotel Villa Fontaine Tokyo-Shinjuku,3,66,https://www.hotels.com/ho328478/
+新宿区,歌舞伎町２丁目,-,"2-31-17, Kabukicho, Shinjuku-ku, Tokyo, Tokyo, 160-0021, Japan",35.697554,139.703745,APA Hotel Higashi Shinjuku Kabukicho Nishi,3,217,https://www.hotels.com/ho1143451680/
+新宿区,歌舞伎町２丁目,-,"2-20-15, Kabuki-cho Shinjuku-ku, Tokyo, Tokyo, 160-0021, Japan",35.697446,139.704438,Toyoko Inn Tokyo Shinjuku Kabukicho,3,351,https://www.hotels.com/ho673091/
+新宿区,歌舞伎町２丁目,-,"2-7-12 Kabuki-cho, Shinjuku-ku, Tokyo, Tokyo, 160-0021, Japan",35.695675,139.706149,HOTEL PERRIER Adult Only,3,43,https://www.hotels.com/ho687640288/
+新宿区,歌舞伎町２丁目,-,"2-17-7, Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.698096,139.705043,APA Hotel Higashi Shinjuku Kabukicho-Higashi,3,129,https://www.hotels.com/ho653874/
+新宿区,歌舞伎町２丁目,-,"2-7-5 Kabukicho, Shinjuku-ku, Tokyo, 160-0021, Japan",35.695609,139.705684,HOTEL AN SHINJUKU Kabukicho - Adults Only,3,28,https://www.hotels.com/ho629516/
+新宿区,歌舞伎町２丁目,-,"2-26-5, Kabukicho, Shinjuku-ku, Tokyo, Tokyo, 160-0021, Japan",35.69557,139.702835,APA Hotel Shinjuku Kabukicho Chuo,3,166,https://www.hotels.com/ho1128732800/
+新宿区,歌舞伎町２丁目,-,"2-12-10 Kabukicho, Shinjuku-ku, Tokyo, 160-0021, Japan",35.696247,139.705598,HOTEL THE HOTEL Shinjuku Kabukicho - Adult Only,3,22,https://www.hotels.com/ho625556064/
+新宿区,歌舞伎町２丁目,-,"2-8-12 Kabukicho, Shinjuku-ku, Tokyo, Tokyo, 160-0021, Japan",35.694984,139.706047,Shinjuku Urban Hotel,2.5,33,https://www.hotels.com/ho639243/
+新宿区,歌舞伎町２丁目,-,"Kabuki-cho 2-22-10, Shinjuku-ku, Tokyo, 160-0021, Japan",35.69589,139.703952,Hotel Bali An Resort Shinjuku Island - Adult only,2.5,79,https://www.hotels.com/ho672380/
+新宿区,歌舞伎町２丁目,-,"2-12-9 Kabukicho, Shinjuku-ku, Tokyo, 160-0021, Japan",35.696307,139.705537,HOTEL ATLAS Shinjuku Kabukicho - Adult Only,2.5,24,https://www.hotels.com/ho625546944/
+新宿区,歌舞伎町２丁目,-,"Kabuki-cho 2-31-3, Shinjuku-ku, 2nd Floor, To-Ko Plaza, Tokyo, 169-0020, Japan",35.697523,139.703931,G'inns guest house - Hostel,1,9,https://www.hotels.com/ho623924384/
+新宿区,歌舞伎町２丁目,-,"2-11-1, Kabukicho, Shinjuku-ku, Tokyo, Tokyo, 1600021, Japan",35.696,139.705,HOTEL STELLATE - Adults Only,-,1,https://www.hotels.com/ho1154253920/
+新宿区,歌舞伎町２丁目,-,"2-29-11 Kabuki-cho, Shinjuku-ku,, Tokyo, Tokyo (prefecture), 160-0021, Japan",35.696952,139.703566,Government-resistered Hotel Shirakawago,2.5,1,https://www.hotels.com/ho704090464/
+新宿区,歌舞伎町２丁目,-,"2-14-5 Kabuki-cho, Shinjuku, Tokyo, Tokyo-to, 160-0021, Japan",35.696555,139.705315,Shinjuku Granbell Hotel,4,485,https://www.hotels.com/ho452172/
+新宿区,歌舞伎町２丁目,-,"2-40-3 Kabuki-cho, Shinjuku, Tokyo, 160-0021, Japan",35.697159,139.70212,Premier Hotel-CABIN-Shinjuku,3,193,https://www.hotels.com/ho565603/
+新宿区,歌舞伎町２丁目,-,"1-20-2 Kabukicho, Shinjuku, Tokyo, 160-0021, Japan",35.696126,139.701285,APA Hotel Shinjuku Kabukicho Tower,3,620,https://www.hotels.com/ho533033/
+新宿区,歌舞伎町２丁目,-,"2-19-14 Kabukicho Shinjuku, Tokyo, Tokyo, 160-0021, Japan",35.698127,139.704772,APA Hotel Higashi-Shinjuku-Kabukicho,3,165,https://www.hotels.com/ho476150/
+新宿区,歌舞伎町２丁目,-,"2-22-1 Kabukicho, Tokyo, Tokyo-to, 160-0021, Japan",35.695824,139.704296,Hotel Siena,3,83,https://www.hotels.com/ho420388/
+新宿区,歌舞伎町２丁目,-,"2-29-2 Kabukicho, Shinjuku, Tokyo, Tokyo, 160-0021, Japan",35.696693,139.703313,Business Hotel Yamashiro,3,12,https://www.hotels.com/ho1163378560/
+新宿区,歌舞伎町２丁目,-,"2-5-1, Kabukicho, Tokyo, Tokyo, 160-0021, Japan",35.696691,139.706486,Hotel Petit Bali Higashishinjuku - Adults Only,3,29,https://www.hotels.com/ho1167784288/
+新宿区,歌舞伎町２丁目,-,"2-8-6,Kabukicho, Tokyo, Tokyo, 160-0021, Japan",35.695142,139.705706,HOTEL D-WAVE Shinjuku - Adult Only,3,35,https://www.hotels.com/ho1253435264/
+新宿区,歌舞伎町２丁目,-,"2-5-6 Kabukicho, Shinjuku, Tokyo, 160-0021, Japan",35.697082,139.705974,Hotel & Spa J-MEX - Adults Only,3,31,https://www.hotels.com/ho593450/
+新宿区,歌舞伎町２丁目,-,"2-5-5 Kabukicho, Tokyo, Tokyo, 160-0021, Japan",35.696834,139.705946,HOTEL G7 - Adult Only,3,33,https://www.hotels.com/ho789610816/
+新宿区,歌舞伎町２丁目,-,"2-10-4 Shinjuku, Tokyo, Tokyo, 160-0022, Japan",35.695062,139.704466,Hotel Rocks,2.5,19,https://www.hotels.com/ho1204938464/
+新宿区,歌舞伎町２丁目,-,"Kabukicho 2-3-7, Tokyo, Tokyo, 160-0021, Japan",35.69705,139.70677,G-stays Shinjuku,2.5,31,https://www.hotels.com/ho939907808/
+新宿区,歌舞伎町２丁目,-,"2-2-17 Kabukicho, Tokyo, Tokyo, 160-0021, Japan",35.696016,139.706942,BESPOKE HOTEL Shinjuku,2.5,106,https://www.hotels.com/ho1010673728/
+新宿区,歌舞伎町２丁目,-,"Kabukicho 2-19-15, Tenami Town Building 4F, Tokyo, Tokyo, 160-0021, Japan",35.698016,139.705002,Capsule Hotel Transit Shinjuku,2.5,96,https://www.hotels.com/ho949178400/
+新宿区,歌舞伎町１丁目,-,"1-19-1 Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.694896,139.701673,Hotel Gracery Shinjuku,4,970,https://www.hotels.com/ho475604/
+新宿区,歌舞伎町１丁目,-,"1-2-9, Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.694497,139.704131,Citadines Central Shinjuku Tokyo,3.5,206,https://www.hotels.com/ho268046/
+新宿区,歌舞伎町１丁目,-,"1-21-7 Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.695524,139.701062,Hotel Wing International Shinjuku,3,134,https://www.hotels.com/ho363436/
+新宿区,歌舞伎町１丁目,-,"1-15-5 Kabukicho, Shinjuku-ku, Tokyo, 160-0021, Japan",35.694221,139.701707,Booth Net Cafe & Capsule,1.5,70,https://www.hotels.com/ho606372/
+新宿区,歌舞伎町１丁目,-,"1-2-5 Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.693812,139.703779,Shinjuku Kuyakusho-mae Capsule Hotel,1.5,330,https://www.hotels.com/ho332612/
+新宿区,歌舞伎町１丁目,-,"2-40-1 Kabukicho, Shinjuku-ku, Tokyo, Tokyo-to, 160-0021, Japan",35.694785,139.703247,Capsule Hotel Shinjuku 510,1.5,310,https://www.hotels.com/ho425866/
+新宿区,歌舞伎町１丁目,-,"2-39-9, Kabukicho, Shinjuku-ku,, Tokyo, Tokyo (prefecture), 160-0021, Japan",35.69494,139.70285,Super Hotel Shinjuku Kabukicho,-,1,https://www.hotels.com/ho1144380256/
+新宿区,歌舞伎町１丁目,-,"1-30-1 Kabuki-cho, Tokyo, Tokyo-to, 160-8487, Japan",35.69459,139.70037,Shinjuku Prince Hotel,3.5,571,https://www.hotels.com/ho134846/
+新宿区,歌舞伎町１丁目,-,"2-40-5, Kabukicho, Shinjuku, Tokyo, Tokyo, 160-0021, Japan",35.696078,139.701249,La'gent Hotel Shinjuku Kabukicho,3,96,https://www.hotels.com/ho1116203296/
+新宿区,歌舞伎町１丁目,-,"1-16-9 Kabukicho, Tokyo, Tokyo, 160-0021, Japan",35.69392,139.70195,Capsule Hotel Hatagoya,2.5,118,https://www.hotels.com/ho738316832/
+新宿区,歌舞伎町１丁目,-,"27-5 1-Chome Kabukicho, Kabukicho APM Building 8th Fl, Shinjuku, Tokyo, Tokyo, 160-0021, Japan",35.695474,139.700608,BOOK AND BED TOKYO SHINJUKU - Hostel,2,55,https://www.hotels.com/ho727370208/
+千代田区,猿楽町２丁目,-,"1-1-16 Kandamisaki-cho, Chiyoda-ku, Tokyo, Tokyo, 101-0061, Japan",35.700543,139.756977,Hotel Niwa Tokyo,4,238,https://www.hotels.com/ho359540/
+千代田区,猿楽町２丁目,-,"2-5-5 Sarugaku-cho, Chiyoda-ku, Tokyo, Tokyo-to, 101-0064, Japan",35.699902,139.758356,YMCA Asia Youth Center,2.5,55,https://www.hotels.com/ho426034/
+渋谷区,円山町,-,"1-1 Maruyama-cho, Shibuya-ku, Tokyo, Tokyo-to, 150-0044, Japan",35.659811,139.695494,SHIBUYA HOTEL EN,3,58,https://www.hotels.com/ho418261/
+渋谷区,円山町,-,"20-1 Maruyamacho Shibuya-ku, Tokyo, Tokyo-to, 150-0044, Japan",35.656309,139.695193,APA Hotel Shibuya-Dogenzaka-Ue,3,173,https://www.hotels.com/ho419695/
+渋谷区,円山町,-,"maruyamacho, 15-2, Tokyo, tokyo, 150-0044, Japan",35.6578,139.6942,TWO-WAY - Adults Only,3,34,https://www.hotels.com/ho778507040/
+渋谷区,円山町,-,"2-2 Maruyama-cho, Shibuya, Tokyo, Tokyo, 150-0044, Japan",35.658568,139.694877,HOTEL SULATA Shibuya Dogenzaka - Adults Only,2.5,48,https://www.hotels.com/ho621313/
+千代田区,永田町２丁目,赤坂,"2-10-3 Nagata-cho, Chiyoda-ku, Tokyo, Tokyo-to, 100-0014, Japan",35.674033,139.74138,The Capitol Hotel Tokyu,5,251,https://www.hotels.com/ho114076/
+千代田区,永田町２丁目,赤坂,"2-14-3 Nagata-cho, Chiyoda-ku, Tokyo, Tokyo-to, 100-0014, Japan",35.677265,139.737178,Akasaka Excel Hotel Tokyu,3.5,487,https://www.hotels.com/ho177544/
+千代田区,永田町２丁目,赤坂,"2-4-14, Nagata-cho Chiyoda-ku, Tokyo, Tokyo, 100-0014, Japan",35.672304,139.742484,Toyoko Inn Tokyo Tameike-sanno-eki Kantei Minami,3,88,https://www.hotels.com/ho673062/
+千代田区,永田町２丁目,赤坂,"2-10-2 Nagatacho, Tokyo, Tokyo, 100-0014, Japan",35.674715,139.740869,APA HOTEL PRIDE <KOKKAIGIJIDOMAE> National Diet Bldg.,3,500,https://www.hotels.com/ho1040513984/
+渋谷区,宇田川町,-,"3-1 Udagawa-cho Shibuya-ku, Tokyo, Tokyo-to, 150-0042, Japan",35.663377,139.699084,Shibuya Tobu Hotel,3,205,https://www.hotels.com/ho327754/
+渋谷区,宇田川町,-,"4-3 Udagawa-cho, Shibuya-ku, Tokyo, Tokyo-to, 150-0042, Japan",35.662347,139.698531,HOTEL UNIZO Tokyo Shibuya,3,186,https://www.hotels.com/ho559674/
+渋谷区,宇田川町,-,"3-7 Udagawacho, Shibuya, Tokyo, Tokyo, 150-0042, Japan",35.662533,139.699219,hotel koe tokyo,3.5,10,https://www.hotels.com/ho646738240/
+千代田区,一番町,-,"23-1 Ichiban-cho, Chiyoda-ku, Tokyo, Tokyo-to, 102-0082, Japan",35.686721,139.741782,Hotel Monterey Hanzomon,3.5,340,https://www.hotels.com/ho244303/
+港区,愛宕１丁目,虎ノ門,"1-6-6 Atago, Minato-ku, Tokyo, Tokyo-to, 105-0002, Japan",35.66527,139.74962,Shinbashi Atagoyama Tokyu REI Hotel,3,431,https://www.hotels.com/ho144190/
+新宿区,愛住町,-,"9-9 Aizumi-chou, Shinjuku, Tokyo, 1600007, Japan",35.689187,139.71862,1/3rd Residence Serviced Apartments Shinjuku,3.5,1,https://www.hotels.com/ho590305/
