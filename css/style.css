@@ -69,7 +69,7 @@ footer {
   left: 0;
   background-color: rgba(1, 1, 1, 0.8);
   display: flex; /* divの上下左右中央揃えのため */
-
+  justify-content: left; /* 左揃え */
   align-items: center; /* 上下中央揃え */
 }
 
