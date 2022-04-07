@@ -174,55 +174,143 @@
 
             // Tokyo 23ward boundaries
             // Add a source for the city polygons.
-            map.addSource('tokyo23wards', {
+            map.addSource('chiyodaward', {
                 'type': 'geojson',
-                'data': './geojson/tokyo23/tokyo23.geojson'
+                'data': './geojson/tokyo7/chiyoda.geojson'
             });
 
             // Add a layer showing the city polygons.
             map.addLayer({
-                'id': '東京23区域',
+                'id': '千代田区',
                 'type': 'fill',
-                'source': 'tokyo23wards',
+                'source': 'chiyodaward',
                 'layout': {
                     'visibility': 'visible'
                 },
                 'paint': {
-                    'fill-color': ['match', ['get', 'タイプ'], // get the property
-                        '23区', 'rgba(255,0,110,.2)',    // if '23区' then red 
-                        'white']                         // white otherwise
+                    'fill-color': 'rgba(255,0,0,.3)'
                     }
             });
 
-            // When a click event occurs on a feature in the tokyo23wards layer, open a popup at the
-            // location of the click, with description HTML from its properties.
-            map.on('click', '東京23区域', function (e) {
-                new mapboxgl.Popup()
-                    .setLngLat(e.lngLat)
-                    .setHTML(e.features[0].properties.name1)
-                    .addTo(map);
+            map.addSource('chuoward', {
+                'type': 'geojson',
+                'data': './geojson/tokyo7/chuo.geojson'
             });
 
-            // Change the cursor to a pointer when the mouse is over the tokyo23wards layer.
-            map.on('mouseenter', '東京23区域', function () {
-                map.getCanvas().style.cursor = 'pointer';
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '中央区',
+                'type': 'fill',
+                'source': 'chuoward',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': 'rgba(0,0,255,.3)'
+                    }
             });
 
-            // Change it back to a pointer when it leaves.
-            map.on('mouseleave', '東京23区域', function () {
-                map.getCanvas().style.cursor = '';
+            map.addSource('minatoward', {
+                'type': 'geojson',
+                'data': './geojson/tokyo7/minato.geojson'
             });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '港区',
+                'type': 'fill',
+                'source': 'minatoward',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': 'rgba(0,128,0,.3)'
+                    }
+            });
+
+            map.addSource('shibuyaward', {
+                'type': 'geojson',
+                'data': './geojson/tokyo7/shibuya.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '渋谷区',
+                'type': 'fill',
+                'source': 'shibuyaward',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': 'rgba(255,255,0,.3)'
+                    }
+            });
+
+            map.addSource('shinjukuward', {
+                'type': 'geojson',
+                'data': './geojson/tokyo7/shinjuku.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '新宿区',
+                'type': 'fill',
+                'source': 'shinjukuward',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': 'rgba(128,0,128,.3)'
+                    }
+            });
+
+            map.addSource('shinagawaward', {
+                'type': 'geojson',
+                'data': './geojson/tokyo7/shinagawa.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '品川区',
+                'type': 'fill',
+                'source': 'shinagawaward',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': 'rgba(255,140,0,.3)'
+                    }
+            });
+
+            map.addSource('kotoward', {
+                'type': 'geojson',
+                'data': './geojson/tokyo7/koto.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '江東区',
+                'type': 'fill',
+                'source': 'kotoward',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': 'rgba(25,25,112,.3)'
+                    }
+            });
+
 
 
             // After the last frame rendered before the map enters an "idle" state.
             map.on('idle', () => {
                 // If these two layers were not added to the map, abort
-                if (!map.getLayer('東京23区域')) {
+                if (!map.getLayer('千代田区') || !map.getLayer('中央区') || !map.getLayer('港区') || !map.getLayer('渋谷区') || !map.getLayer('新宿区') || !map.getLayer('品川区') || !map.getLayer('江東区')) {
                     return;
                 }
 
                 // Enumerate ids of the layers.
-                const toggleableLayerIds = ['東京23区域',];
+                const toggleableLayerIds = ['千代田区', '中央区', '港区', '渋谷区', '新宿区', '品川区', '江東区'];
 
                 // Set up the corresponding toggle button for each layer.
                 for (const id of toggleableLayerIds) {
