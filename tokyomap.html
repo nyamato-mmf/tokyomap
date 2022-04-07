@@ -199,7 +199,7 @@
             map.on('click', '東京23区域', function (e) {
                 new mapboxgl.Popup()
                     .setLngLat(e.lngLat)
-                    .setHTML(e.features[0].properties["都道府"] + e.features[0].properties.name1)
+                    .setHTML(e.features[0].properties.name1)
                     .addTo(map);
             });
 
