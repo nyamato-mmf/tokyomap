@@ -4,25 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
 
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- mapbox -->
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- mapbox -->    
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0px; bottom: 0; width: 100%; }
     </style>
+
     <!-- css -->
     <link href="./css/style.css" rel="stylesheet">
 
-    <title>Document</title>
+    <!-- tokyo23wards show and hide css -->
+    <style>
+        #menu {
+            background: #fff;
+            position: absolute;
+            z-index: 1;
+            top: 10px;
+            right: 10px;
+            border-radius: 3px;
+            width: 120px;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            font-family: 'Open Sans', sans-serif;
+        }
+    
+        #menu a {
+            font-size: 13px;
+            color: #404040;
+            display: block;
+            margin: 0;
+            padding: 0;
+            padding: 10px;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+    
+        #menu a:last-child {
+            border: none;
+        }
+    
+        #menu a:hover {
+            background-color: #f8f8f8;
+            color: #404040;
+        }
+    
+        #menu a.active {
+            background-color: #3887be;
+            color: #ffffff;
+        }
+    
+        #menu a.active:hover {
+            background: #3074a4;
+        }
+    </style>
+
+    <title>Tokyo facilities map</title>
 </head>
 <body>
     
+    <!-- Header for the sidebar menu -->
     <div id="open_nav">
         <div>
             <img src="./img/menu_bw.png">
@@ -34,11 +80,11 @@
         <div class="menu">
             <form id="target">
                 
-                <!-- Select a year -->
+                <!-- List of years -->
                 <table class="years">
                     <tr>
                         <td class="year">
-                            <input id="2021" value="2021" name="year" type="radio">
+                            <input id="2021" value="2021" name="year" type="radio" checked="checked">
                             <label for="2021">2021年</label>
                         </td>
                         <td class="year">
@@ -52,24 +98,25 @@
                     </tr>
                 </table>
 
-                <!-- Select an indicator -->
-                <!-- indicator 01 - 10 -->
+                <!-- List of indicators -->
                 <table id="list"></table>
             </form>
 
-            <!-- Download an csv file -->
+            <!-- Download csv button -->
             <div class="dlbtn">
                 <button><a id="csv" href="./csv/2021/forbesglobal2021.csv" download="indicators2021.csv" style="text-decoration: none; color: black;">Download CSV</a></button>
             </div>
 
         </div>
 
+        <!-- footer -->
         <div id="copyright">
             <small>© 2022 Mori Memorial Foundation</small>
         </div>
         
     </div>
 
+    <!-- Hide and show the sidebar menu -->
     <script>
         $(document).ready(function(){
             $('#open_nav').on('click', function(){
@@ -77,7 +124,6 @@
             });
         });
     </script>
-
 
     <!-- To make a list of indicators -->
     <script>
@@ -151,22 +197,126 @@
     </script>
 
 
-
-    <!-- Mapbox -->
+    <!-- Mapbox code-->
+    <nav id="menu"></nav>
     <div id="map"></div>
 
     <script type="text/javascript"> 
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ'
+        mapboxgl.accessToken = 'pk.eyJ1IjoibnlhbWF0byIsImEiOiJja2Y4dzNkOW8wY3MwMnFvM29iNnJzNzVzIn0.GHlHwu3r5YjKBU3qAKvccQ';
         const map = new mapboxgl.Map({
             container: 'map',
             style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
-            zoom: 12,
-            center: [139.72942873681262, 35.660181644624785]
+            zoom: 11,
+            minZoom: 10,
+            center: [139.72942873681262, 35.660181644624785],
         });
-            
-        map.on('load', () => {
+        
 
+        
+        // indicator points map
+        map.on('load', function () {
+
+            // Tokyo 23ward boundaries
+            // Add a source for the city polygons.
+            map.addSource('tokyo23wards', {
+                'type': 'geojson',
+                'data': './geojson/tokyo23/tokyo23.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '東京23区域',
+                'type': 'fill',
+                'source': 'tokyo23wards',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': ['match', ['get', 'タイプ'], // get the property
+                        '23区', 'rgba(255,0,110,.2)',    // if '23区' then red 
+                        'white']                         // white otherwise
+                    }
+            });
+
+            // When a click event occurs on a feature in the tokyo23wards layer, open a popup at the
+            // location of the click, with description HTML from its properties.
+            map.on('click', '東京23区域', function (e) {
+                new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(e.features[0].properties["都道府"] + e.features[0].properties.name1)
+                    .addTo(map);
+            });
+
+            // Change the cursor to a pointer when the mouse is over the tokyo23wards layer.
+            map.on('mouseenter', '東京23区域', function () {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            // Change it back to a pointer when it leaves.
+            map.on('mouseleave', '東京23区域', function () {
+                map.getCanvas().style.cursor = '';
+            });
+
+
+            // After the last frame rendered before the map enters an "idle" state.
+            map.on('idle', () => {
+                // If these two layers were not added to the map, abort
+                if (!map.getLayer('東京23区域')) {
+                    return;
+                }
+
+                // Enumerate ids of the layers.
+                const toggleableLayerIds = ['東京23区域',];
+
+                // Set up the corresponding toggle button for each layer.
+                for (const id of toggleableLayerIds) {
+                    // Skip layers that already have a button set up.
+                    if (document.getElementById(id)) {
+                        continue;
+                    }
+
+                    // Create a link.
+                    const link = document.createElement('a');
+                    link.id = id;
+                    link.href = '#';
+                    link.textContent = id;
+                    link.className = 'active';
+
+                    // Show or hide layer when the toggle is clicked.
+                    link.onclick = function (e) {
+                        const clickedLayer = this.textContent;
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                        const visibility = map.getLayoutProperty(
+                            clickedLayer,
+                            'visibility'
+                        );
+
+                        // Toggle layer visibility by changing the layout object's visibility property.
+                        if (visibility === 'visible') {
+                            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+                            this.className = '';
+                        } else {
+                            this.className = 'active';
+                            map.setLayoutProperty(
+                                clickedLayer,
+                                'visibility',
+                                'visible'
+                            );
+                        }
+                    };
+
+                    const layers = document.getElementById('menu');
+                    layers.appendChild(link);
+
+                }
+            });
+
+
+            // from here
+            // facilities' point map
             var sourcelayer = [
                 ['forbesglobal2021', './geojson/2021/forbesglobal2021.geojson'],
                 ['fortuneglobal2021', './geojson/2021/fortuneglobal2021.geojson'],
@@ -278,7 +428,7 @@
                         type: 'circle',
                         source: d[i][0],
                         paint: {
-                            'circle-radius': 3,
+                            'circle-radius': 1.5,
                             'circle-stroke-width': 2,
                             'circle-color': 'red',
                             'circle-stroke-color': 'red'
@@ -447,11 +597,12 @@
                     }
                 }
                 
+                // Replace year and category of the download button.
                 function Replace(year) {
                     let link = document.getElementById('csv');
                     let url = './csv/' + year + '/' + cat + year + '.csv';
 
-                    //href属性の値を書き換える
+                    // Change the href
                     link.setAttribute('href', url);
 
                     let excel =document.getElementById("csv")
@@ -463,11 +614,16 @@
 
             })
             
+            // Call the functions with default arguments
             document.getElementById("indicators").click();
             document.getElementById('2021').click();
 
         });
         
+
+
+
+
     </script>
 
 </body>
