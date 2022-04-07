@@ -69,12 +69,12 @@ footer {
   left: 0;
   background-color: rgba(1, 1, 1, 0.8);
   display: flex; /* divの上下左右中央揃えのため */
-  justify-content: right; /* 左右中央揃え */
+
   align-items: center; /* 上下中央揃え */
 }
 
 #open_nav div {
-  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #sidebar {
@@ -152,7 +152,7 @@ table {
   background: #fff;
   position: absolute;
   z-index: 1;
-  top: 10px;
+  top: 5px;
   right: 10px;
   border-radius: 3px;
   width: 120px;
