@@ -23,7 +23,7 @@
 </head>
 <body>
     
-    <!-- Header for the sidebar menu -->
+    <!-- Header for the sidebar menu_01 -->
     <div id="open_nav">
         <div>
             <img src="./img/menu_bw.png">
@@ -71,7 +71,7 @@
         
     </div>
 
-    <!-- Hide and show the sidebar menu -->
+    <!-- Hide and show the sidebar menu_01 -->
     <script>
         $(document).ready(function(){
             $('#open_nav').on('click', function(){
@@ -83,38 +83,38 @@
     <!-- To make a list of indicators -->
     <script>
         let items = [
-        {value: "forbesglobal", text: "ﾌｫｰﾌﾞｽ ｸﾞﾛｰﾊﾞﾙ"},
-        {value: "fortuneglobal", text: "ﾌｫｰﾁｭﾝ ｸﾞﾛｰﾊﾞﾙ"},
-        {value: "startups", text: "スタートアップ企業"},
-        {value: "coworking", text: "コワーキング施設"},
-        {value: "touristspots", text: "観光地"},
-        {value: "culturalassets", text: "文化財"},
-        {value: "temples", text: "神社･寺院･教会"},
-        {value: "museums", text: "美術館･博物館"},
-        {value: "galleries", text: "ギャラリー"},
-        {value: "theaters", text: "ホール・劇場"},
-        {value: "stadiums", text: "スタジアム"},
-        {value: "conventions", text: "コンベンション施設"},
-        {value: "intlmeetings", text: "国際会議"},
-        {value: "hotels", text: "ホテル"},
-        {value: "restaurants", text: "レストラン"},
-        {value: "michelin", text: "ﾐｼｭﾗﾝ掲載ﾚｽﾄﾗﾝ"},
-        {value: "tabelog", text: "食べﾛｸﾞｱﾜｰﾄﾞ受賞ﾚｽﾄﾗﾝ"},
-        {value: "nightlife", text: "ナイトライフ施設"},
-        {value: "universities", text: "大学キャンパス"},
-        {value: "schools", text: "幼稚園~高校"},
-        {value: "nurseries", text: "保育園"},
-        {value: "intlschools", text: "ｲﾝﾀｰﾅｼｮﾅﾙｽｸｰﾙ"},
-        {value: "sportsvenues", text: "スポーツ施設"},
-        {value: "conveniencestores", text: "コンビニ"},
-        {value: "supermarkets", text: "スーパー"},
-        {value: "drugstores", text: "薬局"},
-        {value: "hospitals", text: "病院･診療所･ｸﾘﾆｯｸ"},
-        {value: "banks", text: "銀行･ATM"},
-        {value: "embassies", text: "大使館･領事館"},
-        {value: "stations", text: "駅"},
-        {value: "busstops", text: "バス停"},
-        {value: "sharecycles", text: "ｼｪｱｻｲｸﾙﾎﾟｰﾄ"},
+            {value: "forbesglobal", text: "ﾌｫｰﾌﾞｽ ｸﾞﾛｰﾊﾞﾙ"},
+            {value: "fortuneglobal", text: "ﾌｫｰﾁｭﾝ ｸﾞﾛｰﾊﾞﾙ"},
+            {value: "startups", text: "スタートアップ企業"},
+            {value: "coworking", text: "コワーキング施設"},
+            {value: "touristspots", text: "観光地"},
+            {value: "culturalassets", text: "文化財"},
+            {value: "temples", text: "神社･寺院･教会"},
+            {value: "museums", text: "美術館･博物館"},
+            {value: "galleries", text: "ギャラリー"},
+            {value: "theaters", text: "ホール・劇場"},
+            {value: "stadiums", text: "スタジアム"},
+            {value: "conventions", text: "コンベンション施設"},
+            {value: "intlmeetings", text: "国際会議"},
+            {value: "hotels", text: "ホテル"},
+            {value: "restaurants", text: "レストラン"},
+            {value: "michelin", text: "ﾐｼｭﾗﾝ掲載ﾚｽﾄﾗﾝ"},
+            {value: "tabelog", text: "食べﾛｸﾞｱﾜｰﾄﾞ受賞ﾚｽﾄﾗﾝ"},
+            {value: "nightlife", text: "ナイトライフ施設"},
+            {value: "universities", text: "大学キャンパス"},
+            {value: "schools", text: "幼稚園~高校"},
+            {value: "nurseries", text: "保育園"},
+            {value: "intlschools", text: "ｲﾝﾀｰﾅｼｮﾅﾙｽｸｰﾙ"},
+            {value: "sportsvenues", text: "スポーツ施設"},
+            {value: "conveniencestores", text: "コンビニ"},
+            {value: "supermarkets", text: "スーパー"},
+            {value: "drugstores", text: "薬局"},
+            {value: "hospitals", text: "病院･診療所･ｸﾘﾆｯｸ"},
+            {value: "banks", text: "銀行･ATM"},
+            {value: "embassies", text: "大使館･領事館"},
+            {value: "stations", text: "駅"},
+            {value: "busstops", text: "バス停"},
+            {value: "sharecycles", text: "ｼｪｱｻｲｸﾙﾎﾟｰﾄ"},
         ];
 
         let i = 0;
@@ -153,7 +153,8 @@
 
 
     <!-- Mapbox code-->
-    <nav id="menu"></nav>
+    <nav id="menu_01"></nav>
+    <nav id="menu_02"></nav>
     <div id="map"></div>
 
     <script type="text/javascript"> 
@@ -407,8 +408,6 @@
                     }
             });
 
-
-
             // After the last frame rendered before the map enters an "idle" state.
             map.on('idle', () => {
                 // If these two layers were not added to the map, abort
@@ -417,14 +416,17 @@
                 }
 
                 // Enumerate ids of the layers.
-                const toggleableLayerIds = ['千代田区', '中央区', '港区', '渋谷区', '新宿区', '品川区', '江東区', '大丸有', '日八京', '六本木', '虎ノ門', '赤坂', '広域虎ノ門'];
+                const toggleableLayerIds_01 = ['千代田区', '中央区', '港区', '渋谷区', '新宿区', '品川区', '江東区'];
+
+                // Enumerate ids of the layers.
+                const toggleableLayerIds_02 = ['大丸有', '日八京', '六本木', '虎ノ門', '赤坂', '広域虎ノ門'];
 
                 // Set up the corresponding toggle button for each layer.
-                for (const id of toggleableLayerIds) {
+                for (const id of toggleableLayerIds_01) {
                     // Skip layers that already have a button set up.
                     if (document.getElementById(id)) {
                         continue;
-                    }
+                    };
 
                     // Create a link.
                     const link = document.createElement('a');
@@ -455,19 +457,67 @@
                                 'visibility',
                                 'visible'
                             );
-                        }
+                        };
                     };
 
-                    const layers = document.getElementById('menu');
+                    const layers = document.getElementById('menu_01');
                     layers.appendChild(link);
 
-                }
+                };
+
+                // Set up the corresponding toggle button for each layer.
+                for (const id of toggleableLayerIds_02) {
+                    // Skip layers that already have a button set up.
+                    if (document.getElementById(id)) {
+                        continue;
+                    };
+
+                    // Create a link.
+                    const link = document.createElement('a');
+                    link.id = id;
+                    link.href = '#';
+                    link.textContent = id;
+                    link.className = '';
+
+                    // Show or hide layer when the toggle is clicked.
+                    link.onclick = function (e) {
+                        const clickedLayer = this.textContent;
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                        const visibility = map.getLayoutProperty(
+                            clickedLayer,
+                            'visibility'
+                        );
+
+                        // Toggle layer visibility by changing the layout object's visibility property.
+                        if (visibility === 'visible') {
+                            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+                            this.className = '';
+                        } else {
+                            this.className = 'active';
+                            map.setLayoutProperty(
+                                clickedLayer,
+                                'visibility',
+                                'visible'
+                            );
+                        };
+                    };
+
+                    const layers = document.getElementById('menu_02');
+                    layers.appendChild(link);
+
+                };
+
+
+                
             });
 
 
             // from here
             // facilities' point map
             var sourcelayer = [
+                /* 2021 */
                 ['forbesglobal2021', './geojson/2021/forbesglobal2021.geojson'],
                 ['fortuneglobal2021', './geojson/2021/fortuneglobal2021.geojson'],
                 ['startups2021', './geojson/2021/startups2021.geojson'],
@@ -500,6 +550,7 @@
                 ['stations2021', './geojson/2021/stations2021.geojson'],
                 ['busstops2021', './geojson/2021/busstops2021.geojson'],
                 ['sharecycles2021', './geojson/2021/sharecycles2021.geojson'],
+                /* 2020 */
                 ['forbesglobal2020', './geojson/2020/forbesglobal2020.geojson'],
                 ['fortuneglobal2020', './geojson/2020/fortuneglobal2020.geojson'],
                 ['startups2020', './geojson/2020/startups2020.geojson'],
@@ -532,6 +583,7 @@
                 ['stations2020', './geojson/2020/stations2020.geojson'],
                 ['busstops2020', './geojson/2020/busstops2020.geojson'],
                 ['sharecycles2020', './geojson/2020/sharecycles2020.geojson'],
+                /* 2019 */
                 ['forbesglobal2019', './geojson/2019/forbesglobal2019.geojson'],
                 ['fortuneglobal2019', './geojson/2019/fortuneglobal2019.geojson'],
                 ['startups2019', './geojson/2019/startups2019.geojson'],
@@ -571,7 +623,7 @@
                         map.addSource(d[i][0], {
                         type: 'geojson',
                         data: d[i][1],
-                    })
+                    });
 
                     map.addLayer({
                         id: d[i][0],
@@ -586,7 +638,7 @@
                         layout: {
                             visibility: 'visible',
                         }
-                    })
+                    });
                     
                     // Create a popup, but don't add it to the map yet.
                     const popup = new mapboxgl.Popup({
@@ -607,7 +659,7 @@
                         // the popup appears over the copy being pointed to.
                         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-                        }
+                        };
                         
                         // Populate the popup and set its coordinates based on the feature found.
                         popup.setLngLat(coordinates).setHTML(description).addTo(map);
@@ -617,8 +669,8 @@
                         map.getCanvas().style.cursor = '';
                         popup.remove();
                     });
-                }
-            }
+                };
+            };
             
             addsourcelayer(sourcelayer)
 
@@ -635,6 +687,7 @@
                 //console.log(clicked)
 
                 var layers = [
+                    /* 2021 */
                     "forbesglobal2021",
                     "fortuneglobal2021",
                     "startups2021",
@@ -667,6 +720,7 @@
                     "stations2021",
                     "busstops2021",
                     "sharecycles2021",
+                    /* 2020 */
                     "forbesglobal2020",
                     "fortuneglobal2020",
                     "startups2020",
@@ -699,6 +753,7 @@
                     "stations2020",
                     "busstops2020",
                     "sharecycles2020",
+                    /* 2019 */
                     "forbesglobal2019",
                     "fortuneglobal2019",
                     "startups2019",
@@ -731,7 +786,7 @@
                     "stations2019",
                     "busstops2019",
                     "sharecycles2019",
-                ]
+                ];
 
                 for (var i = 0; i < layers.length; i++) {
                     var layer = layers[i]
@@ -744,8 +799,8 @@
                         }
                     } else {
                         map.setLayoutProperty(layer, 'visibility', 'none')
-                    }
-                }
+                    };
+                };
                 
                 // Replace year and category of the download button.
                 function Replace(year) {
@@ -758,21 +813,17 @@
                     let excel =document.getElementById("csv")
                     let newexcel = cat + year + ".csv"
                     excel.download = newexcel
-                }
+                };
 
                 Replace(year)
 
-            })
+            });
             
             // Call the functions with default arguments
             document.getElementById("indicators").click();
             document.getElementById('2021').click();
 
         });
-        
-
-
-
 
     </script>
 
