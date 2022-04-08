@@ -163,11 +163,10 @@
             container: 'map',
             style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
             zoom: 11,
-            //minZoom: 10,
+            minZoom: 10,
             center: [139.72942873681262, 35.660181644624785],
         });
         
-
         
         // indicator points map
         map.on('load', function () {
@@ -336,17 +335,89 @@
                     }
             });
 
+            map.addSource('roppongi', {
+                'type': 'geojson',
+                'data': './geojson/areas/roppongi.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '六本木',
+                'type': 'fill',
+                'source': 'roppongi',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'paint': {
+                    'fill-color': 'rgba(0,128,0,.5)'
+                    }
+            });
+
+            map.addSource('toranomon', {
+                'type': 'geojson',
+                'data': './geojson/areas/toranomon.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '虎ノ門',
+                'type': 'fill',
+                'source': 'toranomon',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'paint': {
+                    'fill-color': 'rgba(0,128,0,.5)'
+                    }
+            });
+
+            map.addSource('akasaka', {
+                'type': 'geojson',
+                'data': './geojson/areas/akasaka.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '赤坂',
+                'type': 'fill',
+                'source': 'akasaka',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'paint': {
+                    'fill-color': 'rgba(0,128,0,.5)'
+                    }
+            });
+
+            map.addSource('wider_toranomon', {
+                'type': 'geojson',
+                'data': './geojson/areas/wider_toranomon.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '広域虎ノ門',
+                'type': 'fill',
+                'source': 'wider_toranomon',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'paint': {
+                    'fill-color': 'rgba(0,128,0,.5)'
+                    }
+            });
+
 
 
             // After the last frame rendered before the map enters an "idle" state.
             map.on('idle', () => {
                 // If these two layers were not added to the map, abort
-                if (!map.getLayer('千代田区') || !map.getLayer('中央区') || !map.getLayer('港区') || !map.getLayer('渋谷区') || !map.getLayer('新宿区') || !map.getLayer('品川区') || !map.getLayer('江東区') || !map.getLayer('大丸有') || !map.getLayer('日八京')) {
+                if (!map.getLayer('千代田区') || !map.getLayer('中央区') || !map.getLayer('港区') || !map.getLayer('渋谷区') || !map.getLayer('新宿区') || !map.getLayer('品川区') || !map.getLayer('江東区') || !map.getLayer('大丸有') || !map.getLayer('日八京') || !map.getLayer('六本木') || !map.getLayer('虎ノ門') || !map.getLayer('赤坂') || !map.getLayer('広域虎ノ門')) {
                     return;
                 }
 
                 // Enumerate ids of the layers.
-                const toggleableLayerIds = ['千代田区', '中央区', '港区', '渋谷区', '新宿区', '品川区', '江東区', '大丸有', '日八京'];
+                const toggleableLayerIds = ['千代田区', '中央区', '港区', '渋谷区', '新宿区', '品川区', '江東区', '大丸有', '日八京', '六本木', '虎ノ門', '赤坂', '広域虎ノ門'];
 
                 // Set up the corresponding toggle button for each layer.
                 for (const id of toggleableLayerIds) {
