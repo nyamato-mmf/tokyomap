@@ -163,7 +163,7 @@
             container: 'map',
             style: "mapbox://styles/nyamato/ckt5grlhv20td17o5ijrf84wz",
             zoom: 11,
-            minZoom: 10,
+            //minZoom: 10,
             center: [139.72942873681262, 35.660181644624785],
         });
         
@@ -185,7 +185,7 @@
                 'type': 'fill',
                 'source': 'chiyodaward',
                 'layout': {
-                    'visibility': 'visible'
+                    'visibility': 'none'
                 },
                 'paint': {
                     'fill-color': 'rgba(255,0,0,.3)'
@@ -203,7 +203,7 @@
                 'type': 'fill',
                 'source': 'chuoward',
                 'layout': {
-                    'visibility': 'visible'
+                    'visibility': 'none'
                 },
                 'paint': {
                     'fill-color': 'rgba(0,0,255,.3)'
@@ -221,7 +221,7 @@
                 'type': 'fill',
                 'source': 'minatoward',
                 'layout': {
-                    'visibility': 'visible'
+                    'visibility': 'none'
                 },
                 'paint': {
                     'fill-color': 'rgba(0,128,0,.3)'
@@ -239,7 +239,7 @@
                 'type': 'fill',
                 'source': 'shibuyaward',
                 'layout': {
-                    'visibility': 'visible'
+                    'visibility': 'none'
                 },
                 'paint': {
                     'fill-color': 'rgba(255,255,0,.3)'
@@ -257,7 +257,7 @@
                 'type': 'fill',
                 'source': 'shinjukuward',
                 'layout': {
-                    'visibility': 'visible'
+                    'visibility': 'none'
                 },
                 'paint': {
                     'fill-color': 'rgba(128,0,128,.3)'
@@ -275,7 +275,7 @@
                 'type': 'fill',
                 'source': 'shinagawaward',
                 'layout': {
-                    'visibility': 'visible'
+                    'visibility': 'none'
                 },
                 'paint': {
                     'fill-color': 'rgba(255,140,0,.3)'
@@ -293,10 +293,46 @@
                 'type': 'fill',
                 'source': 'kotoward',
                 'layout': {
-                    'visibility': 'visible'
+                    'visibility': 'none'
                 },
                 'paint': {
                     'fill-color': 'rgba(25,25,112,.3)'
+                    }
+            });
+
+            map.addSource('daimaruyu', {
+                'type': 'geojson',
+                'data': './geojson/areas/daimaruyu.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '大丸有',
+                'type': 'fill',
+                'source': 'daimaruyu',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'paint': {
+                    'fill-color': 'rgba(255,0,0,.5)'
+                    }
+            });
+
+            map.addSource('nippachikyo', {
+                'type': 'geojson',
+                'data': './geojson/areas/nippachikyo.geojson'
+            });
+
+            // Add a layer showing the city polygons.
+            map.addLayer({
+                'id': '日八京',
+                'type': 'fill',
+                'source': 'nippachikyo',
+                'layout': {
+                    'visibility': 'none'
+                },
+                'paint': {
+                    'fill-color': 'rgba(0,0,255,.5)'
                     }
             });
 
@@ -305,12 +341,12 @@
             // After the last frame rendered before the map enters an "idle" state.
             map.on('idle', () => {
                 // If these two layers were not added to the map, abort
-                if (!map.getLayer('千代田区') || !map.getLayer('中央区') || !map.getLayer('港区') || !map.getLayer('渋谷区') || !map.getLayer('新宿区') || !map.getLayer('品川区') || !map.getLayer('江東区')) {
+                if (!map.getLayer('千代田区') || !map.getLayer('中央区') || !map.getLayer('港区') || !map.getLayer('渋谷区') || !map.getLayer('新宿区') || !map.getLayer('品川区') || !map.getLayer('江東区') || !map.getLayer('大丸有') || !map.getLayer('日八京')) {
                     return;
                 }
 
                 // Enumerate ids of the layers.
-                const toggleableLayerIds = ['千代田区', '中央区', '港区', '渋谷区', '新宿区', '品川区', '江東区'];
+                const toggleableLayerIds = ['千代田区', '中央区', '港区', '渋谷区', '新宿区', '品川区', '江東区', '大丸有', '日八京'];
 
                 // Set up the corresponding toggle button for each layer.
                 for (const id of toggleableLayerIds) {
@@ -324,7 +360,7 @@
                     link.id = id;
                     link.href = '#';
                     link.textContent = id;
-                    link.className = 'active';
+                    link.className = '';
 
                     // Show or hide layer when the toggle is clicked.
                     link.onclick = function (e) {
